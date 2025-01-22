@@ -1,8 +1,11 @@
-# Disable fish_greeting
-set -g fish_greeting
-
 # ls options
 alias ls="ls --color=auto --group-directories-first -X -F -N -h"
+
+# eza: A modern, maintained replacement for ls
+if command -q eza
+    alias eza="eza --icons --group-directories-first --header --no-filesize"
+    alias ls="eza"
+end
 
 # Startship Prompt
 if command -q starship
@@ -14,15 +17,9 @@ if command -q zoxide
     zoxide init fish | source
 end
 
-# eza: A modern, maintained replacement for ls
-if command -q eza
-    alias eza="eza --icons --group-directories-first --header --no-filesize"
-    alias ls="eza"
-end
-
 # bat: A cat(1) clone with syntax highlighting and Git integration.
 if command -q bat
-    alias cat="bat"
+    # alias cat="bat"
 
     # manpages highlight and theme
     export BAT_THEME=base16

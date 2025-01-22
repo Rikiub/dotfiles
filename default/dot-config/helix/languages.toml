@@ -17,3 +17,40 @@ auto-format = true
 [[language]]
 name = "rust"
 formatter = {command = "rustfmt"}
+
+# Web
+[language-server.biome]
+command = "biome"
+args = ["lsp-proxy", "--config-path", "./biome.json"]
+
+[language-server.deno-lsp]
+command = "deno"
+args = ["lsp"]
+config.deno.enable = true
+
+[[language]]
+name = "svelte"
+roots = ["package.json"]
+language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "svelte", "biome" ]
+
+[[language]]
+name = "javascript"
+roots = ["deno.json", "deno.jsonc", "package.json"]
+language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "biome", "deno-lsp" ]
+
+[[language]]
+name = "typescript"
+roots = ["deno.json", "deno.jsonc", "package.json"]
+language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "biome", "deno-lsp" ]
+
+[[language]]
+name = "tsx"
+language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "biome" ]
+
+[[language]]
+name = "jsx"
+language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "biome" ]
+
+[[language]]
+name = "json"
+language-servers = [ { name = "vscode-json-language-server", except-features = [ "format" ] }, "biome" ]

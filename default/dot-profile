@@ -4,7 +4,7 @@
 
 # Default Apps
 export EDITOR=helix
-export BROWSER=brave
+export BROWSER=firefox
 TERM_WAYLAND=foot
 TERM_X11=alacritty
 
