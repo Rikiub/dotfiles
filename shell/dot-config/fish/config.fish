@@ -1,6 +1,7 @@
-if status is-interactive
-    # Commands to run in interactive sessions can go here
+# Disable greeting
+set -U fish_greeting
 
-    # Disable greeting
-    set -U fish_greeting
+# Source ~/.profile
+if test -e ~/.profile
+    replay source ~/.profile
 end

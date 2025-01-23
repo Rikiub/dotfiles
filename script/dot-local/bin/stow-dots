@@ -3,7 +3,7 @@
 # --- CONFIG ---
 
 # Dotfiles to install
-DOTFILES="script shell default wayland-env wayland-sway"
+DOTFILES="script shell default sway wayland-env"
 
 # --- VARIABLES ---
 

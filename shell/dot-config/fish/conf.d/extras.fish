@@ -7,11 +7,6 @@ if command -q eza
     alias ls="eza"
 end
 
-# Startship Prompt
-if command -q starship
-    starship init fish | source
-end
-
 # Zoxide: Zoxide is a smarter cd command, inspired by z and autojump.
 if command -q zoxide
     zoxide init fish | source

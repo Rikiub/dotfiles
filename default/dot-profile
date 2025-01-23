@@ -5,11 +5,12 @@
 # Default Apps
 export EDITOR=helix
 export BROWSER=firefox
+
 TERM_WAYLAND=foot
 TERM_X11=alacritty
 
 # Sort Preference
-# export LC_COLLATE=C
+export LC_COLLATE=C
 
 # --- DIRECTORIES ---
 
@@ -28,9 +29,9 @@ rm -f .xsession-errors .xsession-errors.old .dmrc .Xauthority
 if [ "$XDG_SESSION_TYPE" = "wayland" ]; then
 	export TERM=$TERM_WAYLAND
 
-	# if [ "$DESKTOP_SESSION" = "sway" ]; then
-		# export XDG_CURRENT_DESKTOP="sway"
-	# fi
+	if [ "$DESKTOP_SESSION" = "sway" ]; then
+		export XDG_CURRENT_DESKTOP="sway"
+	fi
 
 elif [ "$XDG_SESSION_TYPE" = "x11" ]; then
 	export TERM=$TERM_X11
