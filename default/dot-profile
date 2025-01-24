@@ -2,29 +2,52 @@
 
 # --- USER PREFERENCES ---
 
-# Default Apps
+# Apps
 export EDITOR=helix
 export BROWSER=firefox
 
+# Sorting
+export LC_COLLATE=C
+
+# Terminal
 TERM_WAYLAND=foot
 TERM_X11=alacritty
 
-# Sort Preference
-export LC_COLLATE=C
+# --- CLEANING ---
 
-# --- DIRECTORIES ---
-
-# User PATH
-export PATH="$HOME/.local/bin:$PATH"
-
-# Clear HOME
+# Clear $HOME with antidot
 if command -v antidot &> /dev/null; then
 	eval "$(antidot init -s bash)"
 fi
 
+# Remove unnecesary files
 rm -f .xsession-errors .xsession-errors.old .dmrc .Xauthority
 
-# --- DESKTOP-SESSION ---
+# --- ENVIROMENT VARIABLES ---
+
+# PATH
+export PATH="$HOME/.local/bin:$PATH"
+
+# Systemd
+if command -v systemctl &> /dev/null; then
+  for file in ~/.config/environment.d/*.conf; do
+    while IFS= read -r line || [ -n "$line" ]; do
+      # Skip empty lines and comments
+      [[ -z "$line" || "$line" =~ ^\s*# ]] && continue
+      
+      # Extract the variable name and value, and remove surrounding quotes
+      name="${line%%=*}"
+      value="${line#*=}"
+      value="${value%\"}"
+      value="${value#\"}"
+
+      # Export variable
+    	export "$name=$value"
+  	done < "$file"
+  done
+fi
+
+# --- DESKTOP SESSION ---
 
 if [ "$XDG_SESSION_TYPE" = "wayland" ]; then
 	export TERM=$TERM_WAYLAND
@@ -32,7 +55,6 @@ if [ "$XDG_SESSION_TYPE" = "wayland" ]; then
 	if [ "$DESKTOP_SESSION" = "sway" ]; then
 		export XDG_CURRENT_DESKTOP="sway"
 	fi
-
 elif [ "$XDG_SESSION_TYPE" = "x11" ]; then
 	export TERM=$TERM_X11
 fi

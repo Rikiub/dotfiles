@@ -1,9 +1,9 @@
 # ls options
-alias ls="ls --color=auto --group-directories-first -X -F -N -h"
+alias ls="ls --color=auto --group-directories-first --human-readable"
 
 # eza: A modern, maintained replacement for ls
 if command -q eza
-    alias eza="eza --icons --group-directories-first --header --no-filesize"
+    alias eza="eza --icons --group-directories-first --header"
     alias ls="eza"
 end
 
@@ -14,7 +14,7 @@ end
 
 # bat: A cat(1) clone with syntax highlighting and Git integration.
 if command -q bat
-    # alias cat="bat"
+    alias cat="bat --plain"
 
     # manpages highlight and theme
     export BAT_THEME=base16

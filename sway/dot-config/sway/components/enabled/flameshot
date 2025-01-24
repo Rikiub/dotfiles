@@ -1,9 +1,9 @@
 # SCREENSHOT
 
 set $flameshot XDG_CURRENT_DESKTOP=sway flameshot
+exec_always $flameshot
 
-# Initialize
-
+# Keybindings
 bindsym --no-repeat {
 	Print \
 	exec $flameshot screen

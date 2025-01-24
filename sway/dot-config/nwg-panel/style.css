@@ -2,8 +2,8 @@
 @define-color bg_color @window_fg_color;
 @define-color bg_color @theme_bg_color;
 
-@define-color fg_color lighter(@bg_color);
 @define-color fg_color @sidebar_bg_color;
+@define-color fg_color lighter(@bg_color);
 
 @define-color text_color @window_fg_color;
 @define-color text_color @theme_text_color;
