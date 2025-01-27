@@ -42,7 +42,7 @@ if command -v systemctl &> /dev/null; then
       value="${value#\"}"
 
       # Export variable
-    	export "$name=$value"
+      export "$name=$value"
   	done < "$file"
   done
 fi
