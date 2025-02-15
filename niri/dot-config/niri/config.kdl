@@ -337,7 +337,7 @@ binds {
     Mod+D { spawn "ignis" "toggle" "launcher"; } // App launcher
     Super+Alt+L { spawn "swaylock"; } // Screenlocker
     Mod+Shift+M { spawn "darkman" "toggle"; } // Dark mode switcher
-    Mod+Shift+E { spawn "ignis" "toggle" "control"; } // Ignis toggler
+    Mod+Shift+E { spawn "ignis" "toggle" "control-center"; } // Ignis toggler
 
     // Example volume keys mappings for PipeWire & WirePlumber.
     // The allow-when-locked=true property makes them work even when the session is locked.
