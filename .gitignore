@@ -25,3 +25,6 @@
 !**/nwg-panel/common-settings.json
 
 **/helix/runtimes/
+
+**/__pycache__/
+**/.ruff_cache/
