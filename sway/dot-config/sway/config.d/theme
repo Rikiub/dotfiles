@@ -23,7 +23,7 @@ titlebar_border_thickness 2
 title_align center
 
 # WALLPAPER
-exec ~/.azotebg
+exec "waypaper --restore"
 
 # COLORS
 set $focused            #808080

@@ -1,6 +1,6 @@
 {
 	// Documentation: https://github.com/Alexays/Waybar/wiki
-	"layer": "bottom",
+	"layer": "top",
 	"position": "top",
 	"height": 0,
 	"spacing": 10,
@@ -10,7 +10,7 @@
 	"margin-right": 10,
 	"fixed-center": true,
 	"modules-left": [
-		"sway/workspaces"
+		"niri/workspaces"
 	],
 	"modules-center": [
 		"clock",
@@ -24,8 +24,8 @@
 	"group/cpanel": {
 		"orientation": "inherit",
 		"modules": [
-			"pulseaudio",
-			"battery"
+			"pulseaudio"
+			// "battery"
 		]
 	},
 	"sway/workspaces": {

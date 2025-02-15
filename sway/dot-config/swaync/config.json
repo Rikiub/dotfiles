@@ -29,7 +29,7 @@
 	"hide-on-action": true,
 	"script-fail-notify": true,
 	"widgets": [
-		"_buttons-grid",
+		"buttons-grid",
 		"_volume",
 		"_backlight",
 		"_mpris",
@@ -77,7 +77,7 @@
 				},
 				{
 					"label": "",
-					"command": "swaymsg exit"
+					"command": "niri msg action quit --skip-confirmation"
 				},
 				{
 					"label": "",

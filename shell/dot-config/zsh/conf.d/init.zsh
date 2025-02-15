@@ -8,11 +8,10 @@ fi
 
 # bat: A cat(1) clone with syntax highlighting and Git integration.
 if command -v bat &> /dev/null; then
-	alias bat="bat --color=always"
-	alias cat="bat"
+	alias cat="bat --plain"
 
 	# manpages highlight and theme
-	export BAT_THEME=base16
+	# export BAT_THEME=base16
 	export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 	export MANROFFOPT="-c"
 fi
