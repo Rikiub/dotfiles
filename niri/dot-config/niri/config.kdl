@@ -225,20 +225,19 @@ cursor {
 //// Old setup
 // spawn-at-startup "waybar" // Bar
 // spawn-at-startup "swaync" // Notificacion daemon
+// spawn-at-startup "wlsunset" // Night light
 // 
-// Addons
 // spawn-at-startup "nm-applet" // Wifi manager
 // spawn-at-startup "blueman-applet" // Bluetooth manager
 
-spawn-at-startup "ignis" "init" // Bar, App Launcher and Notification daemon
+// New setup
+spawn-at-startup "ignis" "init" // Bar, Control Center, Launcher, Notifications and more
 
 // Essensial
 spawn-at-startup "dex" "--autostart" "--search-paths" "${XDG_CONFIG_HOME:-$HOME/.config}/autostart" // XDG Autostart
 spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1" // Polkit
 spawn-at-startup "wl-paste" "--watch" "cliphist" "store" // Clipboard
 spawn-at-startup "waypaper" "--restore" // Wallpaper
-
-spawn-at-startup "wlsunset" // Night light
 
 // Adapt apps to wayland environment
 environment {
@@ -334,10 +333,10 @@ binds {
 
     // Suggested binds for running programs:
     Mod+T { spawn "sh" "-c" "${TERM:-wezterm}"; } // Terminal
-    Mod+D { spawn "ignis" "toggle" "launcher"; } // App launcher
-    Super+Alt+L { spawn "swaylock"; } // Screenlocker
-    Mod+Shift+M { spawn "darkman" "toggle"; } // Dark mode switcher
-    Mod+Shift+E { spawn "ignis" "toggle" "control-center"; } // Ignis toggler
+    Mod+D repeat=false { spawn "ignis" "toggle" "launcher"; } // App launcher
+    Super+Alt+L repeat=false { spawn "swaylock"; } // Screenlocker
+    Mod+Shift+M repeat=false { spawn "darkman" "toggle"; } // Dark mode switcher
+    Mod+Shift+E repeat=false { spawn "ignis" "toggle" "control-center"; } // Ignis toggler
 
     // Example volume keys mappings for PipeWire & WirePlumber.
     // The allow-when-locked=true property makes them work even when the session is locked.
