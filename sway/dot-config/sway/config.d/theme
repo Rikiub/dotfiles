@@ -23,7 +23,7 @@ titlebar_border_thickness 2
 title_align center
 
 # WALLPAPER
-exec "waypaper --restore"
+exec "swww-daemon -f xrgb"
 
 # COLORS
 set $focused            #808080

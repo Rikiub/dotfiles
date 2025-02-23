@@ -206,47 +206,11 @@ layout {
     }
 }
 
-cursor {
-    xcursor-theme "Qogir"
-    // xcursor-size 12
-
-    // hide-when-typing
-    // hide-after-inactive-ms 1000
-}
-
 // Add lines like this to spawn processes at startup.
 // Note that running niri as a session supports xdg-desktop-autostart,
 // which may be more convenient to use.
 // See the binds section below for more spawn examples.
 // spawn-at-startup "alacritty" "-e" "fish"
-
-// Desktop Enviroment
-
-//// Old setup
-// spawn-at-startup "waybar" // Bar
-// spawn-at-startup "swaync" // Notificacion daemon
-// spawn-at-startup "wlsunset" // Night light
-// 
-// spawn-at-startup "nm-applet" // Wifi manager
-// spawn-at-startup "blueman-applet" // Bluetooth manager
-
-// New setup
-spawn-at-startup "ignis" "init" // Bar, Control Center, Launcher, Notifications and more
-
-// Essensial
-spawn-at-startup "dex" "--autostart" "--search-paths" "${XDG_CONFIG_HOME:-$HOME/.config}/autostart" // XDG Autostart
-spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1" // Polkit
-spawn-at-startup "wl-paste" "--watch" "cliphist" "store" // Clipboard
-spawn-at-startup "waypaper" "--restore" // Wallpaper
-
-// Adapt apps to wayland environment
-environment {
-    _JAVA_AWT_WM_NONREPARENTING "1"
-    WLR_NO_HARDWARE_CURSORS "1"
-    ECORE_EVAS_ENGINE "wayland_egl"
-    ELM_ENGINE "wayland_egl"
-    SDL_VIDEODRIVER "wayland"
-}
 
 // Uncomment this line to ask the clients to omit their client-side decorations if possible.
 // If the client will specifically ask for CSD, the request will be honored.
@@ -316,6 +280,40 @@ window-rule {
     clip-to-geometry true
 }
 
+// Desktop Environment
+
+// Essensial
+spawn-at-startup "dex" "--autostart" "--search-paths" "${XDG_CONFIG_HOME:-$HOME/.config}/autostart" // XDG Autostart
+spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1" // Polkit
+spawn-at-startup "wl-paste" "--watch" "cliphist" "store" // Clipboard
+spawn-at-startup "swww-daemon" // Wallpaper
+
+//// Old setup
+// spawn-at-startup "waybar" // Bar
+// spawn-at-startup "swaync" // Notificacion daemon
+// spawn-at-startup "wlsunset" // Night light
+// 
+// spawn-at-startup "nm-applet" // Wifi manager
+// spawn-at-startup "blueman-applet" // Bluetooth manager
+
+// New setup
+// Repository: https://github.com/Rikiub/nomix-shell
+spawn-at-startup "ignis" "init" // Bar, Control Center, Launcher, Notifications and more
+
+cursor {
+    xcursor-theme "Bibata-Modern-Classic"
+    xcursor-size 16
+}
+
+// Adapt apps to wayland environment
+environment {
+    _JAVA_AWT_WM_NONREPARENTING "1"
+    WLR_NO_HARDWARE_CURSORS "1"
+    ECORE_EVAS_ENGINE "wayland_egl"
+    ELM_ENGINE "wayland_egl"
+    SDL_VIDEODRIVER "wayland"
+}
+
 binds {
     // Keys consist of modifiers separated by + signs, followed by an XKB key name
     // in the end. To find an XKB name for a particular key, you may use a program
@@ -332,12 +330,12 @@ binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
 
     // Suggested binds for running programs:
-    Mod+T { spawn "sh" "-c" "${TERM:-wezterm}"; } // Terminal
+    Mod+T { spawn "foot"; } // Terminal
     Mod+D repeat=false { spawn "ignis" "toggle" "launcher"; } // App launcher
+    Mod+Shift+E repeat=false { spawn "ignis" "toggle" "control-center"; } // Control center
+    Mod+Shift+M repeat=false { spawn "darkman" "toggle"; } // Dark mode switch
     Super+Alt+L repeat=false { spawn "swaylock"; } // Screenlocker
-    Mod+Shift+M repeat=false { spawn "darkman" "toggle"; } // Dark mode switcher
-    Mod+Shift+E repeat=false { spawn "ignis" "toggle" "control-center"; } // Ignis toggler
-
+        
     // Example volume keys mappings for PipeWire & WirePlumber.
     // The allow-when-locked=true property makes them work even when the session is locked.
     XF86AudioRaiseVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1+"; }
