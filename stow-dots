@@ -1,15 +1,12 @@
 #!/usr/bin/env bash
 
-# --- CONFIG ---
-
-# Dotfiles to install
-DOTFILES="script shell apps niri sway wayland-env"
-
 # --- VARIABLES ---
 
-ROOT="$HOME/.dotfiles"
+ROOT="$HOME/.dotfiles/Enabled/"
 GIT="git --git-dir=$ROOT/.git --work-tree=$ROOT"
 STOW="stow --dotfiles --dir=$ROOT --target=$HOME"
+
+PACKAGES=$(find $ROOT -maxdepth 1 -mindepth 1 -type d -printf "%f ")
 
 # --- FUNCTIONS ---
 
@@ -32,7 +29,7 @@ function list {
 function sync {
 	log "Sync."
 
-	$STOW --no-folding $DOTFILES
+	$STOW --no-folding $PACKAGES
 
 	# Check if stow return error.
 	if [ $? -ne 0 ]; then
@@ -83,7 +80,7 @@ function install {
 	if [[ $INPUT = "s" || $INPUT = "S" ]]; then
 		log "Installation started."
 
-		$STOW --restow --no-folding $DOTFILES
+		$STOW --restow --no-folding $PACKAGES
 
 		log "Installation completed."
 	else
