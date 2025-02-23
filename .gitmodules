@@ -1,3 +1,0 @@
-[submodule "Enabled/env-desktop/dot-config/ignis"]
-	path = Enabled/env-desktop/dot-config/ignis
-	url = git@github.com:Rikiub/nomix-shell.git
