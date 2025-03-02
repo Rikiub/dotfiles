@@ -4,7 +4,7 @@
 
 # Apps
 export EDITOR=helix
-export BROWSER=firefox
+# export BROWSER=firefox
 
 # Sorting
 export LC_COLLATE=C

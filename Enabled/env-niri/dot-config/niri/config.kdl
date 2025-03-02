@@ -193,6 +193,10 @@ layout {
         inactive-gradient from="#505050" to="#808080" angle=45 relative-to="workspace-view"
     }
 
+    shadow {
+        // on
+    }
+    
     // Struts shrink the area occupied by windows, similarly to layer-shell panels.
     // You can think of them as a kind of outer gaps. They are set in logical pixels.
     // Left and right struts will cause the next window to the side to always be visible.
@@ -312,6 +316,8 @@ environment {
     ECORE_EVAS_ENGINE "wayland_egl"
     ELM_ENGINE "wayland_egl"
     SDL_VIDEODRIVER "wayland"
+
+    QT_QPA_PLATFORMTHEME "gtk3"
 }
 
 binds {
@@ -524,6 +530,8 @@ binds {
     // Move the focused window between the floating and the tiling layout.
     Mod+V       { toggle-window-floating; }
     Mod+Shift+V { switch-focus-between-floating-and-tiling; }
+
+    Mod+W { toggle-column-tabbed-display; }
 
     // Actions to switch layouts.
     // Note: if you uncomment these, make sure you do NOT have
