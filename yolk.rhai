@@ -9,7 +9,7 @@ export let eggs = #{
     },
     helix: #{
         targets: "~/.config/helix",
-        main_file: "helix/config.toml",  
+        main_file: "config.toml",  
     },
     fish: #{
         targets: #{
