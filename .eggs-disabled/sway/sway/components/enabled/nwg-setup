@@ -1,0 +1,13 @@
+exec_always {
+	nwg-panel
+	"pkill swaync && swaync"
+}
+
+bindsym --no-repeat {
+	$mod+Shift+e \
+	exec swaync-client -t
+
+	# nwg-drawer
+	$mod+d \
+	exec nwg-drawer
+}

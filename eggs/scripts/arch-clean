@@ -1,0 +1,63 @@
+#!/usr/bin/env sh
+
+# Auxiliar variables
+COLOR_SEP="31"
+COLOR_TEXT="33"
+
+# Colors. Each color line must end with `COLOR_END`.
+COLOR_SEP="\e[0;${COLOR_SEP}m"
+COLOR_TEXT="\e[1;${COLOR_TEXT}m"
+COLOR_END="\e[0m"
+
+# Template
+TMP_SEP="${COLOR_SEP}=====${COLOR_END}"
+
+separator() {
+	echo ''
+	echo -e "${TMP_SEP} ${COLOR_TEXT} $1 ${COLOR_END} ${TMP_SEP}"
+	echo ''
+}
+
+text() {
+	echo -e "${COLOR_TEXT}$1${COLOR_END}"
+}
+
+get_pacman_helper() {
+	if command -v yay >/dev/null 2>&1; then
+		echo "yay"
+	elif command -v paru >/dev/null 2>&1; then
+		echo "paru"
+	else
+		echo "sudo pacman"
+	fi
+}
+
+check_system() {
+	if command -v pacman >/dev/null 2>&1; then
+		:
+	else
+		echo "You're not in an Arch Linux system because 'pacman' was not founded."
+		exit 1
+	fi
+}
+
+check_system
+
+separator "Sudo Privileges"
+sudo echo
+text Done
+
+HELPER=$(get_pacman_helper)
+separator "Cleaning with '$HELPER'"
+$HELPER -Sc --noconfirm
+
+separator "Removing Pacman Unused Packages"
+sudo pacman -Qdtq | sudo pacman -Rns - # remove cache
+pacman -Qqd  | sudo pacman -Rsu - # remove optional/circular dependencies
+
+if command -v flatpak >/dev/null 2>&1; then
+	separator "Removing Unused Flatpak Apps"
+	flatpak uninstall --unused
+fi
+
+separator "Optimizations Completed"

@@ -1,0 +1,135 @@
+fallback = ''
+separator = ' '
+
+[matching]
+
+# Social media
+'discord' = '󰙯'
+'Discord' = '󰙯'
+'org.telegram.desktop' = ""
+'Thunderbird' = ''
+'thunderbird' = ''
+'Slack' = ''
+
+# Image Editor
+"/Photopea | Online Photo Editor/" = "󱇣"
+"gimp" = "󱇣"
+"aseprite" = ""
+"krita" = ""
+'org.inkscape.Inkscape' = ''
+
+# Image
+'azote' = ''
+"ristretto" = ""
+"gthumb" = ""
+"imv" = ""
+"feh" = ""
+"swayimg" = ""
+
+# Audio
+'Spotify' = ''
+'vlc' = '󰕼'
+'audacity' = ''
+"com.github.neithern.g4music" = ""
+"io.github.quodlibet.QuodLibet" = ""
+
+# Video
+'obs' = '󰕧'
+'mpv' = '󰿎'
+'celluloid' = '󰿎'
+
+# Documents - Notepad
+"marktext" = "󱓧"
+"obsidian" = "󱓧"
+"okular" = ''
+'zathura' = ''
+'libreoffice-startcenter' = '󰈙'
+'libreoffice-impress' = '󰈙'
+'libreoffice-writer' = '󰈙'
+'libreoffice-calc' = '󰈙'
+'libreoffice-draw' = '󰈙'
+'libreoffice-base' = '󰈙'
+'libreoffice-math' = '󰈙'
+'soffice' = '󰈙'
+
+# Web Browser
+'firefox' = ''
+'Nightly' = ''
+'firefoxdeveloperedition' = ''
+'Google-chrome' = ''
+'Chromium' = ''
+"brave-browser" = ""
+"microsoft-edge" = ""
+'chromium' = ''
+"vivaldi-stable" = ""
+
+# Code Editor
+"org.kde.kwrite" = ""
+"org.kde.kate" = ""
+"geany" = ""
+'jetbrains-studio' = ''
+'neovide' = ''
+"vscodium" = "󰨞"
+"Code" = "󰨞"
+"code-oss" = "󰨞"
+'GitHub Desktop' = ''
+'/(?i)Github.*Firefox/' = ''
+
+# Games
+'Steam' = ''
+'itch' = '︁'
+'citra' = '︁'
+'yuzu' = '︁'
+'rpcs3' = '︁'
+'lutris' = '︁'
+'dolphin-emu' = '︁'
+
+'Catapult' = '︁'
+'cataclysm-tiles' = '︁'
+
+# Utils
+'galculator' = '󰃬'
+'qalculate-gtk' = '󰃬'
+'qalculate-qt' = '󰃬'
+"org.gnome.Calculator" = '󰃬'
+'balena-etcher' = ''
+'Chia Blockchain' = ''
+'org.qbittorrent.qBittorrent' = ''
+'Postman' = ''
+'Insomnia' = ''
+'Bitwarden' = ''
+'seahorse' = ''
+'copyq' = '󱉧'
+"bleachbit" = "󰃢"
+"syncthing-gtk" = "󰓦"
+
+# File Browser
+"Caja" = ""
+"nemo" = ""
+"thunar" = ""
+"pcmanfm" = ""
+"pcmanfm-qt" = ""
+"org.kde.dolphin" = ""
+"org.gnome.Nautilus" = ""
+"gnome-disks" = '󰋊'
+'gpartedbin' = '󰋊'
+
+# Terminal - Apps
+"Alacritty" = ""
+"foot" = ""
+"kitty" = ""
+'/npm/' = '󰛷'
+'/node/' = '󰎙'
+'/yarn/' = ''
+'/nvim ?\w*/' = ''
+
+# Config
+'blueman-manager' = ''
+'blueman-adapters' = ''
+'blueman-sendto' = ''
+'pavucontrol' = '󰲸'
+'nwg-displays' = '󰹑'
+'wdisplays' = '󰹑'
+"nwg-look" = "󰚠"
+"wpg" = "󰚠"
+"com.github.GradienceTeam.Gradience" = "󰚠"

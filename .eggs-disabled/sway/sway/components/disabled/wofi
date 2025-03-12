@@ -1,0 +1,8 @@
+# app-launcher
+bindsym --no-repeat {
+	$mod+d \
+	exec "pgrep wofi && : || wofi --show drun -a"
+
+	$mod+period \
+	exec "pgrep wofi && : || $scripts/wofi-emoji"
+}

@@ -1,0 +1,38 @@
+# FONT
+# Font for window titles. Will also be used by the bar unless a different font
+font pango:Symbols Nerd Font Mono, FontAwesome, 8
+
+# WINDOWS
+
+# Inner gaps for all windows: space between two adjacent windows (or split containers).
+gaps inner 5
+
+# Outer gaps for all windows: space along the screen edges.
+# gaps outer|horizontal|vertical|top|left|bottom|right <gap_size>[px]
+gaps outer 3
+
+# others
+smart_borders off
+focus_follows_mouse yes
+workspace_auto_back_and_forth no
+
+# window borders and titlebar
+default_border pixel 2
+default_floating_border pixel 2
+titlebar_border_thickness 2
+title_align center
+
+# WALLPAPER
+exec "swww-daemon -f xrgb"
+
+# COLORS
+set $focused            #808080
+set $unfocused          #000000
+set $focused_inactive   #000000
+set $urgent             #FFF200
+
+# define colors for windowsQ
+client.focused		    	$focused          $focused          $focused          $focused          $focused
+client.unfocused	    	$unfocused        $unfocused        $unfocused        $unfocused        $unfocused
+client.focused_inactive		$focused_inactive $focused_inactive $focused_inactive $focused_inactive $focused_inactive
+client.urgent		    	$urgent           $urgent           $urgent           $urgent           $urgent

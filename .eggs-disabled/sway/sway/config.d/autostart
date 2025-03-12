@@ -1,0 +1,5 @@
+exec {
+	nm-applet
+	blueman-applet
+	wlsunset
+}

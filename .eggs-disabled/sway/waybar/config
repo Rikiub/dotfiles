@@ -1,0 +1,130 @@
+{
+	// Documentation: https://github.com/Alexays/Waybar/wiki
+	"layer": "top",
+	"position": "top",
+	"height": 0,
+	"spacing": 10,
+	"margin-top": 5,
+	"margin-bottom": 0,
+	"margin-left": 10,
+	"margin-right": 10,
+	"fixed-center": true,
+	"modules-left": [
+		"niri/workspaces"
+	],
+	"modules-center": [
+		"clock",
+		"mpris"
+	],
+	"modules-right": [
+		"tray",
+		"group/cpanel",
+		"custom/swaync"
+	],
+	"group/cpanel": {
+		"orientation": "inherit",
+		"modules": [
+			"pulseaudio"
+			// "battery"
+		]
+	},
+	"sway/workspaces": {
+		"disable-scroll": false,
+		"all-outputs": false
+	},
+	"tray": {
+		"spacing": 5,
+		"show-passive-items": false,
+		"reverse-direction": true
+	},
+	"battery": {
+		"states": {
+			"warning": 30,
+			"critical": 15
+		},
+		"format": "{icon} {capacity}%",
+		"format-charging": "󰂄 {capacity}%",
+		"format-plugged": "󰂄 {capacity}%",
+		"format-full": "󱈑 {capacity}%",
+		"format-icons": [
+			"󱊡",
+			"󱊢",
+			"󱊣"
+		]
+	},
+	"bluetooth": {
+		"format": " {status}",
+		"format-on": " on",
+		"format-off": " off",
+		"format-disabled": "",
+		"format-connected": " {device_alias}",
+		"format-connected-battery": " {device_alias} {device_battery_percentage}%",
+		"tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+		"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
+		"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+		"tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
+	},
+	"network": {
+		"format-wifi": " {essid}",
+		"format-disconnected": "󰖪 Disconnected",
+		"format-ethernet": "{ifname}: {ipaddr}/{cidr} 󰈁",
+		"format-linked": "{ifname} (No IP) 󰈁",
+		"on-click": "networkmanager_dmenu",
+		"on-click-right": "nm-connection-editor"
+	},
+	"pulseaudio": {
+		"format": "{icon} {volume}%",
+		"format-bluetooth": "{icon}  {volume}%",
+		"format-muted": "{icon} Muted",
+		"format-icons": {
+			"headphone": "",
+			"hands-free": "",
+			"headset": "",
+			"speaker": "󰓃",
+			"hdmi": "󰓃",
+			"hifi": "󰓃",
+			"phone": "",
+			"portable": "",
+			"car": "",
+			"default": [
+				"",
+				"󰖀",
+				"󰕾"
+			]
+		},
+		"on-click": "amixer set Master toggle",
+		"on-click-right": "pavucontrol",
+		"scroll-step": 5
+	},
+	"clock": {
+		"format": " {:%H:%M}",
+		"format-alt": "󰃭 {:%Y-%m-%d}",
+		"tooltip-format": "<tt><small>{calendar}</small></tt>"
+	},
+	"mpris": {
+		"format": "",
+		"format-playing": "{status_icon} <i>Playing</i>",
+		"format-paused": "{status_icon} Paused",
+		"format-stopped": "{status_icon} Stopped",
+		"tooltip-format": "{player} | {dynamic}",
+		"player-icons": {
+			"default": "▶",
+			"mpv": "🎵"
+		},
+		"status-icons": {
+			"playing": "󰐊",
+			"paused": "󰏤",
+			"stopped": "󰓛",
+		},
+		"interval": 2
+	},
+	"memory": {
+		"interval": 30,
+		"format": "󰍛 {}%"
+	},
+	"custom/swaync": {
+		"format": "󱗼",
+		"on-click": "swaync-client -t",
+		"tooltip": false
+	}
+}
