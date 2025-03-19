@@ -1,0 +1,1194 @@
+helix --health
+clear
+ls
+clear
+exit
+nu
+exit
+clear
+helix --health
+helix --health | table
+helix --health | columns
+helix --health | detect columns
+z media
+git log
+git log --pretty
+git log --pretty="%h|%s|%aN|%aE|%aD" -n 25
+git log --pretty="%h|%s|%aD" -n 25
+git log --pretty="%h | %s |%aD" -n 25
+git log --pretty="%h | %s |%a" -n 25
+git log --pretty="%h | %s |%aD" -n 25
+git log --pretty="%h | %s" -n 25
+git log --pretty="%h | %s" -n 25 | lines
+git log --pretty="%h | %s" -n 25 | lines | split columns
+git log --pretty="%h | %s" -n 25 | lines | split column
+git log --pretty="%h | %s" -n 25 | lines | split column "|"
+git log --pretty="%h | %s" -n 25 | lines
+git log --pretty="%h | %s" -n 25 | lines | split column "|"
+git log --pretty=%h»¦«%s»¦«%aN»¦«%aE»¦«%aD -n 5 | lines | split column "»¦«" commit subject name email date
+cat
+z ignis
+zoxide ignis
+zoxide
+zoxide init 
+zoxide init nu
+zoxide init nushell
+zoxide init nushell | source
+cd ..
+cd ~
+ls
+exa
+eza
+ls
+clear
+cd .config/
+cd ..
+cd .config/ignis
+ls
+bat
+cat options.json
+from
+cat options.json | from json
+open options.json
+clear
+open options.json
+help ls
+help open
+help commands
+help commands | explore
+open options.json | explore
+open options.json
+lutgen
+lutgen palette
+lutgen palette all
+lutgen palette names
+lutgen palette names | lines
+grid
+lutgen palette names | grid
+lutgen palette names | lines
+lutgen palette names | lines | grid
+less
+help grid
+lutgen palette names | lines | grid --icons --color 
+lutgen palette names | lines | grid --width 2
+lutgen palette names | lines | grid --width 5
+lutgen palette names | lines | grid --width 4
+systemd status bluetooth
+systemdctl status bluetooth
+systemctl status bluetooth
+systemctl status bluetooth | lines
+systemctl status bluetooth | lines | column
+systemctl status bluetooth | lines
+systemctl status bluetooth | lines | column ":"
+help column
+help split
+systemctl status bluetooth | lines | split column ":"
+systemctl status bluetooth | lines | split column "sus"
+systemctl status bluetooth | split column "sus"
+systemctl status bluetooth | lines | split column "sus"
+systemctl status bluetooth | lines | split column "bluetooth"
+systemctl status bluetooth | lines | split column "bluetoothd"
+systemctl status bluetooth | lines | split column "bluetoothd[504]:"
+lutgen palette names | lines | grid --width 4
+lutgen palette names | lines
+lutgen palette names | grid
+lutgen palette names | lines | split cell-path 
+lutgen palette names | list
+lutgen palette names | lines | split row 
+lutgen palette names | lines | split row ""
+lutgen palette names | lines | split row " "
+lutgen palette names | lines | grid
+lutgen palette names | lines | xd
+lutgen palette names | lines | find dark
+lutgen palette names | lines | find toky
+lutgen palette names | lines | find catppuccin
+lutgen palette names | find catppuccin
+lutgen palette names | find catppucci
+lutgen palette names | find catppuccin
+lutgen palette names | rg catppuccin
+lutgen palette names | find catppuccin
+help ifnd
+help find
+du
+du --help
+ls
+ls --help
+ls --du
+help save
+help start
+ls
+ls | from json
+ls | from yaml
+ls | from toml
+ls | lines | from toml
+ls | list | from toml
+ls | grid | from toml
+ls | from text
+ls | to json
+ls | to toml
+ls | to yaml
+ls | to toml
+ls | to csv
+ls | to tsv
+ls | to plist
+ls | to html
+ls | to md
+ls | to 
+ls | to msgpack 
+ls | to nuon
+ls | to xml
+tutor
+tutor begin
+ls | select name
+tutor tables
+ls | select 2
+ls | select name
+ls | get name
+tutor cells
+ls | select 4 | get name
+ls.4.name
+(ls).4.name
+tutor expressions
+tutor echo
+help tuto
+help tutor
+tutor where
+tutor list
+tutor block
+tutor echo
+help url
+clear
+touch foo
+touch bar
+ls
+ls | rm
+rm
+help rm
+ls | each { rm $in.name }
+ls
+touch foo
+touch bar
+ls
+ls | each { rm $in.name }
+ls
+help mv
+ls
+touch foo
+mv foo foo.txt
+touch bar.txt
+ls
+help mkdir
+man
+clear
+ls
+mkdir foo/bar
+y
+yazi
+ls
+y
+yazi
+ls
+help sort
+help sort-by
+ls
+ls | sort-by $in.name
+ls | sort-by type
+ls --help
+ls *.txt
+ls *.txt | each { mv $in foo/bar}
+ls *.txt | each { mv $in foo/bar }
+ls *.txt | each { mv $in.name foo/bar }
+y
+yazi
+help each
+ls
+cd ..
+ls
+rm nu
+help rm
+rm -r nu/
+ls -a
+ls
+ls --help
+ls -l
+cd ..
+cd config
+cd .config
+cd ~
+cd .config
+ls -l
+cd .config
+ls -l
+help ls
+ls -d
+ls -d -t
+ls -d
+ls -d -t
+ls -d
+cd BraveSoftware/
+ls -d -t
+cd Brave-Browser/
+ls -d -t
+ls
+ls -d
+ls | sort-by type
+z ignis
+clear
+exit
+clear
+ls -a
+clear
+z 
+clear
+chsh
+clear
+cd .config/
+ls
+cd nu
+cd nushell/
+ls
+yazi
+rg history.txt ignis
+tldr ignis
+tldr ags
+tldr nu
+tldr rg
+rg -f
+rg -f history
+yazi
+bat history.txt
+open history.txt
+open history.txt | lines
+open history.txt | lines | where igni
+help where
+open history.txt | lines
+open history.txt | lines | table
+open history.txt | lines | rg 
+open history.txt | lines | rg x
+open history.txt | rg xd
+open history.txt | lines | rg ignis
+cd .config/BraveSoftware/
+cd ..
+clear
+clear
+ls -a
+clear
+kill starship
+pip
+pd
+pid
+pwd
+clear
+pid
+pi
+pd
+clear
+ls
+pd
+ls
+clear
+ls
+cler
+clear
+source starship
+clear
+## ~/.config/nushell/env.nu<\n>$env.CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense' # optional<\n>mkdir ~/.cache/carapace<\n>carapace _carapace nushell | save --force ~/.cache/carapace/init.nu<\n><\n>#~/.config/nushell/config.nu<\n>source ~/.cache/carapace/init.nu<\n>
+mkdir ~/.cache/carapace
+carapace _carapace nushell | save --force ~/.cache/carapace/init.nu
+source ~/.cache/carapace/init.nu
+clear
+z media
+source zoxide init
+zoxide init nushell | source
+source zoxide init nushell
+source (zoxide init nushell)
+clear
+media-dl
+clear
+ls
+cler
+clear
+ls
+clear
+ls
+cd .config/nushell/
+ls
+open env.nu
+open config.nu
+ls
+clear
+carapace
+carapace git 
+carapace git nushell
+carapace nushell
+carapace nushell git
+carapace git nushell
+carapace git fish
+carapace git nushell
+carapace git nushell --co
+carapace git nushell --commit
+carapace git --commit nushell
+carapace git nushell
+tldr carapace
+carapace
+echo xd
+[1, 2, 3] | echo
+[1, 2, 3] | lines
+[1 2 3] | lines
+[1 2 3] | echo
+[1 2 3] | table
+[1, 2, 3] | table
+[1 2 3] | table
+clear
+ls
+ls --help
+ls -a
+cler
+clear
+ls -a
+eza
+eza --icons
+clear
+ls
+clea
+ls
+clear
+ls
+rm --help 
+config
+config flatten
+ls
+trash
+ls
+clear
+l
+clear
+ls
+ls | where type == dir
+print xd
+help print
+cd .config/nu
+cd .config/nushell/
+ls
+echo $env
+$env | echo
+$env | explore
+explore $env
+help explore
+$env | explore
+print $env
+echo $env
+set
+$env.XDG_CACHE_HOME = xd
+$env.XDG_CACHE_HOME = "xd"
+echo $env.XDG_CACHE_HOME
+?
+help ?
+clear
+git switch api-separate-progress 
+git pull
+clear
+git pull
+git switch api_changes 
+git switch cache 
+git switch api_changes 
+git switch main
+git diff main api_changes 
+git diff api_changes main 
+git switch cache 
+git switch main
+git diff cache main
+ls
+clear
+ls
+git branch --delete api_changes cache 
+ls
+clear
+git branch --remotes 
+git branch --delete --remotes origin/cache origin/api_changes 
+git branch --delete templates  
+git branch
+git branch --remotes
+clear
+git switch api-separate-progress 
+clear
+git switch main
+code .
+clear
+code .
+clear
+ls
+clear
+ls
+clear
+ls
+echo $env
+echo $env.BROWSER
+clear
+code .
+clear
+git add .
+git commit -m "Refact"
+clear
+git push
+clear
+git switch api-separate-progress 
+ls
+clear
+git pull
+git branch --set-upstream-to=origin/main api-separate-progress
+git pull
+git switch main
+git diff main origin/main 
+clear
+git log
+cd ..
+cd media-dl/
+ls
+clear
+ls
+git stauts
+git status 
+git diff main origin/main 
+git diff origin/main main
+git checkout origin/main 
+git log
+git revert 13112bfca4757f2b860aaf2e935d7eca94a94b1e
+git revert 13112bfca4757f2b860aaf2e935d7eca94a94b1e -m
+tldr git revert
+git log
+tldr git revert
+git log
+git revert 13112bfca4757f2b860aaf2e935d7eca94a94b1e
+git log
+git revert d4f714be15572b105dd0ffcc46fd972002be3cbf
+git log
+git revert 13112bfca4757f2b860aaf2e935d7eca94a94b1e
+git revert 13112bfca4757f2b860aaf2e935d7eca94a94b1e -m 
+git revert -m 13112bfca4757f2b860aaf2e935d7eca94a94b1e
+git revert 13112bfca4757f2b860aaf2e935d7eca94a94b1e -m 1
+git log
+clear
+git restore .
+git log
+git switch main
+git log
+git diff origin/main main
+git diff main origin/main
+git diff origin/main main
+clear
+pytest
+source .venv/bin/activate.nu
+.venv/bin/activate.nu
+uv venv
+rm -r venv
+rm -r .venv
+uv venv
+help overlay
+overlay list
+overlay use
+overlay use .venv/bin/activate.nu
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+pytest
+media-dl
+clear
+uv sync
+media-dl
+clear
+pytet
+pytest
+clear
+git log
+clear
+pytest
+clea
+clear
+git add .
+git commit -m "Revert merge"
+ls
+git log
+git commit -m "Revert merge"
+git ppush
+git push
+git pull --force
+git push
+git push --force
+git log
+clear
+deno run 
+deno run dev
+deno --help
+deno install --help
+tldr deno 
+tldr install
+clear
+echo $env.
+echo $env.XDG_CACHE_HOME
+clear
+btop
+query
+clear
+query
+help query
+format
+paru -Ss nushell
+plugin
+plugin add 
+inc
+plugin use inc
+plugin
+plugin list
+btop
+fastfetch 
+fastboot 
+help fastboot
+tldr fastboot
+nu-highlight 
+help nu-highlight 
+z media
+ls
+z media
+clear
+ls
+cd Documentos
+cd ..
+cd Documentos/
+cd Dev/+Lang/python/media-dl/
+clear
+open pyproject.toml
+open pyproject.toml --raw
+open pyproject.toml --raw | nu-highlight 
+open media_dl/_ydl.py
+open media_dl/_ydl.py | nu-highlight 
+clear
+btop
+fastfetch 
+clear
+cd ..
+cd .config/nushell/
+ls
+zoxide init nushell
+zoxide init nushell 
+ls
+ls -a
+echo $nu.env-path
+ls
+zoxide init nushell | save ~/xd.nu
+ls
+bat xd.nu
+rm xd.nu
+clear
+echo $nu.env-path
+helix env.nu
+helix config.nu
+clear
+z m
+clear
+$nu.vendor-autoload-dirs
+helix config.nu 
+help touch
+greet
+get
+help get
+yazi
+z
+cd .config/nushell/
+help path
+path
+$env.config
+$env.config | explore
+$env.config
+config
+config env
+config  nu
+echo $env.EDITOR
+clear
+ls
+clear
+clera
+clear
+$nu.cache-dir
+$nu.is-interactive
+$nu.startup-time
+clear
+safsfas
+ls
+clear
+ls
+eza
+clear
+ls
+cd .config
+ls
+paru -Rns starship
+ls
+cd .local
+cd share/nu
+cd share
+cd nushell/
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+git
+git log
+z media
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+l
+clear
+ls
+clear
+ls
+clear
+ls
+l
+z nu
+ls
+helix config.nu 
+clear
+ls
+clear
+ls
+clear
+media-ctl 
+cd .local/bin
+ls
+accent-color-change 
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+cd .config
+ls
+ls xd
+ls *xd
+ls .toml
+ls *.toml
+eza xd
+eza *toml
+clear
+ls
+ls | grid
+ls
+clear
+ls
+z media
+ls
+clear
+z ifhs
+z fish
+ls
+cler
+clear
+ls
+clear
+ls
+yazi
+yolk sync
+config
+$env.UV_CACHE_DIR
+echo "$env"
+echo $env.XDG_CACHE_HOME
+$env.XDG_CACHE_HOME
+echo $env.XDG_CACHE_HOME
+z nush
+yazi
+echo $HOME
+$env.HOME
+$env.HOME + "xd"
+$env.HOME + "(xd"
+$env.HOME + "/xd"
+format
+help format
+tldr nu ls
+help format
+parse
+help parse
+help merge
+$env
+$env.config
+config nu
+config env
+z nu
+ls
+$env.HISTFILE
+$env.XDG_CACHE_HOME
+helix env.nu 
+$env.CARGO_HOME
+lear
+cler
+clear
+ls
+yazi
+clear
+ls
+echo $nu.env-path
+echo $nu.home-path
+echo $env.HOME
+echo $carapace_complete
+echo $in
+config nu
+echo $in
+echo $nu.data-dir
+echo $nu.user-autoload-dirs
+echo $nu.vendor-autoload-dirs
+z nu
+$nu.user-autoload-dirs
+z auto
+z share
+z nu
+clear
+starship
+starship init nushell
+starship init nu
+$nu.config-path
+$nu.env-path
+$nu.home-path
+$nu.user-autoload-dirs
+$nu.user-autoload-dirs.0
+starship init nu
+starship init nu | save $nu.user-autoload-dirs.0/starship.nu
+starship init nu | save $"($nu.user-autoload-dirs.0)/starship.nu"
+clear
+z nu
+clear
+echo $env.CAR
+$env.CARGO_HOME
+echo $env.CAR
+echo $env.CARGO_HOME
+ls
+echo $env.CARGO_HOME
+echo $env.HOME
+echo $env
+echo $env | bat
+echo $env | bat -p
+$env | explore
+exit
+z nu
+source starship.nu
+z nu
+overlay use starship.nu 
+overlay list
+overlay
+overlay hide starship.nu
+overlay list
+z nu
+clear
+l
+clear
+ls
+paru -Rns zoxide
+z nu
+paru -S zoxide
+caparace
+carapace _carapace
+carapace _carapace nushell
+carapace _carapace nushell | nu-highlight 
+carapace _carapace nushell | save $nu.user-autoload-dirs-0 + "/"
+carapace _carapace nushell | save $"($nu.user-autoload-dirs.0)/carapace.nu"
+which
+help path
+$env.HOME | path
+$env.HOME | path basename
+$env.HOME | path dirname 
+$env.HOME
+"xd" | path dirnmae
+"xd" | path dirname 
+"xd" | path basename 
+"xd" | path 
+pñath
+$env.HOME | path dirname 
+$env.HOME | path
+$env.HOME | path exists
+$env.HOME | path join "xd"
+$env.XDG_CONFIG_HOME
+path
+$env.XDG_CONFIG_HOME | path
+$env.XDG_CONFIG_HOME | path parse
+path
+path add
+help path add
+ls
+cler
+clear
+ls
+clear
+cd .config
+ls
+gio trash --empty
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ps
+clear
+ps
+ps | explore
+ps | where memory
+ps | where mem
+ps | where mem > 5
+ps | where mem > 5mb
+ps | where mem > 5gb
+ps | where mem > 5mb
+ps | where mem > 100mb
+ps | where mem > 50mb
+ps | where mem > 100mb
+btop
+ps | where mem > 100mb
+clear
+ps | where mem > 100mb
+z yolk
+z fish
+cd .config/fish
+cd .config
+yolk sync
+rm ~/.config/starship.toml 
+rm -r ~/.local/share/zoxide
+yolk sync
+cd .config
+cd yolk
+yolk sync
+z yolk
+ls
+clear
+ls
+clear
+ls
+clear
+ps
+bash
+ls -a
+ls
+clear
+bash
+clear
+ps
+ps | where mem > 100mb
+ps
+ps | where status
+ps | where status == ""
+ps | where status == "Pending"
+ps | where status == "Running"
+ps
+ps | where status == "Sleeping"
+ps
+ps | sort
+ps | sort-by mem
+clear
+ps | sort-by mem
+ps | sort-by mem and
+ps | sort-by mem &&
+help sort-by
+ps | sort-by mem and sort
+ps | sort-by mem | sort-by mem
+ps | sort-by mem | where mem > 100mb
+clear
+ls
+clea
+clear
+ls
+clear
+ps
+ps | where # == 1
+ps | where pid 1
+ps | where pid == 1
+ps | $in.1
+ps | $pid.1
+ps | $in.pid.1
+ps | $in.pid
+ps | $current
+ps | $it
+ps | $in
+ps | $in.pid
+ps | $in.pid.0
+ps | $in.pid.2
+ps | $in.pid.3
+ps | $in.mem.5
+ps | $in.mem.2
+ps | sort | $in.mem.2
+ps | sort --reverse  | $in.mem.2
+ps | sort --reverse  | $in.mem.5
+ps | sort --reverse  | $in.mem.1
+ps | sort-by mem | $in.mem.1
+ps | sort-by mem -r | $in.mem.1
+ps | sort-by mem -r | $in.mem.0
+ps | sort-by mem -r | $in.mem.1
+ps | sort-by mem -r | $in.mem.0 and $in.pid
+ps | sort-by mem -r | $in.mem.0 and $in.pid.0
+ps | sort-by mem -r | $in.mem.0 | $in.pid.0
+ps | sort-by mem -r | $in.mem.0 | $in.pid
+ps | sort-by mem -r | $"($in.pid.0) | ($in.mem.0)"
+ps | sort-by mem -r | $"PID: ($in.pid.0) | ($in.mem.0)"
+ps | sort-by mem -r | $"PID: ($in.pid.0) | MEM: ($in.mem.0)"
+help
+sys
+sys cpu
+sys
+sys disks
+sys
+help
+sys
+sys users
+sys users | get sus
+help sys users
+sys users | get sus
+sys users
+sys users | $in.sus
+sys users | $in.name.sus
+sys users | where $in.name == "sus"
+sys users | where $name == "sus"
+sys users | where name == "sus"
+sys users | get name
+sys users | get sus
+sys users | get name
+help
+help --find
+help
+clea
+rls
+clera
+clear
+ls
+cd Documentos/
+paru -Sy nushell
+random
+random binary
+random bool
+random
+random binary 1
+random chars
+random uuid
+random int
+clear
+l
+ls
+clear
+ls
+ls | where modified > 3
+ls | where modified > "a year"
+ls | where modified > "year"
+ls | where modified > 
+date
+help date
+date now
+date humanize
+date
+clear
+date now 
+ls
+ls | filter
+filter
+ls | sort
+ls | sort-by modified
+ls
+cd .config/
+ls
+ls | sort
+ls | sort -r
+ls | sort-by type
+ls | where type == "symlink"
+z yolk
+ls
+clear
+ls
+starship
+starship preset
+starship preset "pure-config"
+starship preset pure-config
+starship preset pure-preset
+z .confi
+starship preset pure-preset | save starship.toml
+starship preset pure-preset | save starship.toml -f
+ls
+starship preset pure-preset | save -f ~/.config/starship.toml
+cd .config/
+ls
+rg start
+fd star
+fd starship
+ls
+starship preset pure-prese | save -f ~/.config/starship.toml
+starship preset tokyo-night | save -f ~/.config/starship.toml
+ls
+clear
+ls
+clear
+ls
+starship preset pure-preset | save -f ~/.config/starship.toml
+clear
+ls
+cd .config
+cd fish
+ls
+cd ..
+rm -r fish
+clear
+ls
+sortman
+sortman --help
+help sortman
+tldr sortman
+ls | sort-by type
+ls --help
+help ls
+ls -D
+ls
+ls --help
+ls -d
+cd carapace/
+ls
+yazi
+z media
+ls
+z nu
+yolk edit shell-nu
+yolk edit nu
+z eggs
+ls
+cd ..
+bat yolk.rhai 
+yolk edit shell_nu
+config nu
+clear
+z niri
+helix config.kdl 
+clear
+ls
+z top
+clear
+ls
+cd .config
+ls
+paru
+z yolk
+ls
+yolk sync
+cd .config/fish
+ls
+z share
+ls
+cd fish/
+ls
+cd ..
+yolk sync
+z .config/
+ls
+mv topgrade.toml yolk/eggs/apps/
+yolk sync
+yazi
+mv git/ yolk/eggs/apps/
+yazi
+dust BraveSoftware/
+clear
+yolk sync
+clear
+yazi
+yolk git
+yolk git add .
+git commit -m "Update"
+yolk git commit -m "Update"
+yolk git push
+clear
+z yolk
+cd fish
+cd eggs/shell_fish/
+ls
+clear
+ave
+yolk git add .
+yolk git commit -m "Update"
+yolk git push
+yolk git status
+yolk git add .
+yolk git commit -m "Update"
+yolk git push
+clear
+ls
+clear
+yolk git status
+helix fish_history 
+ls
+yolk git add .
+git commit -m "Update"
+yolk git commit -m "Update"
+yolk git push
+yolk git status
+yolk git add . ; yolk git commit -m "Update" ; yolk git push
+helix fish_history 
+git log
+yolk git log
+git diff main 5ee4bdcd5cfcea10bab81fb75115d75bdc6bf38d
+yolk git log
+l
+ls
+mv .yolk_git/ .git
+git status
+clear
+git lo
+git log
+git diff main 5ee4bdcd5cfcea10bab81fb75115d75bdc6bf38d
+git log
+git diff main 5ee4bdcd5cfcea10bab81fb75115d75bdc6bf38d
+git log
+git diff main 0aeaeff1187ac5d43ac2d5db171a8bb904a59376
+git diff main 5ee4bdcd5cfcea10bab81fb75115d75bdc6bf38d
+clear
+ls
+git lo
+git log
+git commit --amend --all
+git push
+git log
+git diff main origin/main 
+git log
+clear
+ls
+yazi

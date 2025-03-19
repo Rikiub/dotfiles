@@ -340,11 +340,25 @@ binds {
     Mod+F1 { show-hotkey-overlay; }
 
     // Suggested binds for running programs:
-    Mod+T                    hotkey-overlay-title="Launch Terminal" { spawn "sh" "-c" "${TERMINAL:-foot}"; }
-    Mod+D       repeat=false hotkey-overlay-title="Toggle App Launcher" { spawn "ignis" "toggle" "launcher"; }
-    Mod+Shift+E repeat=false hotkey-overlay-title="Toggle Control Center" { spawn "ignis" "toggle" "control-center"; }
-    Mod+Shift+M repeat=false hotkey-overlay-title="Toggle Light/Dark Style" { spawn "darkman" "toggle"; }
-    Super+Alt+L repeat=false hotkey-overlay-title="Show Screenlocker" { spawn "swaylock"; }
+    Mod+T \
+        hotkey-overlay-title="Launch Terminal" \
+            { spawn "sh" "-c" "${TERMINAL:-foot}"; }
+        
+    Mod+D repeat=false \
+        hotkey-overlay-title="Toggle App Launcher" \
+            { spawn "ignis" "toggle" "launcher"; }
+        
+    Mod+Shift+E repeat=false \
+        hotkey-overlay-title="Toggle Control Center" \
+            { spawn "ignis" "toggle" "control-center"; }
+        
+    Mod+Shift+M repeat=false \
+        hotkey-overlay-title="Toggle Light/Dark Style" \
+            { spawn "darkman" "toggle"; }
+        
+    Super+Alt+L repeat=false \
+        hotkey-overlay-title="Show Screenlocker" \
+            { spawn "swaylock"; }
     
     // Example volume keys mappings for PipeWire & WirePlumber.
     // The allow-when-locked=true property makes them work even when the session is locked.
@@ -560,8 +574,8 @@ binds {
 switch-events {
     // lid-close { spawn "notify-send" "The laptop lid is closed!"; }
     // lid-open { spawn "notify-send" "The laptop lid is open!"; }
-    tablet-mode-on { spawn "sh" "-c" "gsettings set org.gnome.desktop.a11y.applications screen-keyboard-enabled true"; }
-    tablet-mode-off { spawn "sh" "-c" "gsettings set org.gnome.desktop.a11y.applications screen-keyboard-enabled false"; }
+    tablet-mode-on { spawn "gsettings" "set" "org.gnome.desktop.a11y.applications" "screen-keyboard-enabled" "true"; }
+    tablet-mode-off { spawn "gsettings" "set" "org.gnome.desktop.a11y.applications" "screen-keyboard-enabled" "false"; }
 }
 
 hotkey-overlay {

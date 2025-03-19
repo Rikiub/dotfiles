@@ -1,0 +1,5 @@
+:root {
+	--accent-color: {{colors.primary_fixed_dim.default.hex}};
+	--accent-fg-color: {{colors.on_primary_fixed.default.hex}};
+	--accent-bg-color: {{colors.primary_fixed_dim.default.hex}};
+}
