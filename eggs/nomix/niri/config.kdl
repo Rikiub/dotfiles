@@ -110,7 +110,7 @@ layout {
     //   together with the previously focused column.
     center-focused-column "never"
 
-    // always-center-single-column
+    always-center-single-column
 
     // You can customize the widths that "switch-preset-column-width" (Mod+R) toggles between.
     preset-column-widths {
@@ -210,12 +210,6 @@ layout {
     }
 }
 
-// Add lines like this to spawn processes at startup.
-// Note that running niri as a session supports xdg-desktop-autostart,
-// which may be more convenient to use.
-// See the binds section below for more spawn examples.
-// spawn-at-startup "alacritty" "-e" "fish"
-
 // Uncomment this line to ask the clients to omit their client-side decorations if possible.
 // If the client will specifically ask for CSD, the request will be honored.
 // Additionally, clients will be informed that they are tiled, removing some client-side rounded corners.
@@ -246,16 +240,6 @@ animations {
 // Find more information on the wiki:
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Window-Rules
 
-// Work around WezTerm's initial configure bug
-// by setting an empty default-column-width.
-window-rule {
-    // This regular expression is intentionally made as specific as possible,
-    // since this is the default config, and we want no false positives.
-    // You can get away with just app-id="wezterm" if you want.
-    match app-id=r#"^org\.wezfurlong\.wezterm$"#
-    default-column-width {}
-}
-
 // Open the Firefox picture-in-picture player as floating by default.
 window-rule {
     // This app-id regular expression will work for both:
@@ -277,8 +261,7 @@ window-rule {
     // block-out-from "screencast"
 }
 
-// Example: enable rounded corners for all windows.
-// (This example rule is commented out with a "/-" in front.)
+// Enable rounded corners for all windows.
 /-window-rule {
     geometry-corner-radius 12
     clip-to-geometry true
@@ -320,9 +303,6 @@ cursor {
     xcursor-theme "Bibata-Modern-Classic"
     xcursor-size 15
 }
-
-spawn-at-startup "sh" "-c" "gsettings" "set" "org.gnome.desktop.interface" "cursor-theme" "$XCURSOR_THEME"
-spawn-at-startup "sh" "-c" "gsettings" "set" "org.gnome.desktop.interface" "cursor-size" "$XCURSOR_SIZE"
 
 binds {
     // Keys consist of modifiers separated by + signs, followed by an XKB key name

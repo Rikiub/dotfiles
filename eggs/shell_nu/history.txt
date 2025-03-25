@@ -1192,3 +1192,1091 @@ git log
 clear
 ls
 yazi
+z yolk
+yolk safeguard
+ls
+ls -a
+clear
+ls -a
+helix yolk.rhai 
+clear
+paru -Ss gimp
+paru -S gimp
+clear
+btop
+cd Público
+ls
+ps
+ps | sort-by mem -r | $"PID: ($in.pid.0) | MEM: ($in.mem.0)"
+ps | sort-by mem -r | $"PID: ($in.name.0) | MEM: ($in.mem.0)"
+ps | sort-by mem -r | where name == "ignis" | $"PID: ($in.name.0) | MEM: ($in.mem.0)"
+ps | sort-by mem -r | where name == "ignis" | $"NAME: ($in.name.0) | MEM: ($in.mem.0)"
+ps | where name == "ignis" | $"NAME: ($in.name.0) | MEM: ($in.mem.0)"
+btop
+clear
+fastfetch 
+echo $env.EDITOR
+btop
+ls
+paru -Sy nushell
+clear
+ls
+clear
+ls
+clear
+cargo-bloat
+config nu
+ls
+cargo clippy
+ls
+ls -a
+cargo-miri 
+cargo 
+cargo-bloat 
+clear
+help export-env
+help load-env
+{XDG_CACHE_HOME: ""} | load-env
+$env.XDG_CACHE_HOME
+{XDG_CACHE_HOME: "XD"} | load-env
+$env.XDG_CACHE_HOME
+export-env
+help export-env
+help load-env
+echo $env.XDG_CONFIG_HOME
+ls
+echo $env.XDG_CONFIG_HOME
+echo $env.CARGO_HOME
+echo $env.UV_CACHE_DIR
+config env
+clear
+ls
+yazi
+clear
+ls
+clear
+yazi
+clear
+http get https://api.dictionaryapi.dev/api/v2/entries/en
+http get https://api.dictionaryapi.dev/api/v2/entries/en/hello
+let word = "xd" | http get $"https://api.dictionaryapi.dev/api/v2/entries/en/($word)"
+const word = "xd" | http get $"https://api.dictionaryapi.dev/api/v2/entries/en/($word)"
+let word = "hola" | http get $"https://api.dictionaryapi.dev/api/v2/entries/en/($word)"
+help generate
+let word = "hola" |<\n>http get $"https://api.dictionaryapi.dev/api/v2/entries/en/($word)"
+let word = "hola"<\n>| http get $"https://api.dictionaryapi.dev/api/v2/entries/en/($word)"
+lsafas
+let word = "hellp"<\n>| http get $"https://api.dictionaryapi.dev/api/v2/entries/en/($word)"
+let word = "hello"<\n>| http get $"https://api.dictionaryapi.dev/api/v2/entries/en/($word)"
+$env.word = "hello"<\n>| http get $"https://api.dictionaryapi.dev/api/v2/entries/en/($env.word)"
+http get
+help http get
+help download
+help --find download
+url
+$env.word = "hello"<\n>| http get https://api.dictionaryapi.dev/api/v2/entries/en | url join $env.word
+url build-query
+url build-query --help
+url build-query -h
+url
+url join -h
+url
+url split-query -h
+url
+url parse -h
+url
+$env.word = "hello"<\n>| http get https://api.dictionaryapi.dev/api/v2/entries/en | path join $env.word
+rename
+help rename
+let word = "hello"<\n>| http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)
+let word = "hello"<\n>| http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $in.word)
+let word = "hello" | $in.word
+let word = "hello" | echo $in.word
+let word = "hello"
+let word = "hello"; http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $in.word)
+let word = "hello"; http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)
+let word = "hello";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)
+clear
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| explore
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| get meaning<\n>| explore
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| get meaning<\n>| explores
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| get meanings<\n>| explore
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| get meanings
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| get meanings<\n>| explore
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| get meanings<\n>| first | <\n>| explore
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| get meanings<\n>| first
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| get meanings | first | get definiton
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| get meanings | first | get definition
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| get meanings | first | get definitions
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| get meanings | first
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| get meanings
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| get meanings | first | get definitions
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| get meanings
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| get meanings | each { $in | get definitions }
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| get meanings | each { $in | get definitions }<\n>| table
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| get meanings | each { $in | get definitions }<\n>| table -e
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| get meanings | each { $in | get definitions }
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| get meanings | each { $in | get definitions }<\n>| $in.xd
+filter
+help filter
+help --find find
+du
+help du
+du .cache
+du .confi
+du .config
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| get meanings | each { $in | get definitions }<\n>| $in.definition
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| get meanings | each { $in | get definitions }
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| get meanings | each { $in | get definitions | get definition }
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| get meanings | each { $in.definitions }
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }
+help get
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| explore
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| compact | explore
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| compact
+compact
+compact --help
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| compact --empty
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| compact
+type
+describe
+describe -h
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| describe
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| explore
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| flatten |explore
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| flatten | flatten | explore
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| flatten | flatten<\n>| explore
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| flatten | flatten
+flatten -h
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| flatten -a
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| flatten
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| flatten | flatten
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| flatten
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| flatten definition
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| flatten definition --all
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| flatten | flatten
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| flatten | flatten | explore
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| flatten | flatten | select definition
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| flatten | flatten | select definition example
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| flatten | flatten<\n>| select definition<\n>| explore
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| flatten | flatten<\n>| explore
+help select
+help reject
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| select definition
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| flatten | flatten
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| select definition
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| flatten | flatten
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| flatten | flatten | select definition example
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| flatten | flatten | select definition
+btop
+ps | where name == "ignis" | $"NAME: ($in.name.0) | MEM: ($in.mem.0)"
+help first
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| flatten | flatten | select definition | first 5
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings | each { $in.definitions }<\n>| explore
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings.0 | each { $in.definitions }<\n>| explore
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings.0 | each { $in.definitions.0 }<\n>| explore
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings.0.definitions.0
+let word = "cat";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings.0.definitions.0 | select definition
+let word = "dog";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings.0.definitions.0 | select definition
+let word = "dog";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings.0.definitions.0 | select definition<\n>| grid
+let word = "dog";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/es/' + $word)<\n>| $in.meanings.0.definitions.0 | select definition<\n>| grid
+let word = "perro";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/es/' + $word)<\n>| $in.meanings.0.definitions.0 | select definition<\n>| grid
+let word = "dog";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word)<\n>| $in.meanings.0.definitions.0 | select definition
+http -h
+help -f
+help -f network
+sys net
+sys
+sys temp
+sys
+sys host
+sys mem
+let word = "dog";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word | str replace ' ' '%20')<\n>| $in.meanings.0.definitions.0 | select definition
+let word = "dog mascot";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word | str replace ' ' '%20')<\n>| $in.meanings.0.definitions.0 | select definition
+let word = "person";<\n>http get ('https://api.dictionaryapi.dev/api/v2/entries/en/' + $word | str replace ' ' '%20')<\n>| $in.meanings.0.definitions.0 | select definition
+clea
+celar
+clear
+ls
+clear
+ls
+cd .config/
+ls
+clear
+ls
+fd
+clear
+ls
+find
+help find
+ls | find top
+ls | find fish
+ls | find xd
+help find
+help find | bat -p
+help find | less
+help find | man
+help find | explore
+help find | bat 
+more
+help find | bat -p
+help find | more
+explore -h
+cd .config
+ls | find top
+help find | more
+man more
+less
+help find | explore --peek
+help find | explore
+paru -Syu
+topgrade --yes --cleanup
+z nu
+ls
+helix env.nu 
+z ignis
+ls
+ls | grid
+paru -Ss inter
+paru -Ss inter font
+paru -S inter-font
+ps | where name == "ignis" | $"NAME: ($in.name.0) | MEM: ($in.mem.0)"
+kill ignis
+kill
+kill --help
+pkill
+kill
+help -f close
+ps
+ps | where name == "ignis"
+ps | where name == "ignis" | kill $in.pid
+ps | where name == "ignis"
+ps | where name == "ignis" | $in
+ps | where name == "ignis" | $in.pid
+ps | where name == "ignis" | $in.pid.0
+ps | where name == "ignis" | get $in.pid
+ps | where name == "ignis" | $in.pid.0
+ps | where name == "ignis" | $in.pid.0 | kill
+ps | where name == "ignis" | kill $in.pid.0
+ps | find name | kill $in.pid.0
+ps | find niri | kill $in.pid.0
+ps | find niri
+ps | find niri --help
+ps | where name == "ignis" | get pid.0 | kill
+kill (ps | where name == "ignis" | get pid.0)
+z ignis
+s
+ls
+ignis init &
+nu --version
+job
+start ignis
+start
+start --help
+z ignis
+helix styles/theme.scss 
+yaiz
+z ignis
+matugen --help
+matugen --help | lines
+help lines
+matugen --help | get 8
+matugen --help | select 8
+matugen --help
+matugen --help | get 8
+matugen --help | lines
+matugen --help | lines | get 8
+matugen --help | lines | get 8 | str
+matugen --help | lines | get 8 | find possible-values
+matugen --help | lines | get 8 | find pos
+matugen --help | lines | get 8 | find possible
+matugen --help | lines | get 8 | find possible values
+matugen --help | lines | get 8 | find possible
+help find
+matugen --help | lines | get 8
+matugen --help | lines | find scheme
+matugen --help | lines
+matugen --help | lines | get 8 | find scheme
+matugen --help | lines | get 8 | find scheme-
+matugen --help | lines | get 8 | find scheme- | each { $in | str }
+matugen --help | lines | get 8 | find scheme- | each { $in | str trim "scheme-" }
+matugen --help | lines | get 8 | find scheme- | each { $in }
+help filte
+help filter
+matugen --help | lines | get 8 | find scheme- | each { $in | str list "scheme-" }
+matugen --help | lines | get 8 | split
+matugen --help | lines | get 8 | split list scheme-
+matugen --help | lines | get 8
+paru -Ss lapce
+paru -S lapce
+z media
+lapce .
+cler
+clear
+z media
+lapce --help
+cd ..
+lapce media-dl/
+z media
+ls
+clear
+ls
+clear
+l
+s
+pgrep
+pgrep lapce
+clear
+ls
+lapce .
+z web
+ls
+cd zoom-web/
+ls
+clear
+lapce .
+svelteserver 
+svelteserver  --help
+paru -Ss svelte
+ps | where name == "lapce"
+paru -Ss vscode-lang
+ps | where name == "lapce"
+z zoom
+lapce .
+ps | where name == "lapce"
+z niri
+ls
+kill (ps | where name == "lapce" | get pid.0)
+clear
+z media
+z 
+z
+z zoo
+clear
+lapce .
+ps | where name == "lapce"
+ps
+ps -h
+ps -h | bat -p
+help -f tasks
+help -f ops
+help -f operations
+help -f procedures
+ps -h | bat -p
+ps | where name == "lapce"
+paru -Rns lapce
+ls
+config nu
+config env
+ls
+$nu.user-autoload-dirs
+$nu.user-autoload-dirs.0
+$nu.user-autoload-dirs.0 | ls
+ls -h
+ls $nu.user-autoload-dirs.0
+ls $nu.user-autoload-dirs.0 
+cd -h
+cd ~
+z media
+cd ...
+cd ..
+cd ....
+z media
+cd ....
+cd .
+cd ..
+clear
+ls
+ps
+ps | bat -p
+ps | where name == "electron"
+killall  -
+killall  -h
+clear
+ps | where name == "electron" | each {<\n>kill $in.pid<\n>}
+ps
+ps | where name == "electron" | each {<\n>kill $in.pid<\n>}ç
+ps | where name == "electron" | each {<\n>kill $in.pid<\n>}
+clear
+ls
+clear
+matugen --help | split words
+split
+matugen --help | lines | get 8 | split words
+split
+help split cell-path
+split
+matugen --help | lines | get 8 | split words
+matugen --help | lines | get 8 | split words | each {<\n>str starts-with "scheme-"<\n>}
+matugen --help | lines | get 8 | split words | where {<\n>str starts-with "scheme-"<\n>}
+matugen --help | lines | get 8 | split words | where { str starts-with "scheme-" }
+matugen --help | lines | get 8 | split words | where { $in | str starts-with "scheme-" }
+matugen --help | lines | get 8 | split words | where { $in }
+"scheme-"
+"scheme-tonal-spot" | str starts-with "scheme-"
+matugen --help | lines | get 8 | split words | where { $in | str starts-with "scheme-" }
+help where
+matugen --help | lines | get 8 | split words | where { $it | str starts-with "scheme-" }
+matugen --help | lines | get 8 | split words | where { $in | str starts-with "scheme-" }
+matugen --help | lines | get 8 | split words | where {|$e| $e | str starts-with "scheme-" }
+matugen --help | lines | get 8 | split words | where {<\n>|$e| $e | str starts-with "scheme-" <\n>}
+matugen --help | lines | get 8 | split words | where {|$e| $e}
+matugen --help | lines | get 8 | split words | each {|$e| $e}
+matugen --help | lines | get 8 | split words | where {|$e| $e}
+matugen --help | lines | get 8 | split words | where {|$e| true}
+matugen --help | lines | get 8 | split words | where {|$e| $e}
+matugen --help | lines | get 8 | split words | where {|$e| $e == "scheme"}
+matugen --help | lines | get 8 | split words | where {|$e| $e}
+matugen --help | lines | get 8 | split words | where {|$e| true}
+matugen --help | get 8 | split words | where {|$e| true}
+matugen --help | lines | get 8 | split words | where {|$e| true}
+matugen --help | lines | get 8 | split words
+matugen --help | lines | get 8
+matugen --help | lines | get 8 | split words
+matugen --help | lines | get 8 | split 
+matugen --help | lines | get 8 | split chars
+matugen --help | lines | get 8 | split
+matugen --help | lines | get 8 | split words -h
+matugen --help | lines | get 8 | split 
+matugen --help | lines | get 8 | split words
+matugen --help | lines | get 8 | split words -h
+matugen --help | lines | get 8 | split 
+matugen --help | lines | get 8 | split list
+matugen --help | lines | get 8 | split chars -h
+matugen --help | lines | get 8 | split 
+matugen --help | lines | get 8 | split column
+matugen --help | lines | get 8 | split row
+matugen --help | lines | get 8 | split 
+matugen --help | lines | get 8 | split cell-path
+matugen --help | lines | get 8 | str
+matugen --help | lines | get 8 | split
+matugen --help | lines | get 8 | split row
+matugen --help | lines | get 8 | split column
+matugen --help | lines | get 8 | split column ""
+matugen --help | lines | get 8 | split column " "
+matugen --help | lines | get 8 | split column ","
+matugen --help | lines | get 8
+matugen --help | lines | get 8 | split column ", "
+matugen --help | lines | get 8
+matugen --help | lines | get 8 | split column ", "
+matugen --help | lines | get 8 | split 
+matugen --help | lines | get 8 | split row ", "
+matugen --help | lines | get 8 | split row "scheme-"
+matugen --help | lines | get 8 | split row ", "
+matugen --help | lines | get 8 | split row ", " | skip 0 1
+matugen --help | lines | get 8 | split row ", " | skip 0
+matugen --help | lines | get 8 | split row ", " | skip 
+matugen --help | lines | get 8 | split row ", " | skip -h
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2
+help -f ignore
+help -f slice
+help drop
+help -f slice
+help take
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2 | each {|$i| $i | str trim}
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2 | each {|$i| $i | str trim "scheme-"}
+str trim
+str trim -h
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2 | each {|$i| $i | str trim --char "scheme-"}
+help str
+str replace -h
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2 | each {|$i| $i | str replace "scheme-" ""}
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2}
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2 | each {|$i| $i | str replace "scheme-" ""}
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2 | each {|$i| $i | str replace "scheme-" "" | str trim --char "]"}
+str trim
+str trim -h
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2 | each {|$i| $i | str replace "scheme-" "" | str trim -c "]"}
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2 | each {|$i| $i | str replace "scheme-" "" | str trim -c "[]"}
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2 | each {|$i| $i | str replace "scheme-" "" | str trim -c "]"}
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2 | each {|$i| $i | str replace "scheme-" "" | str trim -c "]"} | to json
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2 | each {|$i| $i | str replace "scheme-" "" | str trim -c "]"} | to csv
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2 | each {|$i| $i | str replace "scheme-" "" | str trim -c "]"} | to yml
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2 | each {|$i| $i | str replace "scheme-" "" | str trim -c "]"} | to yaml
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2 | each {|$i| $i | str replace "scheme-" "" | str trim -c "]"} | to md 
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2 | each {|$i| $i | str replace "scheme-" "" | str trim -c "]"} | to json 
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2 | each {|$i| $i | str replace "scheme-" "" | str trim -c "]"} | to ç
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2 | each {|$i| $i | str replace "scheme-" "" | str trim -c "]"} | to html
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2 | each {|$i| $i | str replace "scheme-" "" | str trim -c "]"} | to nuon 
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2 | each {|$i| $i | str replace "scheme-" "" | str trim -c "]"} | to text 
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2 | each {|$i| $i | str replace "scheme-" "" | str trim -c "]"} | to yaml 
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2 | each {|$i| $i | str replace "scheme-" "" | str trim -c "]"} | to yaml | save xd.md
+bat xd.md 
+rm xd.md
+paru -Ss nu
+paru -Sy nushell
+job
+clear
+job
+kill ignis
+killall ignis
+job spawn ignis
+job spawn {ignis}
+job list
+job spawn {ignis init}
+job list
+htop
+btop
+job
+ps | where name =~ "ignis"
+ps | where name =~ "ignis" | first | kill
+ps | where name =~ "ignis" | first | kill $in.pid
+ls
+job spawn {ignis init}
+job list
+btop
+ps | where name =~ "ignis" | first | kill $in.pid
+config nu
+paru -Sy ignis-git
+config env
+$current
+job spawn {ignis init}
+ls
+clear
+ls
+clear
+paru
+shadow
+paru -S fastfetch wget uv swaylock ruff
+fastfetch 
+clear
+fastfetch 
+killall
+killall -h
+pkill -
+pkill -h
+pgrep -h
+man pkil
+man pkill
+pkill
+pkill -h
+pkill
+pkill ignis
+^pkill
+clear
+job spawn {ignis init}
+job list
+cd Documentos
+cd ..
+topgrade --yes --cleanup
+lesfun
+z zoom
+code .
+clear
+wlsunset
+clear
+wlsunset
+deno run dev
+clear
+deno run dev
+ps
+let count = 0;<\n>ps | each {|$i|<\n>$count = count + $i<\n>}
+let count = 0;<\n>ps | each {|$i|<\n>let $count = count + $i<\n>}
+let count = 0;<\n>ps | each {|$i|<\n>let $count = $count + $i<\n>}
+let count = 0;<\n>ps | each {|$i|<\n>let $count = $count + $i.mem<\n>}
+let count = 0mb;<\n>ps | each {|$i|<\n>let $count = $count + $i.mem<\n>}
+let count = 0mb;<\n>ps | each {|$i|<\n>let $count = $count + $i.mem<\n>}<\n>echo count
+let count = 0mb;<\n>ps | each {|$i|<\n>let $count = $count + $i.mem<\n>}<\n>echo $count
+mut let count = 0mb;<\n>ps | each {|$i|<\n>$count = $count + $i.mem<\n>}<\n>echo $count
+mut count = 0mb;<\n>ps | each {|$i|<\n>$count = $count + $i.mem<\n>}<\n>echo $count
+mut count = 0mb;<\n>ps | each {|$i|<\n>$count + $i.mem<\n>}<\n>echo $count
+let count = 0mb;<\n>ps | each {|$i|<\n>let $count = $count + $i.mem<\n>}<\n>echo $count
+for $it in ps {<\n>}
+for $it in ps {<\n>echo $it.mem<\n>}
+for $it in ps {<\n>echo $it<\n>}
+ps
+for $it in ps {<\n>echo $it<\n>}
+for $it in ps {<\n>echo ($it | describe)<\n>}
+each -h
+help each
+ps | each {|e| $e }
+ps | each {|e| $e.pid }
+ps | each {|e| $e.ma,e }
+ps | each {|e| $e.name }
+ps | select name
+ps | each {|e| $e.mem }
+let count = 0mb;<\n>ps | each {|e| let count = $count + $e }
+let count = 0mb;<\n>ps | each {|e| let count = $count + $e.mem }
+mut count = 0mb;<\n>ps | each {|e| $count + $e.mem }
+let count = 0mb;<\n>ps | each {|e| $count + $e.mem }
+let count = 0mb;<\n>ps | each {|e| $count + $e.mem };<\n>$count
+mut count = 0mb;<\n>ps | for $it in ps {$count + $it.mem };<\n>$count
+help fo
+help for
+mut count = 0mb;<\n>for $it in ps {$count + $it.mem };<\n>$count
+mut count = 0mb;<\n>for it in ps {$count + $it.mem };<\n>$count
+mut count = 0mb;<\n>for $it in ps {$count + $it.mem };<\n>$count
+mut count = 0mb;<\n>for $it in ps {$count + $it };<\n>$count
+mut count = 0mb;<\n>for $it in ps {echo $it };<\n>$count
+let count = 0mb;<\n>ps | each {|e| $count + $e.mem };<\n>$count
+ps
+help reduce
+ps | reduce {|a, b| a + b}
+ps | reduce {|a, b| $a + $b}
+ps | $in.mem | reduce {|a, b| $a + $b}
+clear
+ps | $in.mem | reduce {|a, b| $a + $b}
+ps | $in.mem
+ps | $in.mem | reduce {|a, b| $a + $b}
+ps | $in.mem | reduce {|a b| $a + $b}
+ps | $in.mem | reduce {|a, b| $a + $b}
+ps | $in.mem | reduce {|a b| $a + $b}
+help reduce
+ps | $in.mem | reduce {|a c| $a + $c}
+ps | $in.mem | reduce {|a b| $a + $b}
+clear
+ps | $in.mem | reduce {|a b| $a + $b}
+clear
+ps | $in.mem | reduce {|a b| $a + $b}
+ps | $in.mem | reduce {|$a $b| $a + $b}
+clear
+ps | $in.mem | reduce {|$a $b| $a + $b}
+ps | get mem | reduce {|$a $b| $a + $b}
+clear
+fastfetch 
+clear
+fastfetch 
+clear
+ps | get mem | reduce {|$a $b| $a + $b}
+ps | get mem | reduce {|$a b| $a + $b}
+ps | get mem | reduce {|$a $b| $a + $b}
+collect 
+collect  -h
+fastfetch 
+ps | get mem | reduce {|$a $b| $a + $b}
+btop
+clear
+fastfetch 
+ps | get mem | reduce {|$a $b| $a + $b}
+ps
+ps | get mem | reduce {|$a $b| $a + $b}
+ps | get mem
+clear
+ps | get mem | reduce {|$a $b| $a + $b}
+clear
+ps | get mem | reduce {|$a $b| $a + $b}
+clear
+ps | get mem | reduce {|$a $b| $a + $b}
+ps | get mem | reduce {|a b| $a + $b}
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2 | each {|$i| $i | str replace "scheme-" "" | str trim -c "]"} | to yaml | save xd.md
+ls
+rm xd.md
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2 | each {|$i| $i | str replace "scheme-" "" | str trim -c "]"}
+clear
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2 | each {|$i| $i | str replace "scheme-" "" | str trim -c "]"}
+matugen --help
+skip
+help skip
+ignore
+help ignore
+silent
+remove
+help reduce
+help fold
+help map
+map
+fold
+help fold
+fold -h
+tail
+slice
+slice -h
+matugen --help | lines | get 8 | split row ", " | skip 1 | skip 2 | each {|$i| $i | str replace "scheme-" "" | str trim -c "]"}
+matugen --help | lines | get 8 | split row ", " |<\n>skip 1 | skip 2<\n>| each {|$i| $i | str replace "scheme-" "" | str trim -c "]"}
+matugen --help | lines | get 8 | split row ", "
+help -f range
+help -f tail
+help drop
+matugen --help | lines | get 8 | split row ", " |<\n>slice 2..-2<\n>| each {|$i| $i | str replace "scheme-" "" | str trim -c "]"}
+matugen --help | lines | get 8 | split row ", " |<\n>slice 2..-1<\n>| each {|$i| $i | str replace "scheme-" "" | str trim -c "]"}
+matugen --help | lines | get 8 | split row ", " |<\n>slice 2..-1
+matugen --help | lines | get 8
+matugen --help | lines | get 8 | split row ", " |<\n>slice 2..-1
+matugen --help | lines | get 8 | split row ", " |<\n>slice 2..-2<\n>| each {|$i| $i | str replace "scheme-" "" | str trim -c "]"}
+matugen --help | lines | get 8 | split row ", " | slice 2..-1<\n>| each {|$i| str replace "scheme-" "" | str trim -c "]"}
+matugen --help | lines | get 8 | split row ", " | slice 2..-1<\n>| each {|| str replace "scheme-" "" | str trim -c "]"}
+help trim
+str
+str substring
+str substring -h
+str contains
+str contains -h
+str replace -h
+matugen --help | lines | get 8 | split row ", " | slice 2..-1<\n>| each {|| str replace "scheme-" "" | str replace -a "[" "]"}
+str replace find
+str replace find -h
+str find
+str replace
+str replace -h
+help str trim
+matugen --help | lines | get 8 | split row ", " | slice 2..-1<\n>| each {|| str replace "scheme-" "" | str trim -c "]"}
+matugen --help | lines | get 8 | split row ", " | slice 2..-1<\n>| each {|| str replace "scheme-" "" | str trim -c "[" | str trim -c "]"}
+clear
+matugen --help | lines | get 8 | split row ", " | slice 2..-1<\n>| each {|| str replace "scheme-" "" | str trim -c "[" | str trim -c "]"}
+lutgen palette names | find catppuccin
+lutgen palette names
+lutgen palette names | find catppuccin
+find -h
+search
+help -f search
+lutgen palette names | find -n catppuccin
+clear
+lutgen palette names | find -n catppuccin
+lutgen palette names | find -n catppuccin | grid
+lutgen palette names | find -n catppuccin
+matugen --help | lines | get 8
+matugen --help | lines | get 8 | find -n scheme-
+lutgen palette names
+matugen --help | lines | get 8 | find -n scheme-
+matugen --help | find -n scheme-
+matugen --help | lines | find -n scheme-
+matugen --help | lines
+matugen --help | lines | find -n scheme-
+matugen --help | lines | find scheme-
+help find
+matugen --help | lines | find sets
+matugen --help | lines | find Sets
+matugen --help | lines
+matugen --help | find -n scheme-
+matugen --help 
+matugen --help | find -n scheme-
+lutgen palette names | find -n catppuccin
+lutgen palette names
+matugen --help | lines | get 8 | split row ", " | slice 2..-1<\n>| each {|| str replace "scheme-" "" | str trim -c "[" | str trim -c "]"}
+matugen --help | lines | get 8 | split row ", " | slice 2..-1
+matugen --help | lines | get 8 | split row ", "
+matugen --help | lines | get 8 | find scheme-
+matugen --help | lines | get 8 | find -n scheme-
+matugen --help | lines | get 8 | find scheme-
+matugen --help | lines | get 8 | find scheme-*
+help find
+regex
+matugen --help | lines | get 8 | find -r scheme-*
+matugen --help | lines | get 8 | find -r scheme-
+matugen --help | lines | get 8 | find --regex scheme-
+matugen --help | lines | get 8 | find --regex "scheme-"
+matugen --help | lines | get 8 | find --regex "scheme"
+matugen --help | lines | get 8 | find --regex "scheme-"
+matugen --help | lines | get 8 | find --regex "scheme-+"
+matugen --help | lines | get 8 | find --regex "scheme-"
+matugen --help | lines | get 8 | split row ", "
+matugen --help | lines | get 8 | split row ", " | slice 2..-1
+clear
+matugen --help | lines | get 8 | split row ", " | slice 2..-1
+clear
+matugen --help | lines | get 8 | split row ", " | slice 2..-1
+matugen --help | lines | get 8 | split row ", " | slice 2..-1 | each {|| str trim -c ]}
+clear
+matugen --help | lines | get 8 | split row ", " | slice 2..-1 | each {|| str trim -c ]}
+matugen --help | lines | get 8 | split row ", " | slice 2..-1 | each {|| str trim -c "]"}
+lutgen palette names
+lutgen palette names | find -n catppuccin
+lutgen palette names | find -n zen
+lutgen palette names | find -n 
+lutgen palette names | find -n xd
+lutgen palette names | find -n git
+lutgen palette names | find -n rose
+lutgen palette names | find -n yaru
+lutgen palette names | find -n yar
+lutgen palette names | find -n ya
+lutgen palette names | find -n primar
+lutgen palette names | find -n primary
+clear
+git
+man git
+man swaylock
+man swaylock | bat
+man swaylock | bat -p
+man swaylock | bat -P
+clear
+z fish
+ls
+cd .
+cd ..
+rm -r fish/
+z egg
+ls
+cd shell_fish/
+ls
+cd config/
+ls
+yazi
+z nu
+ls
+echo $env.PATH
+$env.PATH
+echo $env.PATH
+echo $env.PATHc
+echo $env.PATH
+config env
+config
+config use-colors 
+config flatten
+config nu 
+clear
+topgrade --yes --cleanup
+fastfetch 
+clear
+fastfetch 
+btop
+kill ignis
+clear
+ps | where name =~ "ignis" | first | kill $in.pid
+fastfetch 
+btop
+job spawn {ignis init}
+fastfetch 
+btop
+fastfetch 
+ps | where name =~ "ignis" | first | kill $in.pid
+job spawn {ignis init}
+fastfetch 
+btop
+ls
+clear
+paru -Sy ig
+matugen --help | lines | get 8 | split row ", " | slice 2..-1 | each {|| str trim -c "]"}
+paru -Sy ignis-git
+ps | where name =~ "ignis" | first | kill $in.pid
+job spawn {ignis init}
+paru -Sy wlsunset
+pgrep wlsunset
+wlsunset
+wlsunset -h
+wlsunset -T
+wlsunset -T 9000
+wlsunset -T 1000
+wlsunset -T 6000
+wlsunset -T 9000
+wlsunset 
+killall wlsunset
+wlsunset -h
+wlsunset -t 3000
+wlsunset -t 4000
+wlsunset -t 5000
+wlsunset -t 7000
+wlsunset -t 6000
+wlsunset -h
+wlsunset -g 0.5
+wlsunset -g 0.8
+wlsunset -g 0.9
+wlsunset -h
+wlsunset -t 6000 -T 9000
+wlsunset -t 6000 -T 2000
+wlsunset -t 6000 -T 9000
+wlsunset -t 6000 -T 4000
+wlsunset -t 6000 -T 8000
+wlsunset -h
+gammastep
+paru -S gammastep
+gammastep
+gammastep -h
+gammastep -o 6000
+gammastep -o 9000
+gammastep -l
+gammastep -l list
+gammastep -l manual
+gammastep -l manual -o 5000
+gammastep -h
+gammastep -m list
+gammastep -O 5000
+gammastep -O 7000
+gammastep -O 2000
+gammastep -O 3000
+wlsunset 
+wlsunset  -h
+wlsunset  -T 3000
+wlsunset  - 3000
+wlsunset  -t 3000
+systemctl status geoclue
+systemctl restart geoclue
+systemctl status geoclue
+wlsunset
+wlsunset -g
+wlsunset -h
+man gammastep
+gammastep
+z ignis
+ls
+paru -Rns wlsunset
+helix options.json
+git status
+git diff
+clear
+ls
+git add .
+git commit -m ":lipstick: Styles Features"
+git push
+git pull
+clear
+ls
+cd Descargas
+ls
+rm "* `🐐 Charlotte Rossberg.pdf`"
+rm `🐐 Charlotte Rossberg.pdf`
+ls
+clear
+ls
+paru
+z deno
+clear
+ls
+z media
+ls
+z zoom
+clear
+pgrep code
+z zoom
+code .
+z yournal
+zi your
+z a
+cd ..
+cd Documentos/Dev/+Lang/rust/yournal-rs/
+ls
+clear
+yazi
+ls
+helix Cargo.toml 
+cargo build --release
+yazi
+helix Cargo.toml 
+yazi
+cargo build --release
+yazi
+helix Cargo.toml 
+yazi
+clear
+ls
+clear
+cd des
+cd Descargas
+ls
+git clone https://github.com/linkfrg/ignis
+ls
+cd ignis
+ls
+clear
+ls
+ls | sort-by type
+z nu
+alias
+ls
+core-ls 
+ls 
+ls
+_ls 
+clear
+_ls 
+clear
+ls
+def
+help def
+ya
+ya emit
+ya emit -h
+ya pack
+ls
+cd .config
+ls
+ls | find git
+find gir
+find git
+help find
+clear
+find -h
+ls | find git
+ls
+ls -
+ls -h
+cd .confi
+cd .config
+ls -a
+ls | sort-by type
+clear
+ls | sort-by type
+ls | sort-by type -h
+help ls
+ls -h
+glbo
+glob
+glob -h
+glob rust
+glob *.conf
+ls *.conf
+ls
+ls -
+ls -h
+ls -d
+ls -d -t
+clear
+ls -d -t
+clear
+cd Descargas
+ls
+cd ignis
+kill ignis
+killall ignis
+clear
+ls
+uv install -r requirements.txt
+uv
+clear
+uv
+uv -h
+uv sync -h
+uv
+uv -h
+uv export
+ls
+ls | sort-by type -h
+ls | sort-by type
+bat pyproject.toml 
+uv sync
+ls
+ls | sort-by type
+clear
+ls | sort-by type
+overlay use .venv/bin/activate.nu
+clear
+ls
+z ignis
+ignis init
+gh repo pr
+gh repo
+gh
+gh pr
+gh pr checkout 181
+gh auth login
+clear
+ls
+job spawn {ignis init}
+clear
+z niri
+helix config.kdl 
+z yolk
+ctpv
+cp -h
+paru -Ss basedpyright
+paru -S basedpyright
+clear
+pyright
+rm -r /var/cache/pacman/pkg/download-moY4Uf
+sudo rm -r /var/cache/pacman/pkg/download-moY4Uf
+arch-clean
+S
+arch-clean
+paru -Ss python-mako
+paru -Rns python-mako
+arch-clean
+paru -Rns adobe-source-code-pro-fonts
+paru -Rns libngtcp2 python-iniconfig python-pluggy python-pytest simdjson tk
+arch-clean
+yazi
+ls -du
+ls -d
+clear
