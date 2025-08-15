@@ -2280,3 +2280,7280 @@ yazi
 ls -du
 ls -d
 clear
+yolk git add . ; yolk git commit -m "Update" ; yolk git push
+clear
+fastfetch 
+ps | where name =~ "ignis" | first | kill $in.pid
+job spawn {ignis init}
+z ignis
+ls
+zi ignis
+clear
+killall ignis
+ignis init
+z ignis
+ls
+git add .
+git status
+git commit -m ":bug: Fix empty media players"
+git push
+paru -Ss ghostty
+paru -S ghostty
+ghostty 
+paru -Rns ghostty
+paru -Sy ignis-git
+z ignis
+ls
+code .
+clear
+killall ignis
+z niri
+ignis init
+git add .
+git commit -m ":sparkles: Migrate to new Niri Workspaces and KeyboardLayouts"
+git push
+clear
+ignis init
+git add .
+git commit -m ":lipstick: Bar adjusts"
+git push
+topgrade --yes --cleanup
+paru -Sy ignis-git
+z ignis
+clear
+.
+clear
+pgrep ignis
+pgrep code
+code .
+pgrep code
+pkill ignis
+ignis -h
+ignis
+ignis inspector
+ignis init
+z ignis
+clear
+code 
+code .
+clear
+killall ignis
+ignis init
+media-dl
+z media
+ls
+clea
+uv -h
+uv tool install .
+ls
+media-dl
+media-dl 
+media-ctl 
+media-dl 
+clear
+media-dl 
+clear
+media-dl 
+z media
+z ~~
+media-dl
+media-dl --show-completion
+ignis init
+media-dl --show-completion
+ignis init
+grid -h
+grid -i
+ls | grid -ic
+[[name patch]; [Cargo.toml false] [README.md true] [SECURITY.md false]] | grid --icons --color
+paru -Ss wezterm
+lsg
+ls
+lsg
+clear
+lsg
+clear
+ls
+lsg
+paru -S wezterm
+ls
+lsg
+cd .config
+lsg
+clear
+lsg
+ls
+eza
+eza --icons
+lsg
+ls
+lsg
+def -h
+config nu
+lsg
+cd .config
+lsg
+z media
+lsg
+ls
+clear
+lsg
+grid -h
+lsg -h
+lsg
+clear
+ps | where name =~ "wezterm"
+pgrep wezterm
+killall wezterm
+killall wezterm-gui
+wezterm-gui 
+pgrep wezterm
+wezterm
+wezterm-gui 
+paru -Rns wezterm
+clear
+z obsi
+ls
+lsg
+clear
+lsg
+ls
+clear
+lsg
+ls
+clear
+ls
+ls Extras/Adjuntos/
+ls Extras/Adjuntos/ | grid -ic
+ls Extras/Adjuntos/ | grid 
+ls Extras/Adjuntos/
+ls Extras/Adjuntos
+ls Extras/Adjuntos -h
+ls Extras/Adjuntos -s
+ls Extras/Adjuntos -s | grid
+ls
+ls Extras/Adjuntos/*.sidecar.md
+ls Extras/Adjuntos/*.sidecar.md | count
+ls Extras/Adjuntos/*.sidecar.md | length 
+lensfun-add-adapter  -h
+ls Extras/Adjuntos/*.sidecar.md | length
+lenght -h
+length -
+length -h
+ls Extras/Adjuntos/*.sidecar.md | length
+ls Extras/Adjuntos/*.sidecar.md
+rm -h
+ls Extras/Adjuntos/*.sidecar.md | each {}
+ls Extras/Adjuntos/*.sidecar.md
+ls Extras/Adjuntos/*.sidecar.md | each {}
+ls Extras/Adjuntos/*.sidecar.md | each {rm $in.name}
+ls Extras/Adjuntos/*.sidecar.md
+ls Extras/Adjuntos/*.sidecar.md | each {rm $in.name}
+ls
+ls Extras/Adjuntos/*.sidecar.md
+ls Extras/Adjuntos/
+chafa 
+chafa Extras/Adjuntos/taiki, evander, verrine.webp 
+chafa "Extras/Adjuntos/taiki, evander, verrine.webp"
+clear
+ls
+yazi
+z bat
+clear
+ps
+config nu
+uv -h
+nu -h
+clear
+$env.EDITOR
+z niri
+cliphist 
+cliphist list
+helix config.kdl 
+clear
+ls
+clear
+lsg
+cd ~
+lsg
+clear
+lsg
+clear
+ls
+clear
+$env.EDITOR
+ls
+clea
+ls
+$env.EDITOR
+config nu
+config env
+clear
+help each
+ls
+lsg
+z ob
+ldh
+lsg
+lsg Ideas/
+lsg -h
+ls -h
+lsg Documentos
+ls -h
+lsg -h
+lsg Documentos
+eza Documentos
+lsg -h
+z ignis
+ls
+clear
+ls
+lsg
+clear
+ls
+lsg
+z ignis
+lsg
+cd ..
+lsg
+ls
+lsg
+lsg -h
+lsg
+lsg -h
+lsg
+ls
+ls -h
+lsg
+lsg Descargas
+ls
+lsg
+is-empty 
+ls
+lsg
+match
+help match
+lsg
+ls .
+ls -s
+lsg
+cd Documentos
+ls
+lsg
+z ignis
+lsg
+lssg
+ls
+^ls 
+lsg 
+lsg
+lsg -h
+lsg
+lslogins 
+lsg 
+clear
+lsg
+clear
+z ignis
+lsg
+lsg styles/
+config nu
+z niri
+helix config.kdl 
+clear
+ls
+cd ..
+z yolk
+ls
+mktemp -h
+y
+cwd
+pwd
+open
+open -h
+z ignis
+open schema.json
+ls
+z nu
+open history.txt
+open history.txt | get 5
+open history.txt | lines | get 5
+pwd
+pwd -h
+cwd
+pwd
+pwd -h
+pwd
+$current
+cwd
+pwd
+z nu
+open history.txt | first
+pwd -h
+rm -h
+y
+ls
+y
+yazi
+y
+mktemp -h
+ls
+y
+ls
+rm $temp
+y
+rm `$temp`
+clear
+ls
+mktemp -t xd.XXXXXX
+ls
+y
+ls
+open `$temp`
+rm `$temp`
+ls
+yazi
+ls
+y
+yazi
+y
+ls
+y
+yazi -h
+y -h
+ls
+nautilus -h
+nautilus -q
+z yazi
+z fish
+yazi
+zi fish_variables
+zi fish
+ls
+command
+which
+which -h
+which x
+which ls
+which ez
+which eza
+which yazi
+ls
+y
+config nu
+z nus
+cd Descargas
+z -
+cd Descargas
+-
+y 
+yazi
+clear
+ls
+http get
+clear
+http get https://graphql.anilist.co
+http get https://graphql.anilist.co -h
+http post  https://graphql.anilist.co
+http post https://graphql.anilist.co
+http post -h
+http post https://graphql.anilist.co "body"
+http post -h
+config nu
+clear
+z obsi
+dust 
+chafa Extras/Adjuntos/Pasted image 20250328160012.png
+chafa "Extras/Adjuntos/Pasted image 20250328160012.png"
+dust
+chafa "Extras/Adjuntos/47127_edited.webp"
+ls
+z foot
+yolk edit niri
+z yolk
+yolk edit niri
+niri validate
+tree -
+tree -h
+z niri
+paru -Ss syncthing
+sync 
+sync  -h
+sync  --help
+paru -S syncthingtray
+paru - S syncthingtray-qt6
+paru -S syncthingtray-qt6
+flatpak search synthingtray
+flatpak search syncthingtray
+flatpak install io.github.martchus.syncthingtray  
+io.github.martchus.syncthingtray 
+z niri
+pgrep syncthing
+cd .var
+ls
+cd app
+ls
+rm -r io.github.martchus.syncthingtray/
+$env._JAVA_AWT_WM_NONREPARENTING
+$env.ELM_ENGINE
+z yolk
+yolk sync
+cd Imágenes
+pwd
+z mnt
+ls
+cd datos
+cd Datos/
+ls
+cd sus
+ls
+pwd
+pwd Documentos/
+pwd -h
+ls Compartido/
+cd Imágenes/
+pwd
+syncthing
+job list
+job 
+cd .config
+ls
+lsg
+ls | sort-by type
+lsg
+ls | sort-by type
+lsg
+eza
+lsg
+ls
+lsg
+helix user-dirs.dirs 
+job unfreeze 1
+ls
+z 
+ls
+lf
+helix user-dirs.dirs 
+cd .config
+helix user-dirs.dirs 
+syncthing
+cd ~
+ls
+yazi
+syncthing
+sudo flatpak override io.github.martchus.syncthingtray --filesystem 
+$env.ELM_ENGINE
+pgrep syncthing
+pgrep syncthingtray
+pgrep syncthing
+fastfetch 
+btop
+sudo flatpak override io.github.martchus.syncthingtray --filesystem host
+pgrep syncthing
+update-desktop-database 
+xdg-user-dirs-update 
+xdg-user-dirs-gtk-update 
+xdg-user-dir 
+xdg-user-dir -h
+touch -h
+cd .config
+ls
+cd autostart/
+ls
+yazi
+cp /var/lib/flatpak/exports/share/applications/io.github.martchus.syncthingtray.desktop .
+ls
+paru -Rns syncthing-gtk
+paru -S syncthing
+clear
+cd .config/autostart/
+ls
+cd .config/autostart/
+ls
+io.github.martchus.syncthingtray -h
+helix io.github.martchus.syncthingtray.desktop 
+clear
+paru -Ss system
+paru -Ss systemd
+paru -Ss systemd-xdg
+systemd status xdg-desktop-autostart.target
+systemdctl status xdg-desktop-autostart.target
+systemctl status xdg-desktop-autostart.target
+systemctl status xdg-desktop-autostart
+dex -ad
+dex -h
+dex -ad
+dex -ad -h
+z niri
+helix io.github.martchus.syncthingtray.desktop 
+cd .config/autostart/
+helix io.github.martchus.syncthingtray.desktop 
+z niri
+helix io.github.martchus.syncthingtray.desktop 
+ls
+ls -h
+paru -Ss polkit
+z niri
+paru -Ss polkit
+z niri
+cliphist list
+cliphist list | lines
+cliphist list | lines | detect columns 
+help detect
+detect
+columns
+columns -h
+cliphist list | lines
+cliphist list | table
+table
+table -h
+ls | table
+table -h
+split
+split column
+split column -h
+cliphist list | split column
+cliphist list | split column " "
+split
+split row
+split row -h
+split
+split cell-path -h
+cd .config/autostart/
+z ignis
+ls
+lsg
+clear
+lsg
+parallel 
+par-each -h
+ls
+cd Descargas
+ls
+duns
+du -h
+du
+nautilus -q
+xdg-desktop-menu 
+xdg-user-dir 
+xdg-user-dirs-gtk-update 
+xdg-user-dirs-update 
+du .config
+ls
+mkdir Escritorio
+mkdir Plantillas
+helix .config/user-dirs.dirs 
+xdg-user-dirs-update 
+paru
+nautilus -q
+paru -Rns dex
+btop
+fastfetch 
+topgrade --yes --cleanup
+yolk edit nomix
+^env
+env
+env -h
+paccache-service-manager 
+paccache 
+paccache -h
+cd .confi
+cd .config
+ls fish
+rm -r fish/
+ls
+clear
+ls
+paccache -c
+paccache -y
+paccache -u
+paccache 
+paccache  -h
+tldr paccache
+paccache -rk
+paccache -d
+paccache -rk0
+ls
+lsg
+fastfetch 
+nautilus -q
+pgrep syncthing
+killall firefox
+pgrep syncthing
+pgrep syncthingtray
+pgrep syncthing
+pgrep syncthing -h
+pgrep syncthing -x
+killall firefox
+p
+pgrep syncthing -x
+systemctl status syncthing
+which syncthing 
+pgrep syncthing -x
+bto
+fastfetch 
+btop
+fastfetch 
+paru -Rns xdg-desktop-portal-gnome 
+paru -Rns xdg-desktop-portal-gnome gnome-session
+paru -Rns xdg-desktop-portal-gnome gnome-session gnome-shell
+paru -Rns xdg-desktop-portal-gnome gnome-session gnome-shell gnome-control-center gnome-shell-extension-appindicator gnome-shell-extension-nightthemeswitcher
+paru -Rs gnome
+paru -Rsc gnome
+paru -Rns gnome
+paru -Rnsc gnome
+paru -Rns gnome
+paru -Rns gnome gnome-shell-extension-appindicator gnome-shell-extension-nightthemeswitcher
+tecla
+paru -Runs gnome gnome-shell-extension-appindicator gnome-shell-extension-nightthemeswitcher
+btop
+z ignis
+paru -S nautilus loupe gnome-calculator xdg-user-dirs geoclue
+paru -Sy ignis-git
+paru -Ss gvfs
+pgrep gvfs
+pgrep ignis
+z state
+ls
+cd ignis
+ls
+helix ignis.log 
+open ignis.log
+paru -S gnome-bluetooth
+paru -Ss gnome-bluetooth
+paru -S gnome-bluetooth-3.0
+open ignis.log
+killall ignis
+fastfetch 
+paru -Ss evolution
+fastfetch 
+btop
+fastfetch 
+btop
+fastfetch 
+paru -Ss gvfs
+ls /etc/xdg/autostart/
+paru -S gvfs-mtp
+nautilus -q
+fastfetch 
+paru -S gvfs-nfs
+nautilus -q
+paru -Ss nfs
+paru -Ss libnfs
+fastfetch 
+paru -Ss gnome-disk
+fastfetch 
+paru -S gnome-disk-utility
+fastfetch 
+nautilus -q
+fastfetch 
+paru -Ss nfs
+paru -Ss nfs-utils
+systemctl status nsf
+nfsd
+paru -Ss ntfs
+paru -Ss fuse
+paru -Ss ntfs
+paru -Rns ntfs-3
+paru -Rns ntfs-3g
+journalctl 
+paru -Rns ntfs-3g
+mount 
+dmesg
+dmesg -
+dmesg -h
+tldr mseg
+tldr dmseg
+dmseg
+dmesg
+tldr dmesg
+sudo dmesg
+paru -Rns ntfs-3g
+paru -Rns gvfs-nfs
+paru -S gvfs-nfs
+nautilus -q
+paru -Ss ntfs
+paru -Ss nfs-
+paru -Ss gvfs
+paru -Ss gvfs-
+fastfetch 
+fsck 
+fsck  -h
+paru -Ss ntfs
+paru -Ss ntfsfix
+paru -S ntfs-3g
+clear
+paru -S ntfs-3g
+ntfsfix -h
+paru -S ntfs-3g
+fastfetch 
+btop
+fastfetch 
+paru -S ntfs-3g
+paru -Ss ntfs-3g
+paru -Ss gvfs-
+fastfetch 
+btop
+fastfetch 
+btop
+fastfetch 
+btop
+brightnessctl 
+yolk edit nomix
+paru -Ss emote
+paru -Ss smile
+flatpak search smile
+flatpak install it.mijorus.smile
+flatpak search emoji
+it.mijorus.smile 
+it.mijorus.smile  -h
+it.mijorus.smile
+flatpak list
+flatpak uninstall smile
+flatpak search emoji
+paru -Ss flemozi
+flatpak install dev.krtirtho.Flemozi 
+flatpak install EmojiMart
+flatpak list
+io.github.vemonet.EmojiMart 
+io.github.vemonet.EmojiMart -h
+io.github.vemonet.EmojiMart
+flatpak list
+flatpak uninstall io.github.vemonet.EmojiMart     
+flatpak uninstall --unused 
+flatpak install smile
+it.mijorus.smile 
+flatpak run it.mijorus.smile
+flatpak run it.mijorus.smile 
+flatpak search emoji
+io.github.vemonet.EmojiMart
+it.mijorus.smile 
+cd .config/autostart/
+ls
+bto
+btop
+fastfetch 
+btop
+flatpak uninstall smile
+flatpak --comuns=name,size list
+flatpak list -h
+tldr flatpak list
+flatpak listname
+flatpak list name
+flatpak list
+flatpak list -h
+flatpak list --columns=name,size
+flatpak uninstall --unused 
+flatpak install emote
+flatpak list
+fastfetch 
+paru -Ss paket
+paru -Ss gnome showtime
+paru -S showtime
+paru -Rns celluloid showtime
+paru -S mpv
+arch-clean
+paru -Rns tff-roboto
+paru -Rns ttf-roboto
+arch-clean
+clear
+fastfetch 
+btop
+fastfetch 
+killall ignis
+job spawn {ignis init}
+paru -Rns xdg-desktop-portal-gtk
+paru -S xdg-desktop-portal-gnome
+paru -Rns xdg-desktop-portal-gtk
+pgrep xdg-desktop
+pgrep xdg-desktop-portal
+pgrep xdg-desktop-
+pgrep xdg-desktop-gtk
+pgrep xdg-desktop-gnome
+btop
+ps
+ps | where name =~ "xdg"
+ps | where name =~ "xdg" | get name
+ps -h
+ps -l | where name =~ "xdg"
+ps -l | where name =~ "xdg" | get name
+tree -h
+clear
+ps
+ps -l | where name =~ "xdg" | get name
+botp
+ps
+ps -l | where name =~ "xdg" | get name
+ps -l | where name =~ "xdg-desktop" | get name
+btop
+clear
+ps -l | where name =~ "xdg-desktop" | get name
+yolk edit nomix
+$env.GTK_USE_PORTAL = 1; waypaper
+$env.GTK_USE_PORTAL
+$env.GTK_USE_PORTAL = 1; waypaper
+$env.GTK_USE_PORTAL = 1; firefox
+$env.GTK_USE_PORTAL = 0; firefox
+$env.GTK_USE_PORTAL
+firefox
+$env.GTK_USE_PORTAL = 1; waypaper
+$env.GTK_USE_PORTAL
+killall ignis
+job spawn {ignis init}
+pgrep xdg
+pgrep xdg-desktop-gnome
+pgrep xdg-desktop-
+pgrep xdg-desktop-po
+pgrep xdg-desktop-por
+pgrep xdg-desktop-port
+pgrep xdg-desktop-por
+paru -Rns xdg-desktop-portal-gnome
+$env.GTK_USE_PORTAL
+firefox
+$env.GTK_USE_PORTAL
+range
+1..2
+1..5
+each 1..5
+1..5 | each {echo "xd"}
+1..5 | each {|e| echo $e}
+paru -S xdg-desktop-portal-gnome
+$env.GTK_USE_PORTAL
+paru -Ss file-roller
+paru -Rns file-roller
+paru -S file-roller
+$env.GTK_USE_PORTAL = 1; file-roller
+paru -Ss nautilus
+paru -Ss nautilus-
+paru -Ss nautilus archive
+paru -S archive-mounter
+ls
+ls /
+$env.GTK_USE_PORTAL = 1; file-roller
+clear
+paru -Ss waytrogen
+paru -S waytrogen
+ls
+uv
+$env.GTK_USE_PORTAL
+tree -h
+tre
+tee
+tee -h
+complete 
+complete  -h
+external
+fastfetch 
+btio
+to
+btop
+pgrep gammastep
+cd .config/autostart/
+ls
+kill
+kill -h
+kill 38852
+pgrep gammastep
+z ignis
+code .
+killall ignis
+z ignis
+git status
+git commit -m ":art: Rename cssclass kb-layout to keyboard-layout"
+git status
+git push
+git log
+git log --no-pager
+ignis init
+git branch popover-tray
+git checkout popover-tray 
+git status
+git add .
+git commit -m ":art: Testing"
+git switch main 
+clear
+ignis init
+git add .
+ignis init
+git commit -m ':sparkles: Dynamically show keyboard layout is there is more than one layout'
+git push
+z ignis
+z state
+cd ignis
+ls
+open ignis.log
+pgrep ignis
+job spawn { ignis init }
+python --version
+cmake
+meson
+paru -S ignis-git
+killall ignis
+z ignis
+helix 
+helix
+code .
+ignis init
+git add .
+z ignis
+git add .
+git commit -m ":sparkles: Add screen locker button in quick settings"
+git push
+ignis init
+gh auth login
+ls
+git push
+git remote
+ssh-add
+git push
+ignis init
+git add .
+git commit -m ":art: Dirty hack to fix user_options typing"
+git push
+clear
+ignis init
+ruff format
+ruff check 
+ruff check -I 
+ruff check -h
+tldr ruff
+ruff check --select I
+ruff check --select I --fix
+git add .
+git commit -m ":art: Format with ruff"
+git push
+clera
+clear
+ignis init
+job spawn { ignis init }
+fastfetch 
+btop
+pgrep gammastep
+cd .config
+xdg-user-dirs-update 
+helix user-dirs.dirs 
+nautilus -q
+nautilus 
+btop
+fastfetch 
+ps
+ps | where name
+where -h
+sort-by -h
+ps | where name =~ xdg
+ps | where name =~ ignis
+ps | where name =~ ignis | get mem
+ps | where name =~ ignis
+helix --health
+helix --health | detect columns
+helix --health
+helix --health | str replace "Language servers" "Language_Servers"
+helix --health | str replace "Language servers" "Language_Servers" | detect
+helix --health | str replace "Language servers" "Language_Servers" | detect -h
+helix --health | str replace "Language servers" "Language_Servers" | detect columns
+helix --health | str replace "Language servers" "Language_Servers" | detect columns --guess
+detect
+detect --help
+help detect
+helix --health | str replace "Language servers" "Language_Servers" | detect columns --guess --skip 7
+helix --health | str replace "Language servers" "Language_Servers" | str replace "Debug adapter" "Debug_Adapter" detect columns --guess --skip 7
+helix --health | str replace "Language servers" "Language_Servers" | str replace "Debug adapter" "Debug_Adapter" | detect columns --guess --skip 7
+helix --health<\n>| str replace "Language servers" "Language_Servers"<\n>| str replace "Debug adapter" "Debug_Adapter"<\n>| detect columns --guess --skip 7
+helix --health<\n>| str replace "Language servers" "Language_Servers"<\n>| str replace "Debug adapter" "Debug_Adapter"<\n>| detect columns --skip 7
+helix --health<\n>| str replace "Language servers" "Language_Servers"<\n>| str replace "Debug adapter" "Debug_Adapter"<\n>| detect columns --guess --skip 7
+helix --health<\n>| str replace "Language servers" "Language_Servers"<\n>| str replace "Debug adapter" "Debug_Adapter"<\n>| detect columns --skip 7
+helix --health<\n>| str replace "Language servers" "Language_Servers"<\n>| str replace "Debug adapter" "Debug_Adapter"<\n>| detect columns --guess --skip 7
+helix --health<\n>| str replace "Language servers" "Language_Servers"<\n>| str replace "Debug adapter" "Debug_Adapter"<\n>| detect columns --skip 7
+helix --health<\n>| str replace "Language servers" "Language_Servers"<\n>| str replace "Debug adapter" "Debug_Adapter"<\n>| detect columns --guess --skip 7
+clear
+helix --health<\n>| str replace "Language servers" "Language_Servers"<\n>| str replace "Debug adapter" "Debug_Adapter"<\n>| detect columns --guess --skip 7
+helix --health<\n>| str replace "Language servers" "Language_Servers"<\n>| str replace "Debug adapter" "Debug_Adapter"<\n>| detect columns --guess --skip 7<\n>| get Language
+helix --health<\n>| str replace "Language servers" "Language_Servers"<\n>| str replace "Debug adapter" "Debug_Adapter"<\n>| detect columns --guess --skip 7<\n>| get language
+helix --health<\n>| str replace "Language servers" "Language_Servers"<\n>| str replace "Debug adapter" "Debug_Adapter"<\n>| detect columns --guess --skip 7<\n>| get Language
+where -h
+helix --health<\n>| str replace "Language servers" "Language_Servers"<\n>| str replace "Debug adapter" "Debug_Adapter"<\n>| detect columns --guess --skip 7<\n>| select 
+helix --health<\n>| str replace "Language servers" "Language_Servers"<\n>| str replace "Debug adapter" "Debug_Adapter"<\n>| detect columns --guess --skip 7<\n>| select Language Language_Servers
+helix --health<\n>| str replace "Language servers" "Language_Servers"<\n>| str replace "Debug adapter" "Debug_Adapter"<\n>| detect columns --guess <\n>| select Language Language_Servers
+helix --health<\n>| str replace "Language servers" "Language_Servers"<\n>| str replace "Debug adapter" "Debug_Adapter"<\n>| detect columns --guess --skip 7<\n>| select Language Language_Servers
+helix --health
+helix --health -h
+helix --h
+helix --help
+helix --health languages
+config nu
+helix --health languages
+helix --health
+helix --health -h
+helix --health clipboard
+helix --health
+helix --health | select language
+helix --health | select Language
+helix --health | select language
+helix --health | select Language
+helix --health | where Language = xml
+helix --health | where Language == xml
+helix --health | where Language == svelte
+^helix --health
+^helix --health svelte
+^helix --health yuck
+helix --health yuck
+topgrade --yes --cleanup
+nmtui
+clear
+topgrade --yes --cleanup
+paru
+topgrade --yes --cleanup
+sudo pacman -Syu
+sudo rm /var/lib/pacman/db.lck 
+paru
+sudo rm /var/lib/pacman/local/qt6-base-6.9.0-1/ -r
+paru
+paru -S qt6-base
+paru
+paru qt6-base
+paru -S qt6-base
+paru -Sk qt6-base
+paru -S qt6-base --overwrite \*
+paru
+paru -Rns vulkan-intel
+paru
+pgrep ignis
+ignis init
+paru -Qk
+paru -Qk | rg " 0 missing files"
+rg -h
+paru -Qk | rg -v " 0 missing files"
+paru -Qk
+paru -Qk | rg -v " 0 missing files"
+paru -Ss nm-
+paru -Ss network
+localectl 
+paru
+paru -S meson
+paru -S meson --overwrite "*"
+paru -Ss libmpv
+paru -Sy mpv
+paru -Sy mpv --overwrite "*"
+paru -Ss gtk4
+paru -Sy gtk4
+ls
+paru -Sy ignis-git
+cut
+systemctl restart
+systemctl
+systemctl -h
+pgrep ignis
+z ignis
+zi ignis
+ls
+fastfetch 
+open ~/.local/state/ignis/ignis.log
+killall ignis
+z ignis
+ls
+helix schema.json 
+open schema.json
+open options.json
+open --raw options.json
+ignis init
+paru -Sy ignis-git
+lss
+ls
+rename -h 
+mv -h 
+mv options.json options.bak.json
+ignis init
+ls
+yazi
+ignis init
+z ignis
+rm -r ignis
+ls
+rm -r .cache
+z ignis
+ls
+open options.json
+open options.json -r
+open options.json -r | nu-highlight 
+ignis init
+job spawn { ignis init }
+btop
+paru -Sy ignis-git
+paru -Ss mpvpaer
+paru -Ss mpvpaper
+paru -Sy
+paru -Ss waytrogen
+paru -S waytrogen-bin
+paru -Rns waypaper
+clang
+paru -Rns clang
+paru -Ss gc
+paru -Ss gcc
+paru -Rns gcc
+paru -Ss base-devel
+paru -Ss windsurf
+paru -S windsurf
+windsurf 
+window 
+window -h
+windsurf --help
+windsurf --ozone-platform-hint=auto
+ls -a
+pgrep keyring
+pgrep gnome-
+ps | where name =~ gnome-
+paru -Ss gnome-keyring
+paru -Ss keyring
+paru -S gnome-keyring
+ps | where name =~ gnome-
+paru -S gnome-keyring
+paru -Ss gnome-keyring
+paru -Ss libsecret
+ls -a
+paru -Ss gnupg
+paru -Ss opengp
+paru -Ss openpgp
+paru -Rns windsurf
+ls
+gio trash --list
+ls
+clear
+ls
+ls -a
+lsg
+clear
+config nu
+$nu.config-path
+cd $nu.config-path
+$nu.config-path | path parent
+$nu.config-path
+$nu.config-path.0
+$nu.config-path | path
+$nu.config-path | path join
+$nu.default-config-dir
+cd $nu.default-config-dir
+ls
+yaziç
+yy
+paru -Rns fish
+paru -Rns fish fisher
+paru -Rns gimp
+ls
+paru
+fish
+z ignis
+code .
+killall ignis
+paru -Rns python-pydantic
+glances
+glances -h
+paru -Rns python-pydantic glances
+topgrade --yes --cleanup
+paru -Ss harmonoid
+paru -S harmonoid-bin
+harmonoid
+paru -Rns harmonoid-bin
+paru -Ss uv
+paru -Ss poetry
+paru -Rns python-pip
+paru -S linux
+paru -S linux linux-headers
+paru -Rns python-pip
+paru -Rns uv
+paru -S python-uv
+topgrade --yes --cleanup
+job
+date
+datetime
+date
+date from-human 
+date from-human Saturday
+date from-human "Saturday"
+date from-human
+date from-human -h
+"Saturday 5" | date from-human 
+"Saturday" | date from-human 
+"5 days" | date from-human 
+"5" | date from-human 
+"5 days" | date from-human 
+"5 days" | date from-human -h
+"5 days" | date from-human --list
+"Now" | date from-human
+"Now"<\n>| date from-human
+"In 5 days"<\n>| date from-human
+"In 2 days"<\n>| date from-human
+topgrade --yes --cleanup
+ls
+eza
+clear
+ls
+clear
+z do
+ls
+clear
+ls
+clear
+z dev
+ls
+yazi
+y
+z py
+ls
+z python
+ls
+yazi
+cd media-dl/
+ls
+clear
+ls
+clear
+ls
+uv sync
+uv
+ls
+cd ..
+cd mnt/Datos/
+ls
+ls -a
+pwd
+pwd -h
+$env.UV_CACHE_DIR = "/mnt/Datos/.uv-cache"
+uv
+uv -h
+uv sync
+z nushell
+ls
+heli
+Z PY
+z media
+ls
+uv
+$env.UV_CACHE_DIR
+z nushell
+ls
+uv
+$env.UV_CACHE_DIR
+uv
+uv -h
+z media
+ls
+clear
+uv sync
+cd .cache/uv/
+ls
+clear
+ls
+cd .cache/uv/
+clear
+ls
+uv sync -
+uv sync -U
+open pyproject.toml
+open pyproject.toml | select
+open pyproject.toml | select dependency-groups
+open pyproject.toml | get dependency-groups
+open pyproject.toml | get dependency-g
+open pyproject.toml | get dependency-groups
+bat pyproject.toml 
+open pyproject.toml | get dependency-groups
+open pyproject.toml | get dependency-groups | dev
+open pyproject.toml | get dependency-groups | get dev
+open pyproject.toml | get dependency-groups
+open pyproject.toml | select dependencies dependency-groups
+open pyproject.toml | select dependency-groups
+bat pyproject.toml 
+overlay use .venv/bin/activate.nu
+clear
+ls
+clear
+ls
+clear
+git status
+git add .
+git commit -m "Update dependencies"
+git push
+ls
+clear
+ls
+clear
+ls
+clear
+code .
+clear
+z web
+ls
+yazi
+ls
+ls -a
+ls<\n>sort-by type
+ls<\n>| sort-by type
+ls -a<\n>| sort-by type
+cd node_modules/
+ls
+ls svelte
+cd ..
+cd mnt/Datos/
+ls -a
+deno
+deno -h
+ls
+pytest
+yazi
+ls
+du
+du -h
+ls
+du .deno
+dust .deno
+yazi
+cd ..
+deno clean
+ls -a
+deno install
+yazi
+dust node_modules/
+du node_modules/
+yazi
+ls node_modules/.deno/
+ls node_modules/.deno/ -
+ls node_modules/.deno/ -h
+ls node_modules/.deno/ -d
+clear
+ls node_modules/.deno/ -d
+ls node_modules/.deno/ -d | sort-by size
+yazi node_modules/.deno/typescript@5.8.2     
+yazi node_modules/.deno/typescript@5.8.2
+yazi node_modules/.deno/typescript@5.8.2/node_modules/typescript/
+ls node_modules/.deno/typescript@5.8.2/node_modules/typescript/ -d<\n>| sort-by size
+ls node_modules/.deno/typescript@5.8.2/node_modules/typescript/lib -d<\n>| sort-by size
+clear
+ls
+clear
+yazi
+clear
+ls
+yazi
+code .
+cñlear
+clear
+clera
+deno -h
+deno add -h
+deno outdated
+deno outdated --update
+deno outdated --update --latest
+deno outdated -h
+deno outdated
+clear
+deno task dev
+code .
+pgrep brave
+pgrep ignis
+job spawn { ignis init }
+fsatfetch
+fastfetch 
+job spawn { ignis init }
+z web
+ls
+code .
+deno task dev
+deno add lucide-svelte
+deno add npm:lucide-svelte
+z we
+ls
+rm vite.config.ts.timestamp-1746132440182-75625b2fcd418.mjs
+ls
+clear
+code .
+z media
+z web
+ls
+deno task dev
+clear
+code .
+paru -Rns python-pydantic
+paru -Qs python-pydantic
+paru -Rns python-pydantic-core
+topgrade --yes --cleanup
+cd .cache/thumbnails/
+ls
+cd ..
+rm -r .cache
+rm -r thumbnails/
+z ignis
+ls
+ode .
+decode
+decode -h
+code .
+encoding
+encoding -h
+encode -h
+encode base64
+encode base64 "XD"
+encode base64 -h
+"XD" | encode base64
+"XD" | decode
+"XD" | decode base64
+"XDD" | decode base64
+"WEQ=" | decode base64
+git add .
+git commit -m ":art: (bar): Refactorize"
+git push
+ruff check --select I --fix
+ruff format
+git add .
+git commit -m ":art: Refactorize styles"
+git push
+notify-send
+notify-send "XD" "LOREM IPSUM"
+git add .
+git add .
+git status
+git commit -m ":lipstick: Increase containers height"
+git push
+clear
+notify-send "XD" "LOREM IPSUM"
+clear
+notify-send "XD" "LOREM IPSUM"
+clear
+notify-send "XD" "LOREM IPSUM"
+paru
+git add .
+git commit -m ":lipstick: Reduce notification padding"
+git push
+notify-send "XD" "LOREM IPSUM"
+clear
+clear
+git push
+notify-send "XD" "LOREM IPSUM"
+paru -Ss trae
+topgrade --yes --cleanup
+dirs
+use std/disr
+use std/dirs
+disrs
+dirs
+dirs -h
+z nu
+ls
+dirs
+dirs -h
+dirs add
+g
+g 
+g -h
+shells
+shells -h
+enter
+ls
+enter Imagenes
+ls
+shells
+cd p
+p
+ls
+cd Imagenes
+ls
+p
+n
+dirs
+shells
+p
+dexi
+dexit
+ls
+shells
+uv -h
+uv generate-shell-completion
+uv generate-shell-completion -h
+uv generate-shell-completion nushell
+source (uv generate-shell-completion nushell)
+uv generate-shell-completion nushell
+overlay use (generate-shell-completion nushell)
+overlay use -h
+generate-shell-completion nushell | overlay use
+generate-shell-completion nushell overlay use
+generate-shell-completion nushell | overlay use
+generate-shell-completion nushell<\n>overlay use
+uv generate-shell-completion nushell<\n>overlay use
+"uv generate-shell-completion nushell"<\n>overlay use
+overlay use -h
+overlay -h
+overlay use -h
+z nushell
+ls
+cd autoload/
+uv generate-shell-completion nushell | save uv.nu
+ls
+uv -h
+z media
+uv add
+clear
+uv add
+uv add -h
+^uv add -h
+uv add -h
+rm uv.nu
+ls
+lsg
+clear
+cd Descargas
+lsg
+cd ..
+lsg
+cd .config
+lsg
+ls
+lsg
+clear
+lsg
+ls
+lsg
+cd .config/
+ls
+ls -h
+ls -l
+ls
+lsg
+ls
+$env.EDITOR
+$env.config
+ls
+z config
+z nu
+ls
+rm
+rm -
+rm -h
+$env.config
+$env.EDITOR
+clear
+z nu
+ls
+z niri
+z obsi
+cd .obsidian/snippets/
+ls
+killall brave
+paru -S jj
+paru -Ss jj
+paru -Ss jujutsu
+paru -S jujutsu
+jj
+z ignis
+jj
+z des
+ls
+lf
+yazi
+jj
+jj -h
+jj init
+jj git
+jj git clone https://github.com/Rikiub/nomix-shell
+ls
+cd nomix-shell/
+jj config 
+jj config  edit
+jj config set --user user.name "Rikiub";<\n>jj config set --user user.email "rikiub.dev@gmail.com"
+jj config set --user user.name "Rikiub";
+jj describe
+ls
+jj
+clear
+jj
+clear
+jj
+yazi
+ls
+clear
+jj
+jj st
+jj status
+jj
+j -h
+jj -h
+jj commit -h
+ls
+jj commit -h
+jj commit 
+jj status
+jj commit .
+cd ..
+rm -r nomix-shell/
+jj git clone https://github.com/Rikiub/nomix-shell
+cd nomix-shell/
+jj
+jj status
+yazi
+ls
+clear
+jj
+jj remo
+jj -h
+man jj
+jj -h
+jj b
+jj b list
+cd ..
+rm nomix-shell/
+rm nomix-shell/ -r
+jj git clone https://github.com/Rikiub/media-dl
+cd media-dl/
+ls
+ls -a
+clear
+ls
+jj b lsit
+jj b l
+jj b list
+jj b list --all
+jj b list -h
+jj b list -t
+jj b list --all
+jj b
+jj log
+jj
+jj git
+tldr jj
+tldr --update
+tldr jujutsu
+tldr jj
+jj
+jj describe 
+jj describe -h
+jj
+jj -h
+jj push
+jj -h
+jj status
+jj -h
+jj abandon
+jj status
+jj abandon
+jj -h
+jj fix
+jj 
+jj b
+jj new
+jj new -h
+jj git push -h
+jj b
+jj b move
+jj b move -h
+ls
+jj
+jj -h
+jj edit
+jj edit -h
+jj edit -h @---- 
+jj status
+jj b
+jj set
+jj next
+jj next -h
+jj
+jj set
+jj edit
+jj edit -h
+jj edit cache@origin 
+jj edit @------------------ 
+jj status
+jj
+jj next 00
+jj set
+jj new
+jj new -h
+jj new api_changes@origin 
+ls
+jj new -hA 
+jj new -h
+jj new cache@origin 
+jj status
+cd ..
+ls
+rm -r media-dl/
+jj git clone https://github.com/Rikiub/media-dl
+cd media-dl/
+jj status
+jj new main
+jj stats
+jj status
+ls
+clar
+clear
+jj
+jj status
+jj diff
+jj status
+jj commit -m "changes"
+jj status
+touch xd
+jj status
+ls
+clear
+jj
+rm xd
+jj status
+touch hello-bitch.md
+jj status
+cd Descargas
+ls
+yazi
+gio trash
+gio trash --list
+gio trash --empty
+clear
+ls
+clear
+ls
+jj
+jj new --help
+celar
+clear
+jj git
+jj git clone https://github.com/Rikiub/media-dl
+ls
+cd media-dl/
+ls
+ls -a
+clear
+ls
+ls -a
+clear
+ls
+jj st
+jj new
+jj
+clear
+jj
+clear
+jj
+jj log -h
+jj log .gitignore 
+jj log
+jj log -hR 
+jj log -h
+jj log -p
+jj log
+jj log -h
+jj undo
+jj
+jj undo
+jj
+jj undo
+jjj
+jj
+jj abandon 
+jj
+cd ..
+rm -r media-dl/
+jj git clone https://github.com/Rikiub/media-dl
+cd media-dl/
+ls
+jj
+clear
+ls
+yazi
+cd ..
+z ~/Descargas
+ls
+cd ~
+ls
+cd Descargas
+ls
+jj git clone https://github.com/Rikiub/media-dl
+cd media-dl/
+ls
+jj
+ls -a
+clear
+ls
+jj
+jj describe -h
+jj describe -m "Update dependencies"
+jj log
+uv sync
+cargo clean
+z rust
+ls
+cd Documentos/Dev/+Lang/rust/yournal-rs
+cargo clean -h
+cargo clean
+cd ..
+ls
+uv sync -U
+ls
+clear
+ls
+clear
+ls
+clear
+jj
+jj s
+jj st
+jj diff
+yazi
+ls
+ls -l
+eza -l
+chmod -h
+chmod --help
+jj st
+jj diff
+jj diff -h
+jj diff --git
+jj diff -h
+jj diff --from @ --to @-- 
+cd ..
+rm -r media-dl/
+jj git clone https://github.com/Rikiub/media-dl
+cd media-dl/
+ls
+jj st
+jj diff
+jj diff h-
+jj diff -h
+jj diff -s
+jj diff -
+jj diff -h
+jj diff --stat
+jj diff -h
+jj st
+jj diff
+jj diff pyproject.toml 
+jj st
+jj -h
+jj new
+jj
+jj st
+jj fix -h
+man jj
+man jj fix
+clear
+ls
+jj
+jj describe -m "Update dependencies"
+uv sync -U
+z media
+ls
+zi media
+ls
+clear
+ls
+git status
+git pull
+ls
+jj st
+jj git push
+jj git remote
+jj git remote list
+jj git remote add origin git@github.com:Rikiub/media-dl.git
+jj git remote rename origin git@github.com:Rikiub/media-dl.git
+cd ..
+ls
+rm -r media-dl/
+git clone git@github.com:Rikiub/media-dl.git
+cd media-dl/
+ls
+ls -a
+yazi
+cd ..
+rm -r media-dl/
+git clone git@github.com:Rikiub/media-dl.git
+ls
+ls -a
+jj git clone git@github.com:Rikiub/media-dl.git
+cd media-dl/
+ls -a
+jj
+jj st
+jj describe -m "Update dependencies"
+uv sync -U
+jj st
+jj undo
+jj
+jj st
+cd ..
+ls
+rm -r media-dl/
+jj git clone git@github.com:Rikiub/media-dl.git
+cd media-dl/
+jj new
+jj describe -m "Update dependencies"
+uv sync -U
+jj st
+jj b
+jj b list
+jj git push
+jj b
+jj b set -h
+jj b set main
+jj st
+jj log
+jj git push -h
+jj diff
+ls
+jj
+jj diff
+jj log
+jj log pyproject.toml 
+jj
+jj -h
+jj
+clear
+jj
+jj new -h
+jj st
+jj log -h
+jj log
+man jj log
+man jj log -r
+jj log -r
+man jj log -r
+ls
+cd ..
+ls
+rm -r media-dl/
+ls
+z medi
+ls
+z des
+paru -Ss dioxus
+paru -S dioxus-cli
+DX
+dx
+clear
+dx
+dx init -h
+ls
+dx init dioxus-test
+ls
+rm -r dioxus-test/
+dx init dioxus-test
+ls
+cd dioxus-test/
+ls
+yazi
+dx
+paru -Ss tailwind
+yazi
+ls
+clear
+ls
+cd Descargas
+ls
+dx init dioxus-test
+ls
+cd dioxus-test/
+cd Descargas
+ls
+clear
+cd dioxus-test/
+ls
+clear
+ls
+clear
+ls
+lsg
+clear
+file- h
+file -h
+sudo pacman -S --needed \<\n>  webkit2gtk-4.1 \<\n>  base-devel \<\n>  curl \<\n>  wget \<\n>  file \<\n>  openssl \<\n>  appmenu-gtk-module \<\n>  libappindicator-gtk3 \<\n>  librsvg \<\n>  xdotool
+fish
+paru -Qs webkit
+ls -a
+paru -Ss webkit
+sudo systemctl status resolve
+sudo systemctl status systemd-resolved.service 
+sudo systemctl stop systemd-resolved.service 
+paru -Ss webkit
+cd Descargas
+l
+clear
+ls
+cd dioxus-test/
+xdtool
+xdotool 
+xdotool -h
+xdotool --help
+cd dioxus-test/
+cd Descargas
+cd dioxus-test/
+ls
+ls -a
+ls -du
+ls --du
+paru -Rns webkit2gtk
+paru -Rns webkit2gtk xdotool
+cd des
+cd Descargas
+ls
+rm -r dioxus-test/
+paru -Rns webkit2gtk-4.1  xdotool
+paru -Rns dioxus-cli
+ls
+ls -a
+cd Descargas
+ls
+sudo lshw -C display
+lshw
+lspci | grep VGA
+grep -h
+lspci | rg VGA
+lscpu | sed -nr '/Model name/ s/.*:\s*(.*) @ .*/\1/p'<\n>Intel(R) Atom(TM) CPU  Z3735F
+sed
+lscpu | sed -nr '/Model name/ s/.*:\s*(.*) @ .*/\1/p'<\n>Intel(R) Atom(TM) CPU  Z3735F
+lscpu | sed -nr '/Model name/ s/.*:\s*(.*) @ .*/\1/p'
+lscpu
+ls
+cd Descargas
+ls
+cd ..
+ls
+ls Seguridad/
+ls
+ls -s
+ls -s Seguridad/
+ls
+ls Musica
+ls Imagenes
+ls
+ls -h
+ls
+clear
+ls
+ls -s Imagenes
+ls Documentos
+ls Documentos/Dev/
+ls Documentos/Dev/+Lang/
+ls Documentos/Dev/+Lang/python/media-dl/
+m4
+m4 -h
+m4 --help
+pip
+topgrade --yes --cleanup
+ls
+z svel
+ls
+yazi
+deno 
+ls
+ls -a
+tldr deno
+deno -h
+deno run -h
+tldr deno run
+deno run npm:sv
+deno run -A npm:sv
+deno run -A npm:sv create
+lks
+ls
+ls day12
+yazi
+deno run -A npm:sv create
+cd day12
+ls
+code .
+deno task dev
+deno outdated
+deno outdated --update
+open package.json
+code .
+paru -Sy niri
+btop
+pid
+ps
+ps | where name =~ "swww"
+cd Imagenes
+ls
+z niir
+ls
+z niri
+ls
+btop
+ps
+ps -h
+ps -l
+ps -l | where name =~ "wallpaper"
+ps -l | where command =~ "wallpaper"
+niri msg layers
+z ignis
+niri msg
+code .
+niri msg pick-window
+clear
+niri msg 
+niri msg
+niri -h
+niri msg
+niri msg layers
+niri msg -h
+niri msg overview-state
+niri msg event-stream
+clear
+ls
+clear
+niri msg -h
+niri msg action
+niri msg action open-overview
+niri msg action toggle-overview
+killall ignis
+ignis init
+niri msg action toggle-overview
+z ignis
+code .
+killall ignis
+ignis init
+niri msg
+niri msg action
+niri msg action | table
+niri msg action | rg "xd"
+niri msg action | rg "set"
+niri msg action | rg
+niri msg action | rg set
+niri msg action | rg "niri msg"
+niri msg action
+niri msg action |grep niri
+niri msg action | grep niri
+z niri
+ls
+rm config.kdl9iYVTn.bck
+z obsi
+ls
+cd .obsidian/snippets/
+ls
+ignis -h
+ignis --help
+taplo
+paru -Rns extra/python-typing-inspection 
+paru -Rns python-typing-inspection 
+paru -Ss dracut
+ignis --help
+ignis list-windows
+topgrade --yes --cleanup
+ignis --help
+killall ignis
+ignis init
+job spawn { ignis init }
+z niri
+ignis --help
+ignis reload
+ignis -h
+ignis --help
+ignis open-window -h
+ignis open-window --help
+ignis --help
+ignis run-file --help
+killall code
+niri msg action toggle-window-urgent 
+niri msg action toggle-window-urgent  --help
+niri msg action toggle-window-urgent --id 1
+niri --help
+niri msg -h
+niri msg windows
+niri msg action toggle-window-urgent --id 5819
+niri
+ps
+fastfetch 
+topgrade --yes --cleanup
+z ignis
+git log
+git status
+git diff
+git add .
+git commit
+git push
+clear
+ls
+killall ignis
+code .
+ignis init
+paru -Syu
+systemctl stop systemd-resolved.service 
+code .
+ignis init
+job spawn { ignis init }
+z ignis
+killall ignis
+code .
+ignis init
+notify-send "XD" "LOREM IPSUM"
+code .
+ignis init
+git status
+git add .
+git commit
+git push
+notify-send "XD" "LOREM IPSUM"
+z ignis
+git add .
+git commit -m ":bug: Fix notification shadow"
+git push
+paru -Ss prettier
+ks
+ls
+biome
+biome check styles/
+paru -S prettuer
+git add .
+ruff format
+ruff check --select I --fix
+ruff format
+git add .
+git commit -m ":lipstick: Format with Ruff and Prettier"
+git push
+clear
+notify-send "XD" "LOREM IPSUM"
+ignis init
+job spawn { ignis init }
+job
+job flush
+job id
+job list
+z ignis
+ls
+clear
+code .
+clear
+killall ignis
+notify-send "XD" "LOREM IPSUM"
+clear
+paru -Ss icon browser
+paru -Ss gtk icon browser
+paru -Ss gtk-icon-browser
+claer
+clear
+clea
+clear
+paru -Ss icon explorer
+clear
+paru -Ss gtk3-demos
+paru -S gtk3-demos
+gtk3-icon-browser 
+gsettings -h
+gtk4-image-tool 
+gtk4-launch 
+gtk4-layer-demo 
+gtk4-update-icon-cache 
+notify-send "XD" "LOREM IPSUM"
+gtk4-update-icon-cache 
+notify-send "XD" "LOREM IPSUM"
+z ignis
+code .
+killall ignis
+notify-send "XD" "LOREM IPSUM"
+ignis init
+clear
+notify-send "XD" "LOREM IPSUM"
+clear
+notify-send "XD" "LOREM IPSUM"
+cler
+clear
+git add .
+z ignis
+git status
+git add .
+git commit
+git push
+git add .
+git commit ":lipstick: Variables renames"
+git commit -m ":lipstick: Variables renames"
+git push
+clear
+z des
+git clone git@github.com/Rikiub/ignis.git
+git clone git@github.com:Rikiub/ignis.git
+clear
+ls
+rm -r OMORI.Build.8879120/
+ls
+rm -r crDroidAndroid-15.0-20250520-garnet-v11.5.zip
+ls
+cd ignis
+ls
+code .
+uv sync
+uv run ignis
+niri msg -
+niri msg -h
+niri msg event-stream
+clear
+niri msg event-stream
+niri msg -h
+niri msg overview-state
+niri msg overview-state -h
+niri msg event-stream --json
+niri msg event-stream -h
+niri msg -h
+niri -h
+niri msg -h
+uv run ignis init
+clear
+uv run ignis init
+clear
+uv run ignis init
+clear
+uv run ignis init
+git branch feat/niri-overview-status
+git checkout feat/niri-overview-status 
+niri status
+git status
+git add ignis
+git status
+uv run ignis init
+niri msg -j event-stream
+cd Descargas/ignis/
+git add ignis
+git commit -m
+git commit 
+git status
+git commit
+clear
+git push
+git config -h
+git config --global
+git config push.autoSetupRemote true
+git push
+git status
+z ignis
+zi ingis
+z ignis
+code .
+job spawn { ignis init }
+zi ignis
+ls
+clear
+git status
+killall ignis
+uv run ignis init
+overlay use .venv/bin/activate.nu 
+clear
+ignis init
+exit
+job spawn { ignis init }
+z ignis
+z des
+ls
+rm -r ignis
+z ig
+ls
+clear
+ls
+git add .
+git commit -m ":bug: (bar): Fix workspaces scrolling not working on Hyprland"
+git push
+clear
+ps
+ps | where name =~ "ignis"
+topgrade --yes --cleanup
+ls
+ls -a
+zoxide
+z ign
+cd Descargas
+clear
+z nus
+ls
+helix
+ls
+cl
+z ig
+cd .config/ignis
+ls
+clear
+code .
+killall ignis
+ignis init
+notify-send "XD" "LOREM IPSUM"
+git add .
+git status
+git commit -m ":lipstick: (bar): Adjust buttons padding and accent workspaces when Niri Overview is opened"
+git push
+date
+bash -c "date"
+bash -c "datetime"
+bash -c "calendar"
+z ignis
+helix .
+z ignis
+paru -Sy zoxide
+ls
+clear
+paru -Sy ignis-git
+paru -Sy
+paru -Syu
+paru -Rns ignis-git
+ignis
+paru -S python-ignis-git
+paru -Syu
+paccache -rk0
+paru -Syu
+z ignis
+cd .config/ignis
+clear
+code .
+notify-send "XD" "LOREM IPSUM"
+ps | where name =~ "ignis"
+paru -Sy
+paru -Syu
+cd .config/ignis
+code .
+killall ignis
+gtk3-icon-browser 
+clear
+gsettings set 
+gsettings get org.gnome.desktop.interface icon-theme
+gsettings set org.gnome.desktop.interface icon-theme
+gsettings set org.gnome.desktop.interface icon-theme Tela
+ls /usr/share/icons
+gsettings set org.gnome.desktop.interface icon-theme Tela-circle
+gtk3-icon-browser 
+gsettings set org.gnome.desktop.interface icon-theme Papirus
+gsettings set org.gnome.desktop.interface icon-theme Tela-circle
+gsettings set org.gnome.desktop.interface icon-theme Papirus
+notify-send "XD" "LOREM IPSUM"
+gsettings set org.gnome.desktop.interface icon-theme Tela-circle
+notify-send "XD" "LOREM IPSUM"
+gsettings set org.gnome.desktop.interface icon-theme Tela-circle
+notify-send "XD" "LOREM IPSUM"
+gsettings set org.gnome.desktop.interface icon-theme Papirus
+notify-send "XD" "LOREM IPSUM"
+killall brave
+ignis init
+nm-applet
+git status
+git add .
+git commit -m ":lipstick: Internal styles refactorization"
+git push
+clear
+ignis init
+notify-send "XD" "LOREM IPSUM"
+cd .config/ignis
+code .
+killall ignis
+cd .config/ignis
+killall ignis
+code .
+ignis init
+git add 
+git add .
+git commit -m ":sparkles: (bar): Move launcher button to clock"
+git push
+notify-send "XD" "LOREM IPSUM"
+notify-send "XD" "LOREM IPSUM" -h
+notify-send "XD" "LOREM IPSUM" --help
+notify-send "XD" "LOREM IPSUM" -A "XD" "NO"
+notify-send "XD" "LOREM IPSUM" --action "XD"
+notify-send "XD" "LOREM IPSUM" --action "XD" "PERO"
+notify-send "XD" "LOREM IPSUM" --action "XD" -A "PERO"
+ignis init
+git add .
+git commit -m ":lipstick: Rename actionable_button to action_button"
+ruff format
+ruff check --select I --fix
+git commit -m ":lipstick: Format with ruff"
+git add .
+git commit -m ":lipstick: Format with ruff"
+git push
+ignis init
+git add .
+git commit -m ":sparkles: (bar): Hide windows when niri overview is opened"
+git push
+ignis init
+ruff check --select I --fix
+notify-send "XD" "LOREM IPSUM" --action "XD" -A "PERO"
+notify-send "XD" "LOREM IPSUM"
+notify-send "XD" "LOREM IPSUM" --action "XD" -A "PERO"
+ignis init
+notify-send "XD" "LOREM IPSUM"
+job spawn { ignis init }
+git status
+git diff
+git add. 
+git add .
+git commit -m ":lipstick: Change notification colors"
+git push
+cd .config/ignis
+ps | where name =~ "ignis"
+fastfetch 
+btop
+paru -Syu
+nm-applet
+cd .config/ignis
+code .
+killall ignis
+z .config/niri
+cd .config/niri
+ls
+cd .config/niri
+datetimectl
+timedatectl 
+timedatectl  -h
+timedatectl status
+timedatectl show
+localectl 
+$env.LC_TIME
+notify-send "XD" "LOREM IPSUM"
+ignis init
+notify-send "XD" "LOREM IPSUM"
+ps | where name =~ "ignis"
+ignis init
+ps | where name =~ "ignis"
+notify-send "XD" "LOREM IPSUM" --action "XD" -A "PERO"
+notify-send "Lorem Ipsum" "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
+notify-send "XD" "LOREM IPSUM" --action "XD" -A "PERO"
+notify-send "Lorem Ipsum" "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
+ignis init
+notify-send "XD" "LOREM IPSUM" --action "XD" -A "PERO"
+ignis init
+notify-send "Lorem Ipsum" "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
+notify-send "Lorem Ipsum"
+notify-send "Lorem Ipsum" "Lorem Ipsum" --help
+notify-send "Lorem Ipsum" "Lorem Ipsum" -u low
+notify-send "Lorem Ipsum" "Lorem Ipsum" -i "firefox"
+ruff check --select I --fix
+ruff format
+git add .
+git status
+git commit -m ":lipstick: Big refactorization and style notifications"
+git push
+notify-send "Lorem Ipsum" "Lorem Ipsum" -i "firefox"
+ignis init
+clear
+ignis --help
+ignis list-windows
+notify-send "Lorem Ipsum" "Lorem Ipsum" -i "firefox"
+ignis init
+git add .
+git commit -m ":bug: Fix notifications not displaying when notification center is opened"
+git push
+clear
+notify-send "Lorem Ipsum" "Lorem Ipsum" -i "firefox" --help
+notify-send "Lorem Ipsum" "Lorem Ipsum" -i "firefox" -a "firefox"
+cd .cache/ignis/
+ls
+bat ignis_options.json 
+notify-send "Lorem Ipsum" "Lorem Ipsum" -i "firefox" -a "firefox"
+ps | where name =~ "ignis"
+killall ignis
+job spawn { ignis init }
+ps | where name =~ "ignis"
+fastfetch 
+ps | where name =~ "ignis"
+fastfetch 
+ps | where name =~ "ignis"
+btop
+ps | where name =~ "ignis"
+clear
+ps | where name =~ "ignis"
+killall ignis
+job spawn { ignis init }
+ps | where name =~ "ignis"
+cd .config/ignis
+killall ignis
+cd .config/ignis
+ignis init
+cd .config/ignis
+helix .
+code .
+ignis init
+git checkout launcher-style
+cd .config/ignis
+git checkout launcher-style
+git branch launcher-style
+git checkout launcher-style
+git add .
+git commit -m ":lipstick: (launcher): Refactorization and increase buttons size for grid layout"
+ignis init
+git switch main 
+ignis init
+git switch launcher-style 
+ignis init
+git merge launcher-style main
+git merge main launcher-style 
+tldr git merge
+git switch main
+git merge launcher-style 
+ignis init
+git status
+git log
+git push
+ps | where name =~ "ignis"
+ignis init
+job spawn { ignis init }
+killall ignis
+job spawn { ignis init }
+ps | where name =~ "ignis"
+btop
+fastfetch 
+topgrade --yes --cleanup
+q
+paru -Rns ignis-git
+paru -Rns python-ignis-git
+paru -S python-ignis-git
+paccache -rk0
+paru -Syu python-ignis-git
+paru -Sy python-ignis-git
+paru -S python-ignis
+arch-clean
+rm -r /var/cache/pacman/pkg/download-gwG03v
+rm -r /var/cache/pacman/pkg/download-gwG03v/
+sudo rm -r /var/cache/pacman/pkg/download-gwG03v/
+arch-clean
+paru -Rns vulkan-headers
+arch-clean
+paru -Rns meson-python patchelf python-annotated-types python-build python-markdown-it-py python-mdurl
+paru -Rns meson-python patchelf python-annotated-types python-build python-markdown-it-py python-mdurl python-rich python-typer
+arch-clean
+clear
+ls
+killall ignis
+ignis init
+paru -Rns python-ignis
+paru -S python-ignis-git
+ignis
+paru -S python-ignis
+ignis systeminfo
+ls
+paru -Rns python-ignis
+ls
+cd des
+ignis systeminfo
+paru -Rns python-ignis
+paru -S python-ignis
+cd Descargas
+ls
+git clone https://github.com/ignis-sh/ignis.git
+ls
+cd ignis
+ls
+uv sync
+cd ..
+mv ignis/ ..
+ls
+cd ..
+ls
+ls -a
+yazi
+ls
+git clone https://github.com/ignis-sh/ignis.git
+cd ignis
+ls
+uv sync
+ls
+clear
+ls
+overlay use .venv/bin/activate.nu 
+clear
+cd ignis
+ignis init
+uv run ignis init
+job spawn { uv run ignis init }
+ps | where name =~ "ignis"
+topgrade --yes --cleanup
+rm -r .cache/paru
+paru -S python-ignis-git
+paru -Rns python-ignis-git
+paru -S python-ignis-git
+ignis init
+killall ignis
+ls
+rm -r ignis
+cd Descargas
+ls
+clear
+ls
+gio trash --empty
+swww --help
+swww img -h
+killall ignis
+ignis init
+job spawn { ignis init }
+cd .cache/sww
+cd .cache/swww
+ls
+bat VGA-1 
+z ignis
+ls
+cd .config/ignis
+code .
+killall ignis
+bat VGA-1 
+ignis init
+git add .
+git status
+git commit -m ":bug: Fix matugen not changing color scheme"
+git push
+ps | where name =~ "ignis"
+fastfetch 
+ps | where name =~ "ignis"
+fastfetch 
+ps | where name =~ "ignis"
+fastfetch 
+ps | where name =~ "ignis"
+cd .config/ignis
+clear
+code .
+clear
+ps | where name =~ "ignis"
+killall ignis
+ps | where name =~ "ignis"
+cd .config/ignis
+git add .
+git status
+git commit -m ":lipstick: (matugen): add checks"
+git push
+clear
+ps | where name =~ "ignis"
+ignis init
+git add .
+git commit -m ":lipstick: (launcher): Consistent app item size"
+git push
+clear
+ps | where name =~ "ignis"
+ignis init
+ps | where name =~ "ignis"
+paru -Ss pygobject
+ps | where name =~ "ignis"
+ignis init
+clear
+cd .config/ignis
+code ,
+code .
+killall ignis
+ignis init
+ps | where name =~ "ignis"
+pgrep firefox
+ps | where name =~ "ignis"
+killall firefox
+pgrep firefox
+killall firefox
+pgrep firefox
+kill -9 18856
+pgrep firefox
+fastfetch 
+ps | where name =~ "ignis"
+ignis init
+ps | where name =~ "ignis"
+tree /
+ps | where name =~ "ignis"
+z ignis
+cd .config/ignis
+clear
+code .
+killall ignis
+ps | where name =~ "ignis"
+ignis init
+ps | where name =~ "ignis"
+cd .config/ignis
+git branch launcher-arch
+git checkout launcher-arch 
+git switch main
+ls
+git status
+git add popup_windows.py
+git add nomix/widgets/popup_window.py
+git status
+git commit -m ":lipstick: Chore to popup_window.py"
+git push
+git status
+git checkout launcher-arch 
+git add .
+git commit -m ":lipstick: New launcher architecture"
+git switch main
+ps | where name =~ "ignis"
+ignis init
+ps | where name =~ "ignis"
+git switch launcher-arch 
+clear
+git switch launcher-arch 
+git pull
+git branch --set-upstream-to=origin/main launcher-arch
+git pull
+git status
+git pull
+git config pull.rebase false
+git pull
+ignis init
+ls
+clear
+git status
+git switch main
+git status
+git add .
+git commit -m ":lipstick: Chore to popup_window.py"
+git push
+git switch launcher-arch 
+git pull
+clear
+ps | where name =~ "ignis"
+btop
+ps | where name =~ "ignis"
+tree /
+tree /
+ps | where name =~ "ignis"
+git status
+git switch main 
+git status
+git add .
+git commit -m ":lipstick: Changes"
+git switch main
+git switch launcher-arch 
+clear
+ps | where name =~ "ignis"
+git status
+git add .
+git commit -m ":lipstick: Changes"
+git switch main
+git switch launcher-arch 
+cd /usr/share/applications/
+ls
+cp yazi.desktop ~/.local/share/applications/
+cd  ~/.local/share/applications/
+ls
+helix yazi.desktop 
+clear
+ps | where name =~ "ignis"
+cd ..
+ls
+cd applications/
+ls
+rm yazi.desktop
+bat brave-kajebgjangihfbkjfejcanhanjmmbcfd-Default.desktop 
+rm brave-kajebgjangihfbkjfejcanhanjmmbcfd-Default.desktop
+ls
+bat mimeinfo.cache 
+ignis inspector
+ps | where name =~ "ignis"
+ignis init
+ignis inspectorç
+ignis inspector
+clear
+ignis inspector
+ignis init
+cd .config/ignis
+ps | where name =~ "ignis"
+ignis inspector
+ps | where name =~ "ignis"
+ignis inspector
+git status
+git commit -m ":sparkles: (launcher): Working GridView launcher"
+git add .
+git commit -m ":sparkles: (launcher): Working GridView launcher"
+pgrep obsidian
+systemctl stop systemd-resolved.service 
+ps | where name =~ "ignis"
+cd .config/ignis
+helix
+topgrade --yes --cleanup
+paru -Rns qt6-translations
+paru -Rns qt6-translations qt6-base
+clear
+paru -S qt6-translations
+paru -S qt6-translations --overwrite \*
+helix .
+ps | where name =~ "ignis"
+notify-send "Lorem Ipsum" "Lorem Ipsum" -i "firefox" -a "firefox"
+ps | where name =~ "ignis"
+notify-send "Lorem Ipsum" "Lorem Ipsum" -i "firefox" -a "firefox"
+ps | where name =~ "ignis"
+notify-send "Lorem Ipsum" "Lorem Ipsum" -i "firefox" -a "firefox"
+ps | where name =~ "ignis"
+notify-send "Lorem Ipsum" "Lorem Ipsum" -i "firefox" -a "firefox"
+ps | where name =~ "ignis"
+ps | where name =~ "ignis"
+topgrade --yes --cleanup
+cd .config/ignis
+clear
+code .
+killall ignis
+cd .config/ignis
+clear
+ps | where name =~ "ignis"
+ignis init
+git status
+git add .
+git commit -m ":sparkles: (launcher): Working GridView launcher"
+git switch main
+ps | where name =~ "ignis"
+git add .
+git status
+git commit -m ":lipstick: Style :selection"
+git push
+clear
+ls
+cler
+clear
+ls
+clear
+git switch launcher-arch 
+git pull
+clear
+ps | where name =~ "ignis"
+ignis init
+ps | where name =~ "swww"
+notify-send "Lorem Ipsum" "Lorem Ipsum" -i "firefox" -a "firefox"
+btop
+btpo
+notify-send "Lorem Ipsum" "Lorem Ipsum" -i "firefox" -a "firefox"
+btop
+clear
+ps | where name =~ ignis
+git status
+git add .
+git commit -m ":lipstick: Chore changes"
+clear
+git switch main
+clear
+notify-send "Lorem Ipsum" "Lorem Ipsum" -i "firefox" -a "firefox"
+notify-send "Lorem Ipsum" "Lorem Ipsum"
+clear
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios"
+git add .
+git commit -m ":lipstick: (notification): Don't show default icon when there is not icon"
+git push
+git switch launcher-arch 
+git pull
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios"
+clear
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios"
+clear
+cd .config/ignis
+git switch main
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios"
+clear
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios"
+clear
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios"
+clear
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios"
+clear
+git branch
+git branch notification-popups-rework
+git switch notification-popups-rework 
+git add .
+git commit -m ":lipstick: (popups): Rework"
+git switch launcher-style 
+git switch main
+git branch --help
+tldr git branch
+git branch --delete launcher-style 
+git branch --remotes
+git branch
+clear
+git checkout xd
+tldr git switch 
+git switch -h
+git switch -c custom-views
+git switch launcher-arch 
+git switch custom-views 
+ignis init
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios"
+btop
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios"
+ignis init
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios"
+ignis init
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios"
+ignis init
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios"
+ignis init
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios"
+ignis init
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios"
+btop
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios"
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --help
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox"
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+clear
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+clear
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+clear
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+git add .
+git status
+git commit -m ":lipstick: Work in progress"
+git switch notification-popups-rework 
+git switch custom-views 
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+ignis init
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+ignis init
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+ignis init
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+btop
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+btop
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+ignis init
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+btop
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+btop
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+btop
+bto
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+git add.
+git add .
+git commit -m ":lipstick: Rework notification center ant notification popups to use ListView"
+git switch notification-popups-rework 
+git switch launcher-arch 
+git status
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+git switch custom-views 
+git merge launcher-arch 
+btop
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+git status
+git add .
+git commit -m ":lipstick: Merge launcher-arch"
+git branch --delete launcher-arch 
+git switch main
+btop
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+git switch custom-views 
+ignis init
+clear
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+git add .
+cd .config/ignis
+git add .
+git status
+git commit -m ":bug: (launcher): Fix srolling"
+btop
+ignis init
+git add .
+git commit -m ":lipstick: (launcher): Show placeholder when no items are founded"
+ignis init
+git status
+git add .
+git commit -m ":lipstick: (launcher): Change placeholder text"
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+ps | where name =~ ignis
+cd .config/ignis
+clear
+code .
+killall ignis
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+clear
+ignis init
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+clear
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+clear
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+ignis init
+btop
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+btop
+ignis init
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+ignis init
+btop
+ps | where name =~ ignis
+clear
+ps | where name =~ ignis
+ignis init
+ps | where name =~ ignis
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+clear
+cd .config/ignis
+clear
+git status
+git add .
+git commit -m ":lipstick: Internal changes"
+clear
+btop
+ps | where name =~ ignis
+git switch main 
+clear
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+git switch custom-views 
+clear
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+git switch main
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+git switch custom-views 
+clear
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+git switch main
+git switch custom-views 
+btop
+ps | where name =~ ignis
+fastfetch 
+ps | where name =~ ignis
+btop
+ps | where name =~ ignis
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+clear
+fastfetch 
+clear
+fastfetch 
+clear
+btop
+ps | where name =~ ignis
+git switch main
+clear
+tree /
+clear
+clearfree
+paru -Ss stress
+watch -h
+free
+watch -h
+watch free -h
+btop
+paru -Ss stress
+paru -S stress
+tldr stress
+fastfetch 
+stress --vm 2 --vm-bytes 256m
+ignis init
+cñear
+clear
+clear -h 
+clear
+stress --vm 2 --vm-bytes 256m
+stress --vm 5 --vm-bytes 256m
+fastfetch 
+ps | where name =~ ignis
+fsatfetch
+fastfetch 
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+fastfetch 
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+fastfetch 
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+ps | where name =~ ignis
+fastfetch 
+stress --vm 5 --vm-bytes 256m
+fastfetch 
+ps | where name =~ ignis
+fastfetch 
+stress --vm 3 --vm-bytes 256m
+cd .config/ignis
+git switch custom-views 
+clear
+ps | where name =~ ignis
+btop
+clear
+ps | where name =~ ignis
+ps | where name =~ swww
+ps | where name =~ code
+ps | where name =~ ignis
+stress --vm 3 --vm-bytes 256m
+ps | where name =~ ignis
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+clear
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+clear
+ignis init
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+git add .
+git commit -m ":lipstick: Rename file"
+ps | where name =~ ignis
+paru -Syu
+paru -Ss ty
+paru -Ss python ty
+paru -Ss python-ty
+cd Documentos/Dev/+Lang/python/media-dl/
+code .
+clear
+ps | where name =~ ignis
+clear
+overlay use .venv/bin/activate.nu 
+clear
+uv sync -U
+typer
+git add .
+git commit -m "Update dependencies"
+git status
+git push
+clear
+media-dl
+clea
+clear
+clea
+clear
+media-dl
+typer
+media-dl
+clear
+media-dl
+ps | where name =~ ignis
+clear
+ls
+media-dl --help
+typer docs/
+typer
+typer --install-completion
+clear
+media-dl -h
+media-dl --help
+media-dl -v
+media-dl --version
+media-dl -f
+ls
+cd temp
+clear
+ls
+media-dl "ytmusic:Sub urban rabbit hole" -h
+media-dl "ytmusic:Sub urban rabbit hole" --help
+media-dl "ytmusic:Sub urban rabbit hole" -f audio
+ls
+mediainfo `Sub Urban - RABBIT HOLE.m4a`
+mpv "Sub Urban - RABBIT HOLE.m4a" 
+ls
+rm `Sub Urban - RABBIT HOLE.m4a`
+clear
+ls
+clear
+media-dl "ytmusic:Sub urban rabbit hole" -f audio --help
+media-dl "youtube:ZUTOMAYO - Kira killer" -f video -q 480
+ls
+mpv "ずっと真夜中でいいのに。ZUTOMAYO - ずっと真夜中でいいのに。『綺羅キラー (feat.mp4" 
+ls
+rm `ずっと真夜中でいいのに。ZUTOMAYO - ずっと真夜中でいいのに。『綺羅キラー (feat.mp4`
+clear
+ls
+claer
+clear
+media-dl "youtube:ZUTOMAYO - Kira killer" -f video
+media-dl "youtube:ZUTOMAYO - Kira killer" -f audio
+media-dl "youtube:ZUTOMAYO - Kira killer" -f audio --verbose
+media-dl "soundcloud:ZUTOMAYO - Kira killer" -f audio --verbose
+media-dl "youtube:ZUTOMAYO - Kira killer" -f audio --verbose
+cd ..
+git status
+git add .
+git commit
+git push
+clear
+cd temo
+cd temp
+clear
+ls
+yazi
+media-dl "youtube:ZUTOMAYO - Kira killer" -f audio
+media-dl "ytmusic:ZUTOMAYO - Kira killer" -f audio
+ls
+media-dl "ytmusic:ZUTOMAYO - Kira killer" -f audio --verbose
+ls
+rm `ZUTOMAYO, Mori Calliope - Kira Killer.m4a`
+media-dl "ytmusic:ZUTOMAYO - Kira killer" -f audio --verbose
+media-dl "ytmusic:ZUTOMAYO - Kira killer" -f audio
+ls
+rm `ZUTOMAYO, Mori Calliope - Kira Killer.m4a`
+ls
+media-dl "ytmusic:ZUTOMAYO - Kira killer" -f audio
+ls
+media-dl "ytmusic:ZUTOMAYO - Kira killer" -f audio
+ls
+media-dl "soundcloud:ZUTOMAYO - Kira killer" -f audio
+ls
+rm `zutomayo - Kira Killer (feat.mp3`
+rm `ZUTOMAYO, Mori Calliope - Kira Killer.m4a`
+ls
+rm `ZUTOMAYO, Mori Calliope - Kira Killer.m4a`
+me
+media-dl "soundcloud:ZUTOMAYO - Kira killer" -f audio
+ls
+me
+media-dl "soundcloud:ZUTOMAYO - Kira killer" -f audio
+ls
+touch ZUTOMAYO, Mori Calliope - Kira Killer.m4a
+ls
+yazi
+ls
+touch "ZUTOMAYO, Mori Calliope - Kira Killer.m4a"
+yazi
+ls
+media-dl "soundcloud:ZUTOMAYO - Kira killer" -f audio
+arch-clean
+media-dl "soundcloud:ZUTOMAYO - Kira killer" -f audio
+ls
+media-dl "soundcloud:ZUTOMAYO - Kira killer" -f audio
+ls
+mv `ZUTOMAYO, Mori Calliope - Kira Killer.m4a` "zutomayo - Kira Killer (feat. Mori Calliope)"
+ls
+media-dl "soundcloud:ZUTOMAYO - Kira killer" -f audio
+ls
+media-dl "soundcloud:ZUTOMAYO - Kira killer" -f audio
+ls
+rm `zutomayo - Kira Killer (feat. Mori Calliope)`
+ls
+media-dl "soundcloud:ZUTOMAYO - Kira killer" -f audio
+ls
+rm `zutomayo - Kira Killer (feat.mp3`
+media-dl "soundcloud:ZUTOMAYO - Kira killer" -f audio
+ls
+media-dl "soundcloud:ZUTOMAYO - Kira killer" -f audio
+ls
+media-dl "soundcloud:ZUTOMAYO - Kira killer" -f audio
+ls
+media-dl "soundcloud:ZUTOMAYO - Kira killer" -f audio
+ls
+media-dl "soundcloud:ZUTOMAYO - Kira killer" -f audio
+ls
+media-dl "soundcloud:ZUTOMAYO - Kira killer" -f audio
+ls
+rm `zutomayo - Kira Killer (feat. Mori Calliope).mp3`
+ls
+clear
+cd ..
+pytest
+ls
+cd temp
+ls
+media-dl "soundcloud:ZUTOMAYO - Kira killer" -f audio
+ls
+media-dl "soundcloud:ZUTOMAYO - Kira killer" -f audio
+ls
+media-dl "soundcloud:ZUTOMAYO - Kira killer" -f audio
+media-dl "soundcloud:ZUTOMAYO - Kira killer" -f video
+ls
+rm `zutomayo - Kira Killer (feat. Mori Calliope).mp3`
+media-dl "ytmusic:ZUTOMAYO - Kira killer" -f audio
+ls
+media-dl "ytmusic:ZUTOMAYO - Kira killer" -f audio
+ls
+media-dl "ytmusic:ZUTOMAYO - Kira killer" -f video
+ls
+rm `ZUTOMAYO, Mori Calliope - Kira Killer.m4a`
+media-dl "youtube:ZUTOMAYO - Kira killer" -f audio
+l
+ls
+media-dl "youtube:ZUTOMAYO - Kira killer" -f audio
+ls
+media-dl "youtube:ZUTOMAYO - Kira killer" -f video
+ls
+media-dl "youtube:ZUTOMAYO - Kira killer" -f audio -o "{title}"
+ls
+media-dl "youtube:ZUTOMAYO - Kira killer" -f audio -o "{title}.{ext}"
+media-dl "youtube:ZUTOMAYO - Kira killer" -f audio -o "{title}.{extension}"
+media-dl "youtube:ZUTOMAYO - Kira killer" -f audio -o "{title}"
+ls
+yazi
+ls
+clear
+cd ..
+ls
+git add .
+git commit -m "feat: Improve duplicated files detection"
+git push
+clear
+ruff format
+ruff check --select I --fix
+git add .
+git commit -m "Format with Ruff"
+git push
+ps | where name =~ ignis
+clear
+paru -Ss quickshell
+paru -S quickshell
+paru -Ss google-breakpad
+paru -S quickshell
+arch-clean
+S
+arch-clean
+paru -Rns cli11 cmake cppdap google-breakpad jsoncpp qt6-shadertools rhash wayland-protocols
+clear
+ps | where name =~ ignis
+paru -Ss quickshell
+cd .config/ignisç
+cd .config/ignis
+clear
+ls
+clear
+cd .config/ignis
+code .
+clear
+clear
+killall ignis
+ls
+clear
+ls
+git diff main custom-views 
+clear
+ls
+git branch
+git switch main
+git switch -c old-snapshot
+git add .
+git commit -m "Snapshot before merge"
+ls
+git branch
+git switch main
+ls
+git merge custom-views 
+git status
+clear
+ls
+clear
+ls
+ignis init
+git push
+clear
+git restore .
+ignis init
+clear
+topgrade --yes --cleanup
+clear
+ls
+clear
+git add .
+git commit -m ":sparkles: Migrate to new ignis syntax"
+git push
+ruff check --select I --fix
+ruff format
+ruff check --select I --fix
+git add .
+git diff
+git diff main origin/main 
+git diff main
+git add .
+git commit -m ":lipstick: Format with Ruff"
+git push
+clear
+ignis init
+clear
+git add .
+git commit -m ":lipstick: Syntax changes"
+ruff check --select I --fix
+ruff format
+git add .
+git commit -m ":lipstick: Format with Ruff"
+git push
+clear
+ls
+cd Descargas
+ls
+clear
+uv init
+uv init xd
+ignis -h
+ignis --help
+ls
+ls -a
+cd xd
+ls
+ls -a
+yazi
+cd Descargas
+ls
+cd ..
+ls -a
+cd Descargas
+ls
+uv init --lib xd
+cd xd
+ls
+ls -a
+yazi
+ls
+cd ..
+ls
+rm -r xd
+cler
+cd ..
+ps | where name =~ ignis
+cd .config/ignis
+code .
+clea
+clear
+killall ignis
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+ignis init
+git add .
+git commit -m ":lipstick: Remove unused styles"
+git push
+ignis init
+git add .
+ignis init
+ls
+git add .
+git commit -m ":lipstick: Refactorize styles"
+git push
+tree -h
+tree --help
+tldr tree
+tree -C
+tree -C /
+clear
+tree -C /
+clear
+fastfetch 
+ps | where name =~ ignis
+paru -Ss quickshell
+fastfetch 
+ps | where name =~ ignis
+paru -S quickshell
+quickshell --help
+qs
+qs --help
+quickshell --help
+tldr ignis
+tldr quickshell
+ls
+cd .config
+mkdir quickshell
+cd quickshell/
+ls
+touch shell.qml
+code .
+clear
+quickshell --help
+$env.QML2_IMPORT_PATH
+cd .config/quickshell/
+code .
+quickshell
+paru -Ss qml
+helix --health qml
+paru -Ss qmlls
+paru -Ss qt6
+paru -Ss qt6-declarative
+qmlls
+paru -S qt6-declarative
+qmlls6
+qmldir
+cd .config/helix
+qml6 -h
+qmlls --help
+qmlls6 -h
+qmlls6 --help
+tldr qmlls6
+qmlls6 --help
+qmlls6
+cd .config/quickshell/
+ls
+helix shell.qml 
+qmlls6 --help
+helix --health qml
+helix --health qml6
+helix --health qml
+helix shell.qml 
+helix --health qml
+which quickshell
+quickshell --help
+$env
+qmlscene6 -h
+qmlscene6 --list-imports
+qml6 --list-imports
+qml6 --help
+qmlscene6 --list-imports
+ps | where name =~ ignis
+killall ignis
+paru -Ss qt6 docs
+paru -Ss qt6 doc
+quickshell
+clear
+paru -S qt6-doc
+cd .config/quickshell/
+code .
+clear
+cd .config/quickshell/
+quickshell
+clear
+quickshell
+clear
+ps | where name =~ quickshell
+quickshell
+job spawn { ignis init }
+cd .config/quickshell/
+clear
+ls
+bash
+clear
+cd .config/quickshell/
+rg QT
+rg Qt
+fd Qt
+fd .
+cd ~/
+cd /
+tldr fd
+fd --help
+fd /
+paru -Ss qt6-tools
+fd "Qt/"
+paru -S qt6-tools
+helix .
+cd .config/quickshell/
+helix .
+paru -Ss qt6-tools
+paru -Ss qt tools
+paru -Ss qt
+paru -Ss qt6
+paru -Ss qt6-tools
+paru -Sg qt6
+paru -Ss qt6 | rg "(qt6)"
+paru -Ss qt6-language
+paru -S qt6-languageserver
+cd .config/quickshell/
+helix .
+paru -Qs qt
+paru -Rns qt6-languageserver
+zbar
+paru -Rns zba
+paru -Rns zbar
+paru -Qs qt
+paru -Rns qt6-tools
+paru -Qs qt6
+ps | where name =~ quickshell
+ps | where name =~ ignis
+paru -Qs qt6
+paru -Qs qml
+paru -Ss qml
+paru -Ss qmll
+paru -Ss qmlls
+paru -Rns qt6-declarative
+which qmlls
+which qmlls6
+ls /usr/share/doc/
+ls /usr/share/doc/qt6/qml
+ls /usr/share/doc/qt6/qdoc/
+paru -Rns qt6-doc
+paru -Ss qt6-doc
+paru -Ss qt6-quick
+paru -Ss qt6 doc
+paru -S qt6-doc
+paru -Ss qt doc
+ls /usr/share/doc/qt6/qdoc/
+ls /usr/share/doc/qt6/qml
+ls /usr/lib/qt/
+ls /usr/lib/qt/qml
+ls /usr/lib/qt6/
+ls /usr/lib/qt6/qml/
+ls /usr/lib/qt6/qml/QtQuick/
+ls /usr/lib/qt6/qml/QtQuick/Window/
+qmlls6 --verbose
+qmlls6 --verbose | rg "loading docs"
+ls /usr/share/doc/accountsservice/
+ls /usr/share/doc/qt6/
+cd .config/quickshell/
+$env.QT_DOCS_DIRS="/usr/share/doc/qt6"
+$env.QT_DOCS_DIRS = "/usr/share/doc/qt6"
+$env.QML_IMPORT_PATH = "/usr/lib/qt6"
+helix .
+$env.QML2_IMPORT_PATH = "/usr/lib/qt6"
+helix .
+$env."QML2_IMPORT_PATH"
+$env.QML_IMPORT_PATH
+$env."QML2_IMPORT_PATH"
+$env.QML2_IMPORT_PATH = "/usr/lib/qt6"
+$env."QML2_IMPORT_PATH"
+paru -Rns qt6-doc
+paru -S qt6-doc
+paru -Rns qt6-doc
+paru -Ss qch
+paru -Ss qml
+paru -Ss qml qch
+paru -Ss qml doc
+paru -Ss qml blue
+paru -Ss qml bluez
+paru -Ss qt doc
+ls /usr/share/doc/qt6/
+fd /usr/share/doc/qt6/
+fd . /usr/share/doc/qt6/
+paru -S qt6-doc
+fd Qt /usr/share/doc/qt6/
+fd qch /usr/share/doc/qt6/
+clear
+cd .config/quickshell/
+cd /usr/lib/qt6/
+ls
+cd ~~
+cd ~
+cd .config/quickshell/
+$env.QML_IMPORT_PATH = "/usr/lib/qt6/qml"
+helix .qmlls.ini
+helix .
+ls
+yazi
+ls -a
+qmlls6
+qmlls6 --verbose
+helix .qmlls.ini 
+qmlls6 --write-defaults
+ls
+helix .qmlls.ini 
+ls
+rm .qmlls.ini
+qmlls6 --write-defaults
+pacman -Ql qt6-declarative
+pacman -Ql qt6-declarative | rg qmlls
+pacman -Ql qt6-declarative | rg qmll
+helix .qmlls.ini 
+$env.QT_SELECT = 6
+helix .
+code .
+clear
+paru -Ss qt
+paru -Ss qt language
+paru -Ss qt6-languageserver
+paru -S qt6-languageserver
+qt-faststart
+qmlls6 
+ls
+cd .config/quickshell/
+helix .
+ls
+paru -Rns qt6-languageserver
+qmlls6 --help
+qmlls6 --doc-dir /usr/share/doc/qt6/
+ls
+ls -a
+qmlls6 --write-defaults
+clear
+ls
+helix .
+clear
+ls -a
+ls
+clear
+ls
+clear
+paru -Qs qt6
+paru -Qs qt
+qmlls6 -d /usr/share/doc/qt6 --stdio
+cd .config/quickshell/
+qmlls6 -d /usr/share/doc/qt6 --stdio
+qmlls6 --help
+ls /usr/share/doc/qt6/
+qmlls6 --version
+qmlls6 -v
+ls
+clera
+clear
+ls
+cler
+helix .
+code .
+cd .cache/quickshell/
+l
+ls
+paru -Sy qt6-declarative qt6-doc
+cd .config/quickshell/
+clear
+ls
+helix .
+clear
+ls
+ls -a
+ls
+paru -S qt6-tools
+ls
+cd .config/quickshell/
+helix .
+ls
+paru -S qt6-tools
+5996
+paru -Rns qt6-tools
+clear
+ls
+clear
+code .
+qs
+quickshell
+ps | where name =~ ignis
+clear
+paru -Syu
+sudo helix /etc/pacman.conf 
+x265 
+x265  --help
+x265 --help | bat -p
+media-dl --help | bat -p
+clear
+paru -Syu
+killall obsidian
+cd .config/ignis
+code .
+clear
+killall ignis
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+ignis init
+git restore .
+job spawn { ignis init }
+ls
+cd Descargas
+cd .config/quickshell/
+clear
+ls
+helix .
+code .
+clear
+cd .config/quickshell/
+qdoc
+qdoc --help
+cd ~/Documentos/Dev/+Lang/rust/
+ls
+clear
+cargo --help
+cargo new slint-test
+cd slint-test/
+ls
+ls -a
+code .
+clear
+paru -Ss slint
+paru -Ss slint lsp
+paru -S slint-lsp-bin
+paru -Ss qt5
+paru -Ss qt5-base
+clear
+cd ..
+ls
+rm slint-test/
+rm slint-test/ -r
+jj
+paru -Ss cargo-generate
+paru -S cargo-generate
+cargo-generate 
+cargo-generate gen 
+cargo-generate 
+cargo-generate gen
+tldr cargo-generate
+cargo-generate geb
+cargo-generate gen
+cargo gen
+ls
+mkdir slint-test
+cd slint-test/
+cargo-generate gen slint-ui/slint-rust-template
+ls
+cd ..
+ls
+rm slint-test/ 
+cargo-generate gen slint-ui/slint-rust-template
+cd slint-test/
+ls
+clear
+cd Documentos/Dev/+Lang/rust
+ls
+rm -r slint-test/
+ls
+cd ..
+cd python/
+ls
+fetch
+fetch -h
+http get
+http get https://github.com/slint-ui/slint-python-template/archive/refs/heads/main.zip
+http get https://github.com/slint-ui/slint-python-template/archive/refs/heads/main.zip --help
+tldr curl
+http
+http get https://github.com/slint-ui/slint-python-template/archive/refs/heads/main.zip --help
+downlod
+downlooad
+download
+http
+http get https://github.com/slint-ui/slint-python-template/archive/refs/heads/main.zip --help
+http get https://github.com/slint-ui/slint-python-template/archive/refs/heads/main.zip | save slint.zip
+ls
+yazi
+unpack slint.zip
+aunpack
+atool 
+aunpack slint.zip
+ls
+yazi
+cd slint-memory/
+ls
+open pyproject.toml
+ls
+ls -a
+uv sync
+ls
+overla
+overlay use .venv/bin/activate.nu 
+clear
+code .
+clear
+slint
+ls
+python main.py 
+clear
+python main.py 
+ls
+cd ..
+rm -r slint-memory/
+ls
+ls -a
+cd textual_apps/
+ls
+cd ..
+ls
+cd tex
+cd textual_apps/
+lsg
+yazi
+cd Documentos/Dev/+Lang/python/
+ls
+cd yournal/
+ls
+git stauts
+git status
+yazi
+ls
+git status
+yazi
+helix .
+yazi
+git status
+ls -a
+rm .python-version
+ls -a
+git status
+yazi
+ls -a
+git status
+bat pyproject.toml 
+helix pyproject.toml 
+ls
+clear
+ls
+clear
+ls
+yazi
+clear
+l
+git status
+uv sync
+ls
+open pyproject.toml
+uv sync
+ls -a
+yazi
+uv run
+yazi
+uv sync
+helix pyproject.toml 
+yazi
+uv sync
+yazi
+uv sync
+ls
+rm uv.lock
+ls
+uv run
+ls
+ls -a
+yazi
+uv run
+helix pyproject.toml 
+uv run
+yaiz
+yazi
+overlay use .venv/bin/activate.nu 
+yournal
+uv sync
+exit
+cd Documentos/Dev/+Lang/python/
+cd yournal/
+s
+ls
+ls -a
+ls
+clear
+ls
+ls -a
+rm -r .venv/
+uv sync
+ls -a
+git status
+helix pyproject.toml 
+ls
+yazi
+uv sync
+cd ..
+ls
+cd yournal/
+ls -
+uv run
+helix pyproject.toml 
+uv run
+uv sync
+ls
+helix pyproject.toml 
+yazi
+uv run
+ls
+yazi
+uv run
+uv sync
+ls
+rm -r .venv/
+uv sync
+helix pyproject.toml 
+yazi
+cd Documentos/Dev/+Lang/python/
+cd yournal/
+ls
+git status
+ls
+clear
+ls
+helix py
+git status
+uv sync
+helix pyproject.toml 
+yazi
+uv run
+uv sync
+yazi
+ls
+ls -a
+git status
+uv run 
+uv run yournal/
+ls
+rm 2025-06-11.md
+uv run yournal/ --help
+ls
+clear
+ls
+git status
+git add .
+git commit -m "Move from Poetry to standart pyproject.toml file"
+git push
+clear
+ls
+open pyproject.toml
+cd ..
+yazi
+cd spotsync/
+ls
+yazi
+ls
+yazi
+uv init
+yazi
+uv init
+rm pyproject.toml
+uv init
+yazi
+ls
+rm pyproject.toml
+uv init --lib
+yazi
+uv init --lib --help
+ls
+git restore .
+ls
+git status
+git branch
+git restore .
+git status
+tldr git restore
+git status
+git restore :/
+git status
+tldr git restore
+git restore --staged :/
+tldr git reset
+git reset
+git status
+ls
+rm .python-version src/
+rm .python-version src/ -r
+yazi
+git status
+git diff main
+code .
+git diff main
+yazi
+git switch main
+ls
+git status
+yazi
+git status
+git switch -c scripts
+git push
+git add .
+git commit -m "Backup old branch"
+git push
+git config --global push.autoSetupRemote true
+git push
+git remotes
+git branch --remotes
+ls
+git switch cli_update 
+ls
+yazi
+ls -a
+clear
+uv init
+yazi
+uv init --app
+yazi
+code .
+git status
+uv init --lib
+git status
+uv sync
+uv sync -U
+clear
+git status
+uv sync
+overlay use .venv/bin/activate.nu 
+spotdl
+uv sync
+spotsync
+code .
+git status
+git add .
+git commit -m "Migrate from Poetry to standart pyproject.toml file"
+clear
+ls
+clear
+uv sync
+spotsync --help
+clear
+l
+spotsync --help
+ruff format
+ruff check --select I --fix
+ruff format
+clear
+ls
+git status
+spotsync --help
+ls
+mkdir temp
+cd temp
+ls
+spotsync --help
+spotsync tui
+spotsync tui --helpp
+spotsync tui --help
+spotsync tui start
+ls
+yazi
+spotsync --help
+ls
+spotsync sync TEST
+yazi
+ls
+rm -r TEST
+spotsync new https://open.spotify.com/playlist/1S9PPnK41SW6qgM1LUzkkH
+ls
+spotsync new https://open.spotify.com/playlist/1S9PPnK41SW6qgM1LUzkkH
+spotsync sync https://open.spotify.com/playlist/1S9PPnK41SW6qgM1LUzkkH
+spotsync sync
+clear
+cd ..
+ls
+git add .
+git status
+git commit -m "Review old code base"
+git push
+git add .
+git commit -m "Update README.md"
+git push
+git add .
+git commit -m "Update README.md"
+git push
+ls
+clear
+ls
+git switch main
+ls
+git status
+yazi
+ls
+clear
+git staus
+git status
+clea
+clear
+ls
+clear
+ls
+clear
+git merge cli_update 
+clear
+git status
+git push
+helix pyproject.toml 
+git add .
+git commit -m "Upgrade version"
+git push
+cler
+claer
+clear
+git branch
+cd ..
+ls
+rm -r spotsync/
+ls
+clear
+ls
+yazi
+clear
+ls
+cd Documentos
+clear
+cd Documentos
+ls
+ls -a
+clear
+ls
+clang
+yazi
+clear
+cd..
+cd ..
+cd Descargas
+ls
+gio trash
+gio trash --list
+gio trash --empty
+z Documentos/Obsidian/
+ls
+cd Documentos/Obsidian/
+clear
+code .
+clear
+code .obsidian/snippets/
+clear
+paru -Ss onlyoffice
+paru -S onlyoffice-bin
+paru -Ss ouch
+paru -S ouch
+paru -Rns atool
+ouch
+aunpack
+cd .obsidian/snippets/
+nu --version
+paru -Ss openssl
+paru -Sy nushell
+paru -Sy carapace
+cd .config/nushell
+ls
+clear
+ls
+cd autoload/
+ls
+rm carapace.nu
+carapace _carapace nushell | save $"($nu.user-autoload-dirs.0)/carapace.nu"
+ls
+helix carapace.nu 
+ls
+starship init nu | save $nu.user-autoload-dirs.0/starship.nu
+starship init nu | save $"($nu.user-autoload-dirs.0)/starship.nu"
+starship init nu | save $"($nu.user-autoload-dirs.0)/starship.nu" -f
+ls
+bat carapace.nu 
+bat starship.nu 
+clear
+paru -Su
+paru -S
+paru -Su
+clear
+cd .obsidian/snippets/
+cd Documentos/Obsidian/.obsidian/snippets/
+ls
+clear
+ls
+yazi
+ls
+cod e.
+code .
+clear
+cd Documentos/Obsidian/.obsidian/snippets/
+clear
+code .
+clear
+uv tool
+uv tool -g
+uv tool -h
+tldr uv tool
+ouch
+tldr ouch
+tldr uv tool
+spotdl
+uv tool run spotdl
+vermin
+uv tool run vermin
+uv tool list
+uv tool
+tldr uv tool
+paru -S python-ignis-git
+killall ignis
+job spawn { ignis init }
+query
+query --help
+query db 
+query db --help
+stor
+query db --help
+ls
+cd Descargas
+query db --help
+stor create
+stor create -h
+stor create -t test
+stor create -t test -c {title: "Database", author: "Rikiub"}
+stor create -t test -c {title: string, author: string}
+string
+stor create -t test -c {title: str, author: str}
+str
+stor
+stor open
+stor open test
+stor
+stor open -h
+stor 
+stor open
+stor insert
+stor insert -h
+stor insert -t test -d {title: "DATABASE", author: false}
+stor insert -t test -d {title: "DATABASE", author: "Rikiub"}
+stor
+stor open
+stor open -h
+stor -h
+stor open | query db 
+stor open | query db -h
+stor open | query db "SELECT * FROM test"
+stor open | query db "SELECT * FROM te"
+stor
+stor reset
+stor create -t user -c {<\n>name: str,<\n>}
+stor reset
+stor create -t user -c {<\n>name: str,<\n>password: str<\n>}
+stor insert -t user -d {name: Rikiub, password: 123}
+stor insert -t user -d {name: Rikzy, password: 456}
+stor open
+stor open | query db "SELECT * FROM t"
+stor open | query db "SELECT * FROM user"
+stor open | query db "SELECT * FROM user" -h
+stor open | query db "SELECT name FROM user"
+ls
+clear
+cd Documentos
+ls
+cd Dev/
+ls
+cd rust/
+ls
+cd ..
+ls
+cd web
+ls
+cd zoom-web/
+pnpm --help
+ls
+open package.json
+open package.json | get devDependencies
+open package.json | get dependencies
+open package.json 
+open package.json | get scripts
+open package.json | get scripts | to json
+open package.json | get scripts | to yaml
+open package.json | get scripts | to msgpackz 
+open package.json | get scripts | to csv 
+open package.json | get scripts | to text 
+open package.json | get scripts | to md
+open package.json | get scripts | to md -h
+open package.json | get scripts | to md --pretty
+open package.json | get scripts | to tsv 
+open package.json | get scripts | to csv 
+ls
+clear
+ls
+clear
+cd .config/nushell
+lsg
+ls
+lsg
+z fish
+z nu
+ls
+cd autoload/
+z fish
+z fis
+z env
+z con
+z quick
+cd quickshell/
+z ~
+z quick
+z ignis
+helix .
+git status
+git add .
+git commit -m ":sparkles: (launcher): Activate item with one-click"
+git push
+killall firefox
+cd Documentos/Obsidian/
+ls
+cd ..
+ouch compress Obsidian/
+ouch compress Obsidian/ -h
+tldr ouch compress Obsidian/
+tldr ouch compress
+tldr ouch
+ouch compress Obsidian/ -h
+ouch compress Obsidian/*
+ouch compress Obsidian/* obsidian-backup.zip
+ls
+cd Obsidian/
+cd Documentos/Obsidian/
+ls
+ls -h
+ls | reverse 
+ls -a
+ls -a | reverse
+ls -a | sort -h
+ls -a | sort-by type
+ls -a | sort-by type | reverse
+ls -a | sort-by modified | reverse
+ls -a | sort-by modified
+cd ..
+ls
+cd Seguridad/
+ls
+cd ..
+cd Respaldos/
+ls
+ouch -h
+ouch decompress Obsidian-2025-06-15.zip test
+ouch decompress Obsidian-2025-06-15.zip test/
+ouch decompress Obsidian-2025-06-15.zip test/ -h
+ouch decompress Obsidian-2025-06-15.zip -d test
+ls
+ls test
+dunst
+dust test
+ls test -d
+ls test -h
+ls test -du
+ls test | reduce
+ls test | reduce -h
+ls test | reduce {|it| it.size}
+ls test | reduce {|it| $it.size}
+ls
+ls --help
+ls test/*
+ls test/**/*
+ls test/**/* | reduce {|it| $it.size}
+reduce -h
+ls test/**/* | reduce {|it| $it.size}
+ls test/**/*
+yazi
+ls
+rm test -r
+ls
+cd Documentos/Obsidian/
+code .obsidian/snippets/
+paru -Syu
+$nu.default-config-dir | path dirname 
+$nu.default-config-dir
+$nu.default-config-dir | path dirname 
+$nu.default-config-dir | path dirname | cd $in
+ls
+cd shell_nu/
+ls
+clear
+ls
+yazi
+cd autoload/
+carapace _carapace nushell | save carapace.nu -
+carapace _carapace nushell | save carapace.nu -hh
+carapace _carapace nushell | save carapace.nu -h
+carapace _carapace nushell | save carapace.nu
+carapace _carapace nushell | save carapace.nu -f
+ls
+bat carapace.nu 
+perl
+perl -h
+paru -Rns perl
+parallel -h
+$nu.default-config-dir | path dirname | cd $in
+ls
+$nu.default-config-dir | cd $in
+ls
+cd autoload/
+ls
+carapace _carapace nushell | save carapace.nu -f
+ls
+rm carapace.nu
+carapace _carapace nushell | save carapace.nu -f
+ls
+clear
+paru -Qs electron
+paru -Rns electron34
+cd .config/ignis
+$nu.default-config-dir | cd $in
+s
+ls
+cd autoload/
+ls
+carapace _carapace nushell | save carapace.nu -f
+ls
+cd .config/ignis
+code .
+ls
+clear
+cd .config/ignis
+clear
+ls
+killall ignis
+code .
+ignis init
+git add .
+git commit -m ":sparkles: Migrate to new syntax"
+git push
+paru -Ss warp
+paru -Ss cloudfare
+paru -Sy cloudfare
+systemctl stop systemd-resolved.service 
+paru -Sy cloudfare
+sudo helix /etc/systemd/
+sudo systemctl start systemd-resolved.service 
+sudo systemctl restart systemd-resolved.service 
+sudo helix /etc/systemd/resolved.conf 
+paru -Ss cloudfare
+paru -Ss cloud
+paru -Ss cloudfare
+paru -Ss warp
+paru -S cloudfare-warp-bin
+paru -Sy cloudfare-warp-bin
+fastfetch 
+paru -Ss emote
+flatpak search emote
+flatpak install  com.tomjwatson.Emote 
+btop
+emote
+flatpak search emote
+com.tomjwatson.Emote -h
+flatpak search smile
+paccache -rk0
+flatpak install it.mijorus.smile
+it.mijorus.smile 
+it.mijorus.smile  -h
+it.mijorus.smile
+flatpak uninstall it.mijorus.smile
+flatpak uninstall --unused
+flatpak uninstall com.tomjwatson.Emote 
+flatpak uninstall --unused
+paru -Ss flemozi
+ibus
+paru -S flemozi-bin
+flemozi
+flemozi -h
+flemozi 
+clear
+paru -Rns flemozi-bin
+flatpak search "Emoji Mart"
+flatpak install io.github.vemonet.EmojiMart 
+io.github.vemonet.EmojiMart 
+flatpak uninstall io.github.vemonet.EmojiMart --unused 
+flatpak uninstall io.github.vemonet.EmojiMart
+flatpak install it.mijorus.smile
+it.mijorus.smile -h
+ps | where name =~ emote
+ps | where name =~ smile
+killall emote
+ps | where name =~ smile
+it.mijorus.smile 
+io.github.vemonet.EmojiMart 
+it.mijorus.smile 
+flatpak install  com.tomjwatson.Emote 
+paru -Ss emote
+fc-cache 
+fc-cache -f -v
+cd .cache
+rm -r fontconfig/
+paru -S emote
+flatpak uninstall it.mijorus.smile
+flatpak uninstall --unused
+flatpak uninstall com.tomjwatson.Emote 
+flatpak uninstall --unused
+clear
+flatpak uninstall --unused
+killall firefox
+topgrade --yes --cleanup
+pacman -Rdd linux-firmware
+sudo pacman -Rdd linux-firmware
+sudo pacman -Su
+pacman -Syu linux-firmware
+sudo pacman -Syu linux-firmware
+pacman -Syu
+sudo pacman -Syu
+paru -R linux-firmware
+paru -Rns linux-firmware
+paru -Rns linux-firmware-mediatek
+paru -Rns linux-firmware
+paru -S linux-firmware-intel linux-firmware-realtek
+paru -S linux-firmware-intel linux-firmware-realtek linux-firmware-broadcom
+ls
+flatpak repait
+flatpak repair
+topgrade --yes --cleanup
+sudo flatpak repair
+topgrade --yes --cleanup
+ya pkg
+ya pack
+flatpak uninstall --unused
+pacman -Syu
+paccache -rk0
+paru -Syu
+nmtui
+cd /var/cache/pacman/pkg/
+ls
+yazi
+sudo yazi
+yazi
+cd .cache/paru
+ls
+cd clone
+ls
+yazi
+clear
+iwconfig
+iw 
+iw config
+ip link
+uname
+uname -h
+uname
+^uname
+^uname -a
+iw 
+cd Descargas
+ls
+pacman -U linux-firmware-other-20250613.12fe085f-9-any.pkg.tar.zst 
+paru -Sq linux-firmware-
+paru -Qs linux-firmware-
+sudo pacman -U linux-firmware-other-20250613.12fe085f-9-any.pkg.tar.zst 
+paru -Qs linux-firmware-
+ls
+cd Descargas
+ls
+rm linux-firmware-other-20250613.12fe085f-9-any.pkg.tar.zst
+clear
+paru -Ss goignis
+paru -Ss quickshell
+paru -S quickshell
+ls
+clear
+paru -Rns linux-firmware-other
+paru -Qs linux-firmware-
+cd .obsidian/
+cd Documentos/Obsidian/.obsidian/
+ls
+cd Documentos/Obsidian/.obsidian/
+ls
+cd snippets/
+ls
+code .
+cd Documentos/Dev/python/media_dl
+ls
+code .
+overlay use .venv/bin/activate.nu 
+clear
+cd Documentos/Obsidian/
+ls
+cd Extras/
+cd Adjuntos/
+ls
+ls | where name =~ "2024-04-18-17-45-31-935-01-01 1"
+ls | rg "2024-04-18-17-45-31-935-01-01 1"
+ls | where name =~ "IMG_20210822"
+ls
+ls | where name =~ "IMG_"
+paru -Qs linux-firmware-
+shadow
+cd Documentos/Obsidian/
+ls
+cd ..
+ls
+ouch compress Obsidian/* obsidian-backup.zip
+ls
+date
+date "YYYY"
+date -h
+date now
+date now | format
+date now 
+date 
+lutgen -h
+paru -Ss lutgen
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+paru -S lutgen-studio-bin
+topgrade --yes --cleanup
+lutgen-studio 
+paru -Rns lutgen-studio-bin
+gammastep -h
+darkman -h
+cd Documentos/Obsidian/
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+cd .obsidian/snippets/
+code .
+lspci | rg -i network
+lspci | rg 
+lspci
+teee
+tee
+sudo ^tee /sys/bus/pci/rescan
+tee -h
+lsmod
+lsmod | rg -i wifi
+cd Documentos
+ls
+y
+deno outdated --update
+deno outdated 
+deno outdated --update --latest
+clear
+ls
+deno add npm:rolldown-vite
+deno remove npm:vite
+vite dev
+deno task dev
+deno add npm:vite
+deno remove npm:rolldown-vite
+clear
+topgrade --yes --cleanup
+cd Publico
+ls
+cd test
+cd Test/
+ls
+ls -a
+cd .obsidian/
+sl
+ls
+cd plugins/
+ls
+rm -r copy-url-in-preview/
+git clone https://github.com/NomarCub/obsidian-copy-url-inpreview
+git clone https://github.com/NomarCub/obsidian-copy-url-inpreview.git
+git clone https://github.com/NomarCub/obsidian-copy-url-in-preview.git
+ls
+cd obsidian-copy-url-in-preview/
+ls
+bat README.md 
+ñs
+bat package.json 
+deno task dev
+deno install
+deno task dev
+ls
+code .
+cd Publico/Test/.obsidian/plugins/
+git clone https://github.com/pjeby/hot-reload.git
+ls
+cd obsidian-copy-url-in-preview/
+ls
+cd src
+tldr git add 
+git add --patch main.ts 
+git switch -c feature/rename
+ls
+git add .
+git commit -m "Update"
+git add .
+git commit -m "Update"
+git switch main
+git switch -c rename
+git switch feature/rename 
+git switch rename 
+git add .
+ls
+git status
+git diff
+cd ..
+git diff
+ls
+git diff main
+git add src
+git commit -m "Add new menu item"
+git switch rename 
+ls
+git switch feature/rename 
+git switch rename 
+git status
+git add src
+git commit -m "Add helper"
+git switch feature/rename 
+git switch rename 
+ls
+clear
+ls
+git diff
+git diff main
+git add .
+git commit -m "Add helper"
+ls
+clear
+ls
+git diff
+git diff main
+git add .
+git commit -m "Remove deno.lock"
+clear
+git diff
+git diff main
+q
+clear
+ls
+git diff
+git diff main
+git switch feature/rename 
+git switch rename 
+git branch --delete feature/rename 
+git branch -D feature/rename 
+ls
+git branch --move feature/rename
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+git push
+gh 
+deno task dev
+gh repo
+lspci
+lspci -k
+lspci -k | grep -A 3 -i
+lspci -k | grep -A 3 -i network
+lsmod
+lsmod | grep wl
+lsmod | grep iwlwifi
+rfkill
+rfkill list
+sudo rmmod wl
+sudo rmmod iwlwifi
+sudo modprobe iwlwifi
+sudo modprobe wl
+iwd
+lsmod | grep iwlwifi
+lsmod | grep wl
+rfkill list
+ls
+cd Descargas
+ls
+gh repo fork
+gh repo fork NomarCub/obsidian-copy-url-in-preview
+yazi
+ls
+cd obsidian-copy-url-in-preview/
+ls
+git diff main
+git switch -c feature/rename
+git add .
+git commit -m "Feature to rename image files from context menu"
+git push
+yazi
+cd obsidian-copy-url-in-preview/
+cd Publico/Test/.obsidian/plugins/
+ls
+cd obsidian-copy-url-in-preview/
+ls
+deno task dev
+deno install
+deno task dev
+cler
+clear
+git diff main
+git log
+git add .
+git commit -m "Feature to rename image files from context menu"
+git push
+rm deno.lock
+git add .
+git commit -m "Remove deno.lock"
+git push
+code .
+git switch -c feature/mobile-context-menu
+code .
+cd Publico/Test/.obsidian/plugins/
+ls
+cd obsidian-copy-url-in-preview/
+deno install
+clear
+ls
+yazi
+deno task dev
+yazi
+git diff main
+git branch --delete feature/mobile-context-menu 
+git branch -D feature/mobile-context-menu 
+git switch main
+git branch -D feature/mobile-context-menu 
+ls
+git switch feature/rename 
+git switch main
+clera
+clear
+yazi
+git switch -c feature/mobile-context-menu
+git diff mian
+git diff main
+git switch main
+ls
+git diff
+ls
+clear
+git switch feature/mobile-context-menu 
+ls
+git diff main
+cd Publico/Test/.obsidian/plugins/
+ls
+cd obsidian-copy-url-in-preview/
+ls
+rm main.js
+ls
+rm main.js
+ñs
+ls
+deno task dev
+ls
+cd ~
+cd P
+cd Publico/Test/.obsidian/plugins/
+ks
+ls
+clear
+cd image-context-menu/
+ls
+code .
+cler
+clear
+deno task dev
+yazi
+cd ..
+ls
+cd ~
+cd Publico/Test/.obsidian/plugins/
+ls
+cd image-context-menu/
+ls
+git diff
+clear
+git add src
+git diff
+git status
+git commit -m "Improve image copy on mobile"
+git status
+git diff
+git diff main
+clear
+git diff main
+git status
+git push
+git status
+clear
+git diff main
+git add src
+git status
+git commit -m "Don't activate copy on canvases"
+git push
+tldr git add
+cd Publico/Test/.obsidian/plugins/
+ls
+rm -r copy-url-in-preview/
+cd image-context-menu/
+ls
+git diff
+code .
+clear
+deno task dev
+ls
+rm main.js
+deno task dev
+l
+ls
+rm main.js
+lspci -k | grep -A 3 -i network
+ls /sys/bus/pci/devices
+rfkill
+rfkill list
+rfkill -h
+rfkill unblock
+rfkill 
+rfkill unblock 3
+rfkill
+lsusb
+dmseg
+lsusb
+sudo modprobe -r mt706u
+sudo modprobe -r mt7061u
+sudo modprobe -r mt7601u
+sudo modprobe mt7601u
+paru -Ss linux-firmware
+paru -Si linux-firmware
+paru -S linux-firmware-mediatek
+cd Publico/Test/.obsidian/plugins/
+ls
+ls image-context-menu/
+ls
+l
+syazi
+y
+ls
+yazi
+ls
+deno task dev
+l
+ls
+code .
+deno task dev
+ls
+git diff
+ls
+git add src/
+git status
+git commit
+git push
+ls
+git diff
+ls
+clear
+ls
+yazi
+ls
+git switch main 
+git switch -c multi-merge
+git merge feature/mobile-context-menu feature/rename
+helix src/main.ts 
+code .
+ls
+git status
+deno task dev
+git status
+git add src/
+git commit -m "Merge mobile context menus and rename option"
+ls
+git status
+deno task dev
+ls
+git status
+git add src/
+git commit
+clear
+ls
+clear
+ls
+clear
+ls
+cler
+clear
+ls
+clear
+git status
+git switch feature/mobile-context-menu 
+git merge feature/rename 
+git merge --abort
+git status
+git switch multi-merge 
+git push
+git switch feature/mobile-context-menu 
+git merge multi-merge 
+ls
+git add src/
+git commit -m "Add rename images feature"
+git log
+git push
+git status
+deno task dev
+git status
+git add src/
+git commit "urlPath.slice -> urlPath.substring"
+git commit
+git push
+git status
+ls
+git status
+ls
+clear
+ls
+clear
+ls
+clear
+cd Publico/Test/.obsidian/plugins/
+ls
+cd image-context-menus/
+ls
+clear
+ls
+cd Publico/Test/.obsidian/plugins/
+cd image-context-menus/
+ls
+helix src/helpers.ts 
+git add src/
+git commit -m "Add localization to 'copy to clipboard' Notices"
+git status
+git diff
+git push
+helix package.json 
+clear
+ls
+helix manifest.json 
+clear
+ls
+deno task dev
+cd Publico/Test/.obsidian/plugins/
+ls
+cd image-context-menus/
+ls
+helix README.md 
+git status
+git add README.md 
+git commit -m "Update README.md to reflect changes"
+git push
+cd Publico/Test/.obsidian/plugins/
+ls
+cd image-context-menus/
+ls
+helix src/main.ts 
+git status
+git add src/
+git commit -m "Little formatting change"
+git push
+helix src/main.ts 
+deno task dev
+clear
+ls
+clear
+ls
+clear
+ls
+tree /
+clear
+cd Documentos/Obsidian/.obsidian/themes/
+ls
+cd Iridium/
+ls
+yazi
+code .
+ls
+cd Documentos/Obsidian/.obsidian/themes/
+ls
+cd Iridium/
+ls
+bat manifest.json 
+open manifest.json
+cd ..
+gh repo fork kyffa/Iridium
+ls
+gh repo fork kyffa/Iridium
+ls
+ls Iridium/
+yazi
+ls
+ls Iridium/
+clear
+cd ..
+ls
+gh repo fork kyffa/Iridium
+ls
+cd Iridium/
+ls
+helix theme.css 
+git status
+git add .
+git commit -m "Fix blurry nodes in Canvas"
+git push
+ls
+cd ..
+ls
+rm -r Iridium/
+cd themes/
+la
+ls
+cd Iridium/
+ls
+cd Documentos/Obsidian/.obsidian/themes/
+cd ..
+ls
+ls | sort-by type
+cd themes
+ls
+z des
+ls
+gh repo fork kyffa/Iridium
+ls
+cd Iridium/
+ls
+helix theme.css 
+git status
+git diff main
+git add .
+git commit -m "Add margins to Reading View tables"
+ls
+clear
+git
+clear
+ls
+git push
+ls
+cd ..
+s
+ls
+rm -r Iridium/
+ls
+cd des
+cd Descargas
+gh repo fork kyffa/Iridium
+ls
+cd Iridium/
+ls
+git switch -c table-margin
+ls
+git log
+tldr git reset
+git log
+git reset 206bf7da83e8540d4e835c413eef709464bd49b1
+git log
+gir revert
+git revert
+tldr git revert
+tldr git HEAD
+git revert HEAD
+git status
+git diff main
+git diff table-margin
+git diff table-margin main
+git diff table-margin
+git log
+clear
+ls
+git status
+git diff
+git diff table-margin
+ls
+git add .
+git commit -m "Add margins to Reading View tables"
+git push
+git reset --hard HEAD~2
+git log
+cd ..
+ls
+rm -r Iridium/
+gh repo fork kyffa/Iridium
+ls
+cd Iridium/
+git reset --hard upstream/main 
+git log
+git status
+git push --force-with-lease origin 
+git push --force-with-lease origin main
+ls
+git switch -c fix-blurry-canvas
+helix theme.css 
+ls
+git status
+git add .
+git commit -m "Fix blurry nodes in Canvas"
+git push
+ls
+git switc -c table-margin
+git switch -c table-margin
+ls
+git log
+cd ..
+git branch 
+git branch --delete table-margin
+ls
+cd Iridium/
+l
+ls
+git branch --delete table-margin
+git branch -D table-margin
+git switch main
+git branch -D table-margin
+ls
+git switch table-margin
+ls
+git log
+ls
+cd ..
+rm -r Iridium/
+gh repo fork kyffa/Iridium
+cd Iridium/
+ls
+git switch -c table-margin
+git lg
+git log
+helix theme.css 
+git status
+git add .
+git commit -m "Add margins to Reading View tables"
+git push
+clear
+ls
+cd ..
+ls
+rm -r Iridium/
+ls
+clear
+cd ..
+cd Publico
+ls
+cd ..
+cd Publico/Test/.obsidian/plugins/
+ls
+cd image-context-menus/
+ls
+code .
+clear
+ls
+git log
+git status
+clear
+git log
+git switch -c delete-file
+clear
+cd Documentos/Obsidian/.obsidian/
+cd plugins/image-context-menus/
+ls
+code .
+deno task dev
+ls
+killall code
+z pu
+cd Test/.obsidian/plugins/image-context-menus/
+clear
+ls
+code .
+deno task dev
+git switch main
+git add .
+git status
+git restore --staged manifest.json 
+git status
+git commit -m "Delete files beta"
+git status
+git switch main
+git branch --delete feature/rename 
+git branch --delete multi-merge 
+git branch --delete origin/feature/rename 
+clear
+git branch
+git switch feature/mobile-context-menu 
+clear
+git status
+deno task dev
+ls
+git status
+git add src/
+git diff
+git diff main
+git commit -m "Open in new tab with TFile instead of image element"
+ls
+git log
+git stauts
+git status
+git push
+deno task dev
+cd ..
+ls
+mkdir snippets
+cd snippets/
+ls
+cd Publico/Test/.obsidian/plugins/
+ls
+cd image-context-menus/
+deno task dev
+git add .
+git commit -m "Avoid zoom the image when context menu is opened on mobile"
+git status
+git diff main
+git revert man
+git restore manifest.json 
+git restore manifest.json  --source main 
+git diff main
+git status
+git add .
+git commit -m "Revert manifest.json to main"
+git push
+deno task dev
+git diff main
+git status
+git add .
+git commit -m "Use preventDefault instead of stopImmediatePropagation to get vibrations on mobile"
+git push
+ls
+cd Documentos/Obsidian/.obsidian/
+ls
+cd plugins/
+ls
+cd image-context-menus/
+ls
+z pu
+ls
+cd Test/.obsidian/plugins/image-context-menus/
+rm -r node_modules/
+git status
+ls
+git switch main 
+code .
+clear
+git pull
+deno install
+deno install --allow-scripts
+code .
+git status
+deno task lint
+ls
+git diff
+git lo
+git log
+git restore .
+git status
+git log
+rm deno.lock
+clear
+deno task lint
+rm -r node_modules/
+deno install --allow-scripts
+deno install
+rm -r node_modules/
+deno install
+deno task lint
+ls
+bat package.json 
+deno run eslint
+paru -Ss eslint
+paru -S eslint
+deno task lin
+deno task lint
+eslint
+eslint -h
+bat package.json
+eslint
+paru -Ss pnpm
+paru -S pnpm
+paru -Rns eslint
+git status
+rm deno.lock
+ls
+rm -r node_modules/
+pnpm install
+pnpm run lint
+ls
+bat eslint.config.mjs 
+rm -r node_modules/
+deno install
+ls
+paru -Rns pnpm
+deno lint
+deno lint src
+ls
+git diff
+deno task dev
+foot
+cd Test/.obsidian/plugins/image-context-menus/
+cd Publico/Test/.obsidian/plugins/image-context-menus/
+ls
+celera
+clear
+git dif
+git diff
+git lint
+git diff
+git status
+git add src/
+git commit -m "Fixes recommended by deno linter"
+git switch refactorization 
+git pull
+git pull origin origin/feature/mobile-context-menu 
+git fetch origin feature/mobile-context-menu
+git log
+git status
+rm deno.lock
+ls
+git status
+git statu
+git status
+ls
+git switch feature/mobile-context-menu 
+git log
+git status
+git log
+git diff
+git status
+git add .
+git add -m "Refactorization Part 1"
+git status
+git add .
+git commit -m "Refactorization Part 1"
+git switch refactorization 
+git switch feature/mobile-context-menu 
+git status
+git diff
+ls
+git diff
+git status
+git add .
+git commit -m "Refactorization Part 2"
+git diff
+clear
+git diff
+git log
+git diff
+clear
+ls
+git add.
+clear
+git switch main
+git status
+git add .
+git commit -m "Refactorization Part 2"
+git log
+git switch mai
+git switch main
+git switch feature/mobile-context-menu 
+clear
+git log
+git push
+deno lint
+git switch main
+git switch feature/mobile-context-menu 
+ls
+clear
+deno task dev
+paru -S python-ignis-git
+paru -Sy python-ignis-git
+cd .config/ignis
+ls
+code .
+killall
+killall ignis
+ignis init
+claer
+clear
+ignis init
+clear
+ignis init
+git diff
+git add .
+git commit -m "Migrate to new API"
+git push
+ruff check --select I --fix
+ruff format
+git diff
+git add .
+git commit -m "Ruff format"
+git push
+job spawn { ignis init }
+cd .config/ignis
+git add .
+git commit -m "Change"
+git push
+clear
+paru -Ss quickshell
+cd Publico/Test/.obsidian/plugins/image-context-menus/
+ls
+git pull
+deno task dev
+cd .config/ignis
+clear
+ls
+code 
+code .
+killall ignis
+ignis init
+ruff format
+ruff check --select I --fix
+git add .
+git commit -m "Fix dark theme switcher"
+git push
+ignis init
+job spawn { ignis init }
+wev
+wev -h
+wev --help
+paru -Rns electron34
+cd Documentos/Dev/rust/
+ls
+clear
+ls
+cd ..
+ls
+cd .config/ignis
+code .
+clear
+init
+ignis init
+killall ignis
+ignis init
+clear
+ignis init
+git add .
+git commit -m "Chore"
+git push
+ignis init
+clear
+ignis init
+clea
+ignis init
+cd .config/ignis
+ls
+git switch -c "device-menu-view" 
+git add .
+git commit -m "Device Menu as View"
+git switch main
+ls
+i
+job spawn { ignis init }
+cd Publico/Test/.obsidian/plugins/image-context-menus/
+ls
+git pull
+code .
+cler
+clear
+deno task dev
+deno lint
+git diff
+git add .
+git commit -m "Fixed: canvas context menu don't working on images"
+git push
+deno task dev
+git add .
+git commit -m "Improve URl detection on canvas + Refactorization"
+git switch main
+deno task dev
+git switch feature/mobile-context-menu 
+git push
+deno task dev
+l
+ls
+clear
+cd Publico/Test/.obsidian/plugins/image-context-menus/
+ls
+code .
+clear
+cd Publico/Test/.obsidian/plugins/image-context-menus/
+clear
+code .
+clear
+cd Descargas
+ls
+git log
+ls
+clear
+git revert 66007a114c3c9d13df5ae5c0594684fe3ba52e05
+git log
+git reset 66007a114c3c9d13df5ae5c0594684fe3ba52e05
+git log
+git reset --soft 66007a114c3c9d13df5ae5c0594684fe3ba52e05
+git log
+git diff
+ls
+git log
+git status
+git pull
+git log
+git revert 2b3e258203fa5de35aed3ac976a834673cd6563d
+git diff
+ls
+git add .
+git commit -m "Improve URl detection on canvas"
+git switch main
+deno task dev
+ls
+git switch feature/mobile-context-menu 
+git pull
+clear
+git switch main
+git switch feature/mobile-context-menu 
+git log
+git switch main
+git switch feature/mobile-context-menu 
+clear
+git switch main
+git switch feature/mobile-context-menu 
+git diff
+git push
+git log
+git switch main
+git switch feature/mobile-context-menu 
+clear
+git diff
+git log
+git add .
+git commit -m "Fix context menu on new windows"
+git push
+yazi
+clear
+ls
+clear
+ls
+clear
+cd Publico/Test/.obsidian/plugins/image-context-menus/
+ls
+git pull
+git switch main
+git pull
+ls
+git branch
+git remotes
+clear
+git
+clear
+git
+git pull
+git remote
+git pull origin origin/main 
+git pull upstream  origin/main 
+cd ..
+ls
+git clone https://github.com/NomarCub/obsidian-copy-url-in-preview.git
+ls
+yazi
+ls
+cd image-context-menus/
+ls
+cd ..
+ls
+rm -r image-context-menus/
+cd obsidian-copy-url-in-preview/
+ls
+celar
+ls
+clear
+ls
+git status
+code .
+clear
+git switch -c refactorization
+clear
+git status
+git diff
+git add .
+git commit -m "Format imports"
+clear
+deno add npm:biome
+biome 
+clear
+biome
+biome lint --h
+biome lint --help
+deno remove @stylistic/eslint-plugin eslint typescript-eslint
+deno add npm:biome --dev
+biome
+biome init
+biome --help
+deno run biome --help
+rm -r node_modules/
+deno install
+code .
+git status
+git add .
+cd ..
+ls
+cd obsidian-copy-url-in-preview/
+gh repo fork NomarCub/obsidian-copy-url-in-preview
+git remote
+gh repo fork NomarCub/obsidian-copy-url-in-preview
+cd ..
+gh repo fork NomarCub/obsidian-copy-url-in-preview
+cd obsidian-copy-url-in-preview/
+gh repo
+ls
+git status
+git commit -m "Replace eslint with biome for formatting and linting"
+git remote
+git remote remove origin 
+git remote add origin git@github.com/Rikiub/obsidian-copy-url-in-preview.git
+git remote
+git pull
+git remote remove origin 
+git remote add origin https://github.com/Rikiub/obsidian-copy-url-in-preview.git
+git switch main
+git pull
+git branch --set-upstream-to=origin/main main
+git pull
+git status
+git diff
+git diff main
+git log
+ls
+git remote 
+git remote --help
+git remote origin
+git remote --help
+git remote get-url
+git remote get-url origin
+git log
+tldr git reset
+git reset 705db684371c4e63790710a8a746e0af3b6e5289
+git log
+git reset --hard 705db684371c4e63790710a8a746e0af3b6e5289
+ls
+git log
+git push
+git remote remove origin 
+git remote add origin git@github.com:Rikiub/obsidian-copy-url-in-preview.git
+git pull
+git branch --set-upstream-to=origin/main main
+git pull
+cd ..
+ls
+rm -r obsidian-copy-url-in-preview/
+git clone git@github.com:Rikiub/obsidian-copy-url-in-preview.git
+cd obsidian-copy-url-in-preview/
+git remote get
+git remote get-url origin
+git branch
+clear
+ls
+clear
+ls
+celar
+clear
+git switch -c refactorization
+clear
+deno remove @stylistic/eslint-plugin eslint typescript-eslint
+tldr git revert 
+git restore package.json 
+cd ..
+ls
+cd obsidian-copy-url-in-preview/
+ls
+cd ..
+rm -r obsidian-copy-url-in-preview/
+git clone git@github.com:Rikiub/obsidian-copy-url-in-preview.git
+cd obsidian-copy-url-in-preview/
+ls
+clear
+deno remove @stylistic/eslint-plugin eslint typescript-eslint
+code .
+git status
+git restore src/main.ts 
+git status
+git add .
+git commit -m "Replace eslint with biome for formatting and linting"
+git switch -c refactorization
+git log
+git add .
+git switch -c main 
+git switch main
+git log
+git reset --hard HEAD~1
+git switch refactorization 
+git log
+git switch main
+git switch refactorization 
+clear
+ls
+git add status
+git status
+git add .
+git commit -m "Sort imports"
+clear
+deno task format
+biome format
+biome format -h
+biome lint --help
+git status
+git add .
+git commit -m "Add format:fix to package.json"
+clear
+deno task format
+deno task format --help
+deno task format --vcs-enabled=true
+deno task format --vcs-enabled=true --vcs-kind=git
+deno task format --vcs-enabled=true --vcs-
+deno task format --vcs-enabled=true --help
+deno task format --vcs-enabled=true --vcs-client-kind=git
+deno task format
+deno task format src/helper.ts
+deno task format src/helpers.ts
+git status
+git diff main
+git log
+biome ling
+deno task lint
+git push
+git status
+git add .
+git status
+git add .
+git commit -m "main: Format onImageContextMenu() and onImageMouseUp()"
+git push
+clear
+ls
+clear
+ls
+git log
+clear
+ls
+git log
+git status
+git add .
+git commit -m "main: Format this.registerEvent related to canvas"
+git push
+deno add npm:biome --dev
+git status
+rm deno.lock
+git status
+git diff
+git add .
+git commit -m "Add biome dependency"
+git push
+clear
+deno remove biome
+deno add npm:@biomejs/biome --dev
+git status
+rm deno.lock
+bat package.json 
+git add .
+git commit -m "Add biome dependency (again)"
+git push
+bat package.json 
+deno task biome
+deno task format
+den
+deno
+clear
+ls
+claer
+clear
+cd Publico/Test/.obsidian/plugins/image-context-menus/
+cd Publico/Test/.obsidian/plugins/obsidian-copy-url-in-preview/
+clear
+npm install --package-lock-only
+git status
+git diff
+git add .
+git commit -m "Update package-lock.json"
+git push
+clear
+ls
+cd Publico/Test/.obsidian/plugins/obsidian-copy-url-in-preview/
+git switch main
+clear
+rm -r node_modules/
+npm install
+bun
+npm install
+clear
+ls node_modules/
+ls
+clear
+ls
+npm run lint
+npm run lint --help
+npm run lint -- --help
+npm run lint
+rm -r node_modules/
+pnpm
+deno install
+deno task lint
+helix eslint.config.mjs 
+paru -Sy deno
+deno task lint
+helix eslint.config.mjs 
+clear
+deno task lint
+helix eslint.config.mjs 
+code .
+clear
+deno search npm:eslint
+deno add @eslint/config
+deno add npm:@eslint/config
+deno add npm:@eslint/config@latest
+deno add "npm:@eslint/config"
+deno add "npm:@eslint/js"
+clear
+deno run lint
+deno run lint --dev
+deno add "npm:@eslint/js" --dev
+git switch -c "add-eslint-js"
+git status
+git diff
+rm deno.lock
+clear
+deno task lint -- --help
+deno task lint
+npm install --package-lock-only
+deno task lint
+git status
+git add .
+git commit -m "Add @eslint/js dependency"
+clear
+killall ignis
+job spawn { ignis init }
+cd Publico/Test/.obsidian/plugins/obsidian-copy-url-in-preview/
+clear
+ls
+clear
+git push
+cd ..
+gh repo fork d7sd6u/obsidian-lazy-cached-vault-load
+cd obsidian-lazy-cached-vault-load/
+clear
+ls
+git switch -c "hide-popups"
+code .
+clear
+deno install
+codeeeeeeee .
+code .
+clear
+git submodule update
+git submodule update --remote --recursive
+clear
+deno task dev
+git status
+git submodule update --init --recursive
+deno task dev
+yazi
+y
+ouch compress Obsidian/* obsidian-backup.zip
+git branch --move remove-popups
+git switch main
+git switch master 
+git restore src/FSCache.ts src/OriginalMetadataCache.ts src/main.ts 
+killall obsidian
+cd Publico/Test/.obsidian/plugins/obsidian-copy-url-in-preview/
+git switch main 
+git branch --delete add-eslint-js 
+git pull
+bat package.json 
+git pull
+claer
+clear
+ls
+git remote
+git remote get-url origin
+git branch
+git pull
+bat package.json 
+git pull
+git branch --delete add-eslint-js 
+git branch --delete origin/add-eslint-js 
+git branch --delete --remote origin/add-eslint-js 
+git pull
+git switch refactorization 
+git pull
+bat package.json 
+git remote get-url origin
+git log
+git pull
+git pull origin origin/main 
+git pull origin origin/refactorization 
+git push
+git pull origin origin/refactorization 
+git merge main 
+git merge
+yazi
+code .
+clear
+ls
+clear
+cd Publico/Test/.obsidian/plugins/obsidian-copy-url-in-preview/
+ls
+clear
+ls
+tldr git restore
+git restore --source origin/main eslint.config.mjs
+clear
+npm install --package-lock-only
+git restore package-lock.json 
+git restore --source main  package-lock.json 
+clear
+ls
+git status
+git add .
+git commit 
+git push
+clear
+ls
+clear
+cd Documentos/Obsidian/
+ls | where name =~ "eslint"
+open eslint.md
+rm -r node_modules/
+deno install
+clear
+ls | where name =~ "eslint"
+open eslint.md
+code eslint.md 
+open eslint.md
+biome init
+git status
+git add .
+git commit -m "Add biome.json config"
+git push
+deno remove @stylistic/eslint-plugin
+git status
+rm deno.lock
+git status
+git add .
+git commit -m "Remove @stylistic/eslint-plugin dependency"
+git push
+clear
+deno task format
+deno task format:fix
+git log
+deno task format:fix
+deno task format:fix src/
+clear
+git reset --hard main
+git log
+git reset --hard origin/refactorization 
+git log
+clear
+git log
+clear
+git lo
+foot
+job spawn { foot }
+clear
+ls
+clear
+ls
+cler
+clear
+job
+clear
+git revert 976066a959b9a83e1cc5fa99eedcc139a8bb7d27 f1fa88027cea5bf54bb6195537a58dd961b49a7a
+git log
+git push
+clear
+ls
+cd Documentos/Obsidian/
+ls
+yazi
+cd --
+cd ..
+cd Respaldos/
+ls
+ouch decompress Obsidian-2024-11-08.7z
+l
+ls
+obsidian Obsidian/
+mv Obsidian/ Back-Sidian
+obsidian Back-Sidian/
+ls
+rm Back-Sidian/
+rm Back-Sidian/ -r Obsidian-2024-11-08.7z
+ls
+ouch decompress Obsidian-2025-06-15.zip BackSidian
+ouch decompress Obsidian-2025-06-15.zip
+ls
+rm -r Obsidian-2025-06-15/
+ouch decompress Obsidian-2025-06-28.zip
+ls
+paru -Ss gtp4all
+paru -Ss gtp4
+paru -Ss gpt4all
+paru -S gpt4all-chat
+flatpak search gpt4all-chat
+cd Publico/Test/.obsidian/plugins/obsidian-copy-url-in-preview/
+ls
+git pull
+ls
+helix biome.json 
+deno task format
+helix biome.json 
+deno task format
+biome lint
+biome lint src/
+biome lint
+biome format
+biome lint
+helix biome.json 
+biome lint
+helix biome.json 
+ls
+deno task format
+helix biome.json 
+git diff
+git add .
+git commit -m "Remove unnecessary biome.json options"
+biome lint
+ls
+open biome.json
+open biome.json | get "$schema"
+open biome.json | get formatter
+open biome.json | get enabled
+open biome.json | get
+open biome.json 
+open biome.json | get actions
+open biome.json | get assist.actions
+open biome.json
+open biome.json | get assist.actions | to json
+open biome.json
+biome --help
+git pushç
+deno task format
+git push
+cler
+clear
+code .
+clear
+git diff
+git add .
+git commit -m "Add whitespaces"
+git add .
+git commit
+ls
+git push
+clear
+ls
+clear
+ls
+paru -Ss markitdown
+paru -S python-markitdown
+uv tool
+uv tool --help
+uv tool install markitdown[pdf]
+markitdown 
+markitdown --help
+ls
+z ob
+ls
+cd Extras/Adjuntos/
+ls
+ls | where type = "pdf"
+ls | where type == "pdf"
+ls -l
+ls | where name =~ ".pdf"
+ls | where name =~ ".pdf" | sort-by size
+markitdown Introducción a las Ecuaciones Diferenciales.pdf  
+cat Introducción a las Ecuaciones Diferenciales.pdf | markitdown 
+yazi
+cp Introducción a las Ecuaciones Diferenciales.pdf ~/Descargas
+cp "Introducción a las Ecuaciones Diferenciales.pdf" ~/Descargas
+z des
+ls
+markitdown `Introducción a las Ecuaciones Diferenciales.pdf`
+ls
+open `Introducción a las Ecuaciones Diferenciales.pdf`
+open `Introducción a las Ecuaciones Diferenciales.pdf` | markitdown 
+ls
+open `Introducción a las Ecuaciones Diferenciales.pdf` | markitdown  -h
+open `Introducción a las Ecuaciones Diferenciales.pdf` | markitdown -o xd.md
+ls
+open xd.md
+yazi
+z adju
+ls
+ls | where name =~ ".pdf" | sort-by size
+ls | where name =~ ".pdf" | sort-by size | yazi
+pandoc
+ls | where name =~ ".pdf" | sort-by size
+cp "Álgebra de Funciones y Composición de Funciones. Parte III.pdf" ~/Descargas
+z des
+ls
+open `Introducción a las Ecuaciones Diferenciales.pdf`
+open `Introducción a las Ecuaciones Diferenciales.pdf` | markitdown -o xd.md
+ls
+open xd.md
+rm xd.md
+open `Introducción a las Ecuaciones Diferenciales.pdf` | markitdown
+open `Introducción a las Ecuaciones Diferenciales.pdf` | markitdown -h
+markitdown  `Introducción a las Ecuaciones Diferenciales.pdf`
+markitdown `Álgebra de Funciones y Composición de Funciones. Parte III.pdf`
+yazi
+z ad
+ls | where name =~ ".pdf" | sort-by size
+yazi
+cp `Calculo Integral - Jorge Saenz.pdf` ~/Descargas
+z des
+ls
+markitdown `Calculo Integral - Jorge Saenz.pdf`
+ls
+rm `Calculo Integral - Jorge Saenz.pdf`
+ls
+killall igni
+killall ignis
+ignis init
+paru -Sy ignis-git
+ignis init
+uv tool
+uv tool uninstall markitdown
+uv tool
+uv tool --help
+uv tool list
+z ignis
+ls
+ls -a
+open options.json
+open options.json | to json
+open -h
+open options.json --raw
+ignis init
+ls .cache
+claer
+clae
+clear
+ignis init
+helix options.json 
+mv options.json options.bak.json
+ignis init
+helix .cache/options.json 
+ls
+yazi
+ignis init
+yazi
+ignis init
+job spawn { foot }
+job spawn { ignis init }
+cd Publico/Test/.obsidian/plugins/obsidian-copy-url-in-preview/
+ls
+git switch main
+cd Publico/Test/.obsidian/plugins/obsidian-copy-url-in-preview/
+ls
+git switch main
+git pull
+git switch refactorization 
+git pull
+ls
+git diff
+yazi
+code .
+git switch main
+git switch -c feature/copy-external-link
+deno task dev
+job spawn {foot}
+clear
+code .
+clear
+git branch --move refact-menu
+ls
+clear
+deno task lint
+ls
+rm -r node_modules/
+deno task dev
+cd Publico/Test/.obsidian/plugins/obsidian-copy-url-in-preview/
+clear
+ls
+rm -r node_modules/
+deno install
+ls -a
+deno task lint
+helix src/main.ts 
+code .
+deno task lint
+celar
+clear
+celar
+cler
+clear
+deno task lint
+job spawn {foot}
+clear
+ls
+clear
+ls
+clear
+cd src
+ls
+yazi
+clear
+ls
+cd ..
+git diff
+clear
+ls
+clear
+git add .
+git status
+git commit -m "Move 'menu' from helpers.ts to menu.ts"
+ls
+clear
+git push
+clear
+deno task dev
+clear
+uv self version
+paru -Sy uv
+paru -Sy uv python-uv
+z py
+ls
+z python
+z dev
+ls
+cd python/
+cd media_dl/
+ls
+yazi
+uv init
+yazi
+uv init --lib
+yazi
+git status
+cd Descargas
+mkdir xd
+cd cd
+cd xd
+uv init --lib
+ls -a
+yazi
+uv init --app
+yazi
+cd ..
+rm -r xd
+ls
+cd Descargas
+ls
+mkdir xd
+cd xd/
+yazi
+cd ..
+z des
+cd xd-xd/
+uv init --lib
+yazi
+cd Descargas
+uv init xd
+ls
+rm -r xd
+uv init xd --lib
+cd xd
+ls
+yazi
+CD ..
+cd ..
+rm -r xd
+uv init xd --app
+yazi
+yazi
+code .
+git status
+clear
+uv venv
+uv sync
+uv venv
+ls
+ls -a
+rm -r .venv/
+uv sync
+overlay use .venv/bin/activate.nu 
+clear
+media-dl
+uv sync
+clear
+uv sync
+media-dl
+uv sync
+media-dl
+uv sync
+media-dl
+uv sync
+media-dl
+uv sync
+media-dl
+uv sync
+media-dl
+uv sync
+me
+media-dl 
+uv sync
+media-dl 
+git diff
+git status
+uv test
+pytest
+git add .
+git commit -m "Change build backend to uv_build"
+git push
+media-dl
+uv sync -U
+uv sync --help
+clear
+git status
+git add .
+git commit -m "Update uv.lock"
+git push
+clear
+pytest
+clear
+ls
+clear
+cd Publico/Test/.obsidian/plugins/obsidian-copy-url-in-preview/
+git switch main
+git pull
+ls
+cd Documentos
+cd Respaldos/
+ls
+ouch decompress Obsidian-2025-06-28.zip
+ls
+cd Obsidian-2025-06-28/
+ls Extras/Adjuntos/
+ls Extras/Adjuntos/ | where name =~ "Jorge saenz.pdf"
+ls Extras/Adjuntos/ | where name =~ "Jorge saenz * .pdf"
+ls Extras/Adjuntos/ | where name =~ ".pdf"
+cp `Extras/Adjuntos/Fundamentos de la Matematica - Estructuras Discretas (2016) (Jorge A. Sáenz).pdf` ~/Documentos/Obsidian/Extras/Adjuntos/
+cd ..
+ls
+rm -r Obsidian-2025-06-28/
+ls
+clear
+paru -Ss espanso
+paru -S espanso-wayland
+clip
+clip -h
+clip
+import std
+import --help
+use
+use std
+clip
+nu --version
+paru -Sy nushell
+paru -S espanso-wayland
+ls .cargo
+ls -a
+cd .local/share/
+cd cargo/
+yazi
+dunst
+dust
+du
+du -h
+du registry/
+ls -a
+ls .var
+ls
+ls -a
+paru -Sy syncthing
+paccache -rk0
+cd .local/share/
+cd cargo
+ls
+yazi
+ls
+cd registry/
+dust
+ls
+rm -r cache/
+dust
+rm -r src/
+dus
+dust
+rm -r index/
+ls
+cd Publico/Test/.obsidian/plugins/obsidian-copy-url-in-preview/
+git pull
+code .
+git switch -c feature/edit-image-inline
+job spawn {foot}
+clear
+clear
+deno task lin
+deno task lint
+clear
+git switch -c refact/menu-sections
+git status
+git add .
+git commit -m "Reuse Menu Sections as array"
+git push
+deno task lint
+clear
+git switch main
+clear
+git switch feature/edit-image-inline 
+clear
+z obs
+ls Temmie Chang
+ls "Temmie Chang"
+find
+find "Temmie Chang"
+find
+find --help
+ls | find Temmie
+find --help
+paru -Sy quickshell
+nushell --version
+nu --version
+clip
+clear
+use std/clip
+clip
+use std/clip; clip --help
+use std/clip; clip copy 
+use std/clip; clip 
+clip copy --help
+xd | clip copy
+"xddd" | clip copy
+clip paste
+topgrade --yes --cleanup
+paccache -rk0
+ls
+ignis --help
+ignis reload
+claer
+clear
+z nu
+ls
+cd autoload/
+ls
+rm carapace.nu
+carapace _carapace nushell | save carapace.nu -f
+ls
+clear
+ls
+open | nu-highlight 
+z py
+z media
+ls
+open pyproject.toml
+open pyproject.toml | nu-highlight 
+open pyproject.toml --raw | nu-highlight 
+open pyproject.toml --help
+scope commands
+scope open
+open --help
+scope commands<\n>    | where name starts-with "from "<\n>    | insert extension { get name | str replace -r "^from " "" | $"*.($in)" }<\n>    | select extension name<\n>    | rename extension command
+bat pyproject.toml 
+clear
+ls
+clea
+clear
+open pyproject.toml
+clea
+open pyproject.toml
+bat pyproject.toml 
+open pyproject.toml
+open pyproject.toml | get project
+set
+const --help
+update --help
+open pyproject.toml | project update name xd
+open pyproject.toml | update project.name xd
+open pyproject.toml | update project.name xd | save
+let file = pyproject.toml | open $file
+let file = pyproject.toml; open $file
+let $file = pyproject.toml; open $file
+let file = pyproject.toml; open $file
+let file = "pyproject.toml"; open $file
+let file = "pyproject.toml";<\n>open $file 
+let file = "pyproject.toml";
+let file = "pyproject.toml"; open $file |<\n>update project.name "sex-dl"
+let file = "pyproject.toml"; open $file |<\n>update project.name "sex-dl" |<\n>save $file
+let file = "pyproject.toml"; open $file |<\n>update project.name "sex-dl" |<\n>save $file -
+let file = "pyproject.toml"; open $file |<\n>update project.name "sex-dl" |<\n>save $file -f
+open pyproject.toml
+let file = "pyproject.toml"; open $file |<\n>update project.name "media-dl" |<\n>save $file -f
+open pyproject.toml | get project.name
+open pyproject.toml | get project
+open pyproject.toml | get project.dependencis
+open pyproject.toml | get project.dependencies
+topgrade --yes --cleanup
+paccache -rk0
+paru --help
+paru -Scc
+rm -r /var/cache/pacman/pkg/download-8xJYn
+rm -r /var/cache/pacman/pkg/download-7kMKZN/
+rm -r /var/cache/pacman/pkg
+sudo rm -r /var/cache/pacman/pkg
+rm -r /var/cache/pacman/pkg
+sudo mkdir /var/cache/pacman/pkg
+paru -Scc
+cd .cache
+yazi
+dust 
+rm -r BraveSoftware/ paru/ deno/ npm/
+dust 
+rm -r biome/ pnpm thumbnails/ electron/ mozilla/
+dust 
+dust .cache
+cd .local
+dust share/
+ls
+cd share
+du
+ls --du
+ls
+du spotdl
+du uv
+rm -r uv
+ls
+du zoxide
+du temp
+du rustup/
+du cargo
+ls
+du pnpm
+yazi
+z da
+z Datos
+ls
+ls -a
+rm -r .Trash-1000/
+rm -r .pnpm-store/
+du .uv-cache/
+cd .uv-cache/
+ls
+cd ..
+rm -r .uv-cache/
+ls
+yazi
+du .var
+ls -a
+du .ssh
+du .mozilla/
+yazi
+ls
+yazi
+cd .local
+cd share
+ls
+topgrade --yes --cleanup
+du flatpak/
+du go
+rm -r go
+du gnome-software/
+yazi
+dust 
+yazi
+topgrade --yes --cleanup
+du rustup/
+ls
+rust --help
+rustc --help
+cargo
+ls
+trash 
+gio trash --empty
+yazi
+dust 
+rm -r lapce-stable/
+dust 
+ls Trash/
+rm -r Trash/
+gio trash --empty
+ls
+dust 
+paccache -rk0
+paru -Scc
+arch-clean
+S
+arch-clean
+paru -Rns cmake cppdap jsoncpp libkeybinder3
+arch-clean
+paru -Rns libmsgpack python-setproctitle python-typer   wxwidgets-common   wxwidgets-gtk3  
+paru -Rns libmspack python-setproctitle python-typer   wxwidgets-common   wxwidgets-gtk3  
+arch-clean
+ls
+cd Seguridad/
+ls
+cd ..
+cd Documentos
+lss
+ls
+date
+date now
+date now | format
+format -h
+date now | format date
+date now | format date "Y"
+date now | format date "Y%"
+date now | format date "%Y"
+date now | format date "%Y-%m-%d"
+ouch compress Obsidian/* (date now | format date "%Y-%m-%d")-obsidian.zip
+yazi
+ls
+ls -a
+cd Documentos
+ls
+cd Obsidian/
+ls
+cd ..
+ls
+rm Obsidian/ --help
+rm Obsidian/ --trash
+rm Obsidian/ --trash -r
+z obs
+ls
+cd .obsidian/snippets/
+ls
+open cards
+open Cards.css
+open Cards.css | nu-highlight 
+bat Cards.css 
+paru -Sy quickshell
+cd .config/quickshell/
+ls
+touch .qmlls.ini
+quickshell 
+ls
+bat .qmlls.ini 
+ls
+cd /usr/lib/qt6/qml
+ls
+code .
+ls
+ls -a
+bat .qmlls.ini 
+ls
+qmlls6 
+qmlls6 --help
+helix 
+helix .
+cd /usr/lib/qt6/qml
+yazi
+z heliz
+z helix
+ls
+open languages.toml
+open languages.toml | get language-server
+open languages.toml | get language-server.qmlls
+pgrep qmlls
+open languages.toml | get language-server
+open languages.toml | get language-server.deno-lsp
+open languages.toml | get language-server.deno-lsp.args
+z quick
+ls
+code .
+paru -S qt6-doc
+clear
+z quick
+ls
+code .
+clear
+quickshell 
+cd Imagenes
+z doc
+ls
+ouch compress Obsidian/* (date now | format date "%Y-%m-%d")-obsidian.zip
+ls
+cd Obsidian/
+du
+cd ..
+du Obsidian/
+ls
+mv 2025-07-31-obsidian.zip Obsidian-2025-07-31.zip
+ls
+du Obsidian/
+clear
+ls
+yazi
+cd Respaldos/
+ls
+ouch decompress Obsidian-2025-07-31.zip
+yazi
+ls
+cd ..
+du Obsidian/
+yazi
+cd Respaldos/
+ls
+ouch decompress Obsidian-2025-07-31.zip
+yazi
+ls
+cd ..
+ls
+du Obsidian/
+l
+cd Obsidian/
+ls
+cd Extras/Adjuntos/
+ls | where name =~ ".webp" | sort-by size
+cd ..
+du Obsidian/
+cd Obsidian/Extras/Adjuntos/
+ls
+ls | select size
+ls | select size | reduce
+ls | select size | reduce --help
+ls | select size | reduce {|a,b| a + b}
+ls | select size | reduce {|a,b| $a + $b}
+ls | get size | reduce {|a,b| $a + $b}
+ls | where name =~ ".webp"<\n>get size | reduce {|a,b| $a + $b}
+ls | where name =~ ".webp" |<\n>get size | reduce {|a,b| $a + $b}
+ls | where name =~ ".pdf" |<\n>get size | reduce {|a,b| $a + $b}
+ls | where name =~ ".gif" |<\n>get size | reduce {|a,b| $a + $b}
+ls | where name =~ ".webp" |<\n>get size | reduce {|a,b| $a + $b}
+ls | where name =~ ".png" |<\n>get size | reduce {|a,b| $a + $b}
+ls | where name =~ ".jpg" |<\n>get size | reduce {|a,b| $a + $b}
+ls | where name =~ ".webp" |<\n>get size | reduce {|a,b| $a + $b}
+cd ...
+cd ..
+ls
+ouch compress Obsidian
+ouch compress Obsidian/* (date now | format date "%Y-%m-%d")-obsidian.zip
+yazi
+ouch compress Obsidian/* Obsidian-(date now | format date "%Y-%m-%d").zip
+ls
+yazi
+ls Respaldos/
+ls
+cd Documentos/Obsidian/
+ls
+ls | where name =~ ".sync"
+ls | where name =~ ".sync" | get name
+rm --help
+each --help
+ls | where name =~ ".sync" | get name | each {||}
+ls | where name =~ ".sync" | get name | each {|e| $e}
+ls | where name =~ ".sync" | get name | each {||}
+ls | where name =~ ".sync" | get name | each {}
+ls | where name =~ ".sync" | get name | each
+ls | where name =~ ".sync" | get name | each {}
+ls | where name =~ ".sync" | get name | each {|e| $e}
+ls | where name =~ ".sync-conflict" | get name | each {|e| rm $e}
+ls | where name =~ ".sync-conflict" | get name
+ls
+z media
+ls
+open pyproject.toml
+open pyproject.toml | get project.dependencies
+open pyproject.toml | get project.version
+open pyproject.toml | update project.version 3.0.0
+update --help
+let f = pyproject.toml
+let f = "pyproject.toml"; open $f 
+let f = "pyproject.toml"; open $f | update project.version 3.0.0
+let f = "pyproject.toml"; open $f | update project.version 3.0.0 | save $f
+let f = "pyproject.toml"; open $f | update project.version 3.0.0 | save $f -f
+ls
+open pyproject.toml | get project.version
+let f = "pyproject.toml"; open $f | update project.version 2.1.1 | save $f -f
+open pyproject.toml | get project.version
+ls
+git diff
+bat pyproject.toml 
+git dif
+git diff
+ls
+git add .
+git commit -m "pyproject.toml refact"
+git push
+uv run media-dl
+cd Documentos/Obsidian/
+z pub
+cd Test/
+ls
+code .
+cd .obsidian/plugins/obsidian-copy-url-in-preview/
+ls
+clear
+ls
+git diff
+code .
+clear
+git diff
+git pull
+git branch --set-upstream-to=origin/main main
+git pull
+git branch --set-upstream-to=origin/main feature/edit-image-inline 
+git pull
+git diff
+git add .
+git commit -m "Edit images inline testing"
+git pull
+git config pull.rebase false
+git pull
+clear
+git diff
+git add .
+git commit
+git log
+git switch main
+git pull
+clear
+git switch -c feature/share-image
+clear
+deno task dev
+deno install
+deno task dev
+git add .
+git commit -m "Share images on mobile (draft)"
+git switch main
+git switch -c refact/copyImages
+git switch feature/share-image 
+git switch main
+z url-in
+clear
+git diff
+git log
+git switch -c refact/copyImages
+git switch -c refact/copy-images
+git log
+git add .
+git commit -m "Refactorize copy image functions"
+git add .
+git commit
+ls
+git diff
+git add .
+git commit -m "Move withTimeout under loadImageBlob"
+ls
+git log
+git add .
+git commit -m "Document ImageType"
+ls
+git push
+git switch -c refact/split-helpers
+ls
+git add .
+git commit -m "Split helpers"
+git switch feature/share-image 
+git switch refact/copy-images 
+ls
+git diff
+git add 
+git add .
+git commit -m "Use internalFile if posible on copy image option"
+git push
+ls
+git add .
+git diff
+ls
+git commit
+git push
+claer
+clear
+yazi
+ls
+deno task dev
+z url
+ls
+git diff
+ls
+code .
+job spawn {foot}
+obsidian --helpÇ
+obsidian --help
+clear
+obsidian --help
+git switch -c feature/gif-support
+git rmeote
+git remote
+git diff
+ls
+git staus
+git status
+git add .
+git commit -m "Partial copy GIFs support"
+git push
+ls
+git pull
+git switch refact/copy-images 
+git pull
+git switch main
+git pull
+git switch feature/gif-support 
+git pull
+git switch refact/copy-images 
+git pull
+git switch feature/gif-support 
+clear
+git pull
+ls
+git pull
+claer
+clear
+deno task dev
+ls
+yazi
+ls
+ñl
+clear
+ls
+ñs
+clear
+ls /
+tree /
+cd Descargas
+z url
+git pull
+deno task dev
+z url
+ls
+git pull
+git switch main
+git pull
+gh
+gh repo
+git repo sync
+git repo sync NomarCub/obsidian-copy-url-in-preview 
+git repo sync NomarCub/obsidian-copy-url-in-preview
+git repo
+git fetch main
+git fetch upstream
+git remote
+git fetch origin 
+gh
+gh repo --hepl
+gh repo --help
+gh repo
+gh repo sync
+gh repo set-default
+gh repo sync
+git pull
+git log
+ls
+git repo
+gh repo
+gh repo sync
+gh repo sync --help
+gh repo sync --btanch main
+gh repo sync --branch main
+gh repo set-default
+git repo sync
+gh repo sync
+gh repo set-default
+gh repo sync NomarCub/obsidian-copy-url-in-preview
+git pull
+gh pr list
+gh pr checkout 63
+ls
+clear
+ls
+code .
+clear
+job spawn {foot}
+clear
+claer
+clear
+git diff main
+clear
+git status
+git add .
+git commit 
+git push
+git push git@github.com:NomarCub/obsidian-copy-url-in-preview.git HEAD:refs/pull/63/head
+git add .
+git commit -m "Fix image blob detection on Android"
+code ext install Github.copilot
+cd Descargas
+code ext install GitHub.copilot-1.351.1711.vsix 
+code ext install GitHub.copilot-1.351.1711.vsix  --help
+code ext --help
+code --install-extension GitHub.copilot-1.351.1711.vsix 
+ls
+rm GitHub.copilot-1.351.1711.vsix
+code .
+deno task dev
+clear
+z url
+ls
+clear
+ls
+clear
+git log
+clear
+git diff 353e92f4b1ec31170937e360c4f1aa2986ebf4de
+git log
+git log 353e92f4b1ec31170937e360c4f1aa2986ebf4de
+git diff 353e92f4b1ec31170937e360c4f1aa2986ebf4de
+git log
+git diff 058aacf0737e68870481e4106aa9b2a5cd91cd2d
+git log
+git diff 6f109de52625d9a327ebebee134a9035345bc303
+clear
+git pull
+clear
+su
+su --help
+topgrade --yes --cleanup
+killall ignis
+ignis init
+paru -S ignis-gvc
+paru -Ss ignis-gvc
+paru -S ignis-gvc
+cd des
+y
+ls
+paru -Rns keepasskx
+paru -Rns keepasskc
+paru -Rns keepassxc
+paru -Ss keepassxc
+flatpak search keepass
+flatpak list
+flatpak uninstall org.keepassxc.KeePassXC 
+paru -Ss proton
+paru -Ss proton-pass
+paru -S proton-pass-bin
+flatpak uninstall --unused
+proton-pass 
+code --ozone-platform=wayland
+killall code
+proton-pass --ozone-platform=wayland
+ELECTRON_OZONE_PLATFORM_HINT=wayland
+set ELECTRON_OZONE_PLATFORM_HINT
+const ELECTRON_OZONE_PLATFORM_HINT
+const ELECTRON_OZONE_PLATFORM_HINT = "wayland"
+$ELECTRON_OZONE_PLATFORM_HINT
+proton-pass
+$env.ELECTRON_OZONE_PLATFORM_HINT = "wayland"
+z nu
+ls
+cd env.nu
+ls
+clear
+ls
+cd .config/environment.d/
+ls
+helix wayland.conf 
+helix 10-home-manager.conf 
+yolk sync
+ls
+yazi
+y
+$env.ELECTRON_OZONE_PLATFORM_HINT
+cd .config/environment.d/
+ls
+rm wayland.conf
+ls
+clear
+ls
+code
+ld
+ls
+clear
+ls
+obsidian
+z nu
+ls
+yolk sync
+z yolk
+helix yolk.rhai 
+yolk sync
+helix yolk.rhai 
+yolk sync
+brave 
+brave
+$env.OZONE_PLATFORM
+$env.OZONE_PLATFORM = "wayland"; brave
+z niri
+yazi
+yolk sync
+helix z yolk
+z yolk
+helix yolk.rhai 
+yolk sync
+helix yolk.rhai 
+yolk sync
+cd .config
+ls
+rm vivaldi-stable.conf brave-flags.conf
+yazi
+yolk sync
+z niri
+ls
+brave
+ls
+git add .
+yolk 
+tldr yolk
+yolk git

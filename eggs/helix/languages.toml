@@ -18,6 +18,14 @@ auto-format = true
 name = "rust"
 formatter = {command = "rustfmt"}
 
+# QML
+[language-server.qmlls]
+command = "qmlls6"
+
+[[language]]
+name = "qml"
+language-servers = ["qmlls"]
+
 # Web
 [language-server.biome]
 command = "biome"

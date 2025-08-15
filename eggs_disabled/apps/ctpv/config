@@ -1,5 +1,0 @@
-set chafasixel
-
-preview image image/* {{
-	chafa -s "${w}x${h}" -f sixels --polite on "$f"
-}}

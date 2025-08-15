@@ -12,14 +12,6 @@ export let eggs = #{
         main_file: "config.toml",  
     },
 
-    shell_fish: #{
-        targets: #{
-            "config": "~/.config/fish",
-            "fish_history": "~/.local/share/fish/fish_history",
-        },
-        main_file: "config.fish",
-        enabled: false,
-    },
     shell_nu: #{
         targets: "~/.config/nushell",
         main_file: "config.nu",
@@ -48,8 +40,9 @@ export let eggs = #{
         enabled: true
     },
 
-    wayland_env: #{
+    chromium: #{
         targets: "~/.config",
         strategy: "merge",
+        enabled: true,
     },
 };

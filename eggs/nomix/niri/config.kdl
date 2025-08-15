@@ -208,32 +208,19 @@ layout {
         // top 64
         // bottom 64
     }
+
+    background-color "transparent"
 }
 
-// Uncomment this line to ask the clients to omit their client-side decorations if possible.
-// If the client will specifically ask for CSD, the request will be honored.
-// Additionally, clients will be informed that they are tiled, removing some client-side rounded corners.
-// This option will also fix border/focus ring drawing behind some semitransparent windows.
-// After enabling or disabling this, you need to restart the apps for this to take effect.
-prefer-no-csd
+layer-rule {
+    match namespace="swww-daemon"
+    // place-within-backdrop true
+}
 
-// You can change the path where screenshots are saved.
-// A ~ at the front will be expanded to the home directory.
-// The path is formatted with strftime(3) to give you the screenshot date and time.
-// screenshot-path "~/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
-
-// You can also set this to null to disable saving screenshots to disk.
-screenshot-path "~/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
-
-// Animation settings.
-// The wiki explains how to configure individual animations:
-// https://github.com/YaLTeR/niri/wiki/Configuration:-Animations
-animations {
-    // Uncomment to turn off all animations.
-    // off
-
-    // Slow down all animations by this factor. Values below 1 speed them up instead.
-    // slowdown 2.0
+overview {
+    workspace-shadow {
+        // off
+    }
 }
 
 // Window rules let you adjust behavior for individual windows.
@@ -267,10 +254,33 @@ window-rule {
     clip-to-geometry true
 }
 
+// Uncomment this line to ask the clients to omit their client-side decorations if possible.
+// If the client will specifically ask for CSD, the request will be honored.
+// Additionally, clients will be informed that they are tiled, removing some client-side rounded corners.
+// This option will also fix border/focus ring drawing behind some semitransparent windows.
+// After enabling or disabling this, you need to restart the apps for this to take effect.
+prefer-no-csd
+
+// You can change the path where screenshots are saved.
+// A ~ at the front will be expanded to the home directory.
+// The path is formatted with strftime(3) to give you the screenshot date and time.
+// You can also set this to null to disable saving screenshots to disk.
+screenshot-path "~/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
+
+// Animation settings.
+// The wiki explains how to configure individual animations:
+// https://github.com/YaLTeR/niri/wiki/Configuration:-Animations
+animations {
+    // Uncomment to turn off all animations.
+    // off
+
+    // Slow down all animations by this factor. Values below 1 speed them up instead.
+    // slowdown 2.0
+}
+
 // Desktop Environment
 
 // Essensial
-spawn-at-startup "sh" "-c" "dex" "--autostart" "--search-paths" "${XDG_CONFIG_HOME:-$HOME/.config}/autostart" // XDG Autostart
 spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1" // Polkit
 spawn-at-startup "wl-paste" "--watch" "cliphist" "store" // Clipboard
 spawn-at-startup "swww-daemon" // Wallpaper
@@ -283,19 +293,11 @@ spawn-at-startup "swayidle" "-w" \ // Idle daemon
 spawn-at-startup "ignis" "init" // Bar, Control Center, Launcher, Notifications and more
 
 environment {
-    // User Apps
-    EDITOR "helix"
-    TERMINAL "foot"
-    
-    // Adapt apps to wayland environment
-    _JAVA_AWT_WM_NONREPARENTING "1"
-    WLR_NO_HARDWARE_CURSORS "1"
-    ECORE_EVAS_ENGINE "wayland_egl"
-    ELM_ENGINE "wayland_egl"
-    SDL_VIDEODRIVER "wayland"
-    
     // Keep consistency with GTK apps on QT
-    QT_QPA_PLATFORMTHEME "gtk3"
+    // QT_QPA_PLATFORMTHEME "gtk3"
+    
+    GTK_USE_PORTAL "1"
+    ELECTRON_OZONE_PLATFORM_HINT "wayland"
 }
 
 // Cursor style
@@ -322,21 +324,25 @@ binds {
     // Suggested binds for running programs:
     Mod+T \
         hotkey-overlay-title="Launch Terminal" \
-            { spawn "sh" "-c" "${TERMINAL:-foot}"; }
+            { spawn "foot"; }
         
-    Mod+D repeat=false \
+    Mod+E \
+        repeat=false \
         hotkey-overlay-title="Toggle App Launcher" \
-            { spawn "ignis" "toggle" "launcher"; }
+            { spawn "ignis" "toggle-window" "launcher"; }
         
-    Mod+Shift+E repeat=false \
+    Mod+Shift+E \
+        repeat=false \
         hotkey-overlay-title="Toggle Control Center" \
-            { spawn "ignis" "toggle" "control-center"; }
+            { spawn "ignis" "toggle-window" "control-center"; }
         
-    Mod+Shift+M repeat=false \
+    Mod+Shift+M \
+        repeat=false \
         hotkey-overlay-title="Toggle Light/Dark Style" \
             { spawn "darkman" "toggle"; }
         
-    Super+Alt+L repeat=false \
+    Super+Alt+L \
+        repeat=false \
         hotkey-overlay-title="Show Screenlocker" \
             { spawn "swaylock"; }
     
@@ -351,12 +357,26 @@ binds {
 	XF86AudioNext        allow-when-locked=true { spawn "playerctl" "next"; }
 	XF86AudioPrev        allow-when-locked=true { spawn "playerctl" "previous"; }
 
+	XF86MonBrightnessUp   { spawn "brightnessctl" "set" "5%+"; }
+	XF86MonBrightnessDown { spawn "brightnessctl" "set" "5%-"; }
+
     Mod+Q { close-window; }
 
+    // Open/close the Overview: a zoomed-out view of workspaces and windows.
+    // You can also move the mouse into the top-left hot corner,
+    // or do a four-finger swipe up on a touchpad.
+    Mod+O repeat=false { toggle-overview; }
+    
     Mod+Left  { focus-column-left; }
     Mod+Down  { focus-window-down; }
     Mod+Up    { focus-window-up; }
     Mod+Right { focus-column-right; }
+
+    Mod+A     { focus-column-left; }
+    Mod+S     { focus-window-down; }
+    Mod+W     { focus-window-up; }
+    Mod+D     { focus-column-right; }
+    
     Mod+H     { focus-column-left; }
     Mod+J     { focus-window-down; }
     Mod+K     { focus-window-up; }
@@ -529,7 +549,7 @@ binds {
     Mod+V       { toggle-window-floating; }
     Mod+Shift+V { switch-focus-between-floating-and-tiling; }
 
-    Mod+W { toggle-column-tabbed-display; }
+    // Mod+W { toggle-column-tabbed-display; }
 
     // Actions to switch layouts.
     // Note: if you uncomment these, make sure you do NOT have
