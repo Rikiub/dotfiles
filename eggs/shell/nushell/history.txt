@@ -12098,3 +12098,85 @@ clear
 yazi
 clear
 ls
+yolk git add . ; yolk git commit -m "Update" ; yolk git push
+clear
+l
+clear
+ls
+ls -h
+clear
+ls
+cd eggs
+ls
+cd .config
+ls
+cd DankMaterialShell/
+ls
+bat settings.json 
+clear
+z yolk
+ls
+cd eggs
+ls
+cd user
+l
+ls
+cd apps
+ls
+cd ../..
+ls
+cd ..
+l
+helix config.kdl 
+paru -Ss chezmoi
+paru -S chezmoi
+ls
+chezmoi
+tldr chezmoi
+tldr dotbot
+tldr chezmoi
+yazi
+clear
+z yolk
+yazi
+chezmoi archive
+chezmoi --help
+chezmoi status --help
+chezmoi -h
+chezmoi --help | rg include
+chezmoi --help | rg apply
+chezmoi --help | rg include
+chezmoi apply --heelp
+chezmoi apply --help
+chezmoi apply --help | rg tags
+paru -Ss dotbot
+paru -S dotbot-git
+ls
+z ~
+dotbot
+dotbot --help
+ls -a
+mkdir .dotfiles
+ls -a
+z yolk
+ls
+yazi
+chezmoi --help
+ls
+fish
+clear
+l
+s
+clear
+chezmoi completions
+chezmoi completion
+chezmoi completion nu
+chezmoi completion nushell
+chezmoi completion fish
+clear
+ls
+cd .config
+ls
+yazi
+ls
+cd yolk/
