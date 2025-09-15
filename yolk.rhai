@@ -1,30 +1,46 @@
 export let eggs = #{
-    scripts: #{
-        targets: "~/.local/bin",
-        strategy: "merge",
-    },
-    apps: #{
+
+    // Apps
+    "user/apps": #{
         targets: "~/.config",
         strategy: "merge",
     },
-    helix: #{
-        targets: "~/.config/helix",
-        main_file: "config.toml",  
+    "user/scripts": #{
+        targets: "~/.local/bin",
+        strategy: "merge",
     },
-
-    shell_nu: #{
+    
+    // Shell
+    "shell/nushell": #{
         targets: "~/.config/nushell",
         main_file: "config.nu",
         enabled: true,  
     },
-    shell_shared: #{
+
+    "shell/fish": #{
+        targets: #{
+            "config": "~/.config/fish",
+            "fish_history": "~/.local/share/fish/fish_history",
+        },
+        main_file: "config.fish",
+        enabled: false,
+    },
+    
+    "shell/shared": #{
         targets: #{
             "zoxide": "~/.local/share/zoxide",
             "starship.toml": "~/.config/starship.toml",
         },
     },
 
-    nomix: #{
+    // Desktop Enviroment
+    "desktop/quickshell": #{
+        targets: "~/.config",
+        strategy: "merge",
+        enabled: true,
+    },
+    
+    "desktop/ignis": #{
         targets: #{
             // Desktop Environment
             "niri": "~/.config/niri",
@@ -37,10 +53,11 @@ export let eggs = #{
             "+darkman/light": "~/.local/share/light-mode.d",
         },
         main_file: "niri/config.kdl",
-        enabled: true
+        enabled: false
     },
 
-    chromium: #{
+    // Wayland
+    "wayland": #{
         targets: "~/.config",
         strategy: "merge",
         enabled: true,

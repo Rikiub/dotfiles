@@ -9557,3 +9557,2544 @@ git add .
 yolk 
 tldr yolk
 yolk git
+yolk git add . ; yolk git commit -m "Update" ; yolk git push
+proton-pass
+ignis init
+ignis --help
+pgrep proton-pass
+ps | where name =~ proton
+ps | where name =~ electron
+ps
+ps | where name =~ "Proton Pass"
+fastfetch 
+ps | where name =~ "Proton Pass"
+fastfetch 
+paru -Ss bitwarden
+paru -Rns proton-pass-bin
+topgrade --yes --cleanup
+paru -Rns electron34
+paru -Rns electron37
+paru -Rns electron35
+z url
+git pull
+code .
+git log
+git reset --hard feature/refactor-fetch 
+ls
+git pull
+git diff
+ls
+git log
+ls
+git reset --hard feature/refactor-fetch 
+cler
+clear
+git log
+gh pr checkout 63
+gh pr checkout 63 --help
+ls
+git log
+git switch main
+gh pr checkout 63
+git reset --hard pr-63
+git reset --hard feature/refactor-fetch 
+git log
+git unod
+git undo
+git log
+git reset HEAD~1
+jj
+cd..
+jj init
+jj git init
+jj git init --colocate
+jj
+jj undo
+jj
+clear
+jj
+jj undo
+cd ..
+ls
+rm -r obsidian-copy-url-in-preview/
+gh pr checkout https://github.com/NomarCub/obsidian-copy-url-in-preview/pull/63
+gh pr checkout https://github.com/NomarCub/obsidian-copy-url-in-preview/pull/63 --help
+gh pr checkout https://github.com/NomarCub/obsidian-copy-url-in-preview/pull/63
+git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git
+cd obsidian-copy-url-in-preview/
+ls
+git switch feature/refactor-fetch 
+ls
+claer
+clear
+ls
+clear
+ls
+clear
+deno task dev
+jj
+z url
+z ignis
+ls
+deno install
+z niri
+git status
+rm deno.lock
+clear
+z nus
+ls
+open config.nu
+open config.nu | nu-highlight 
+open config.nu | bat
+bat config.nu 
+open config.nu | bat
+open config.nu | nu-highlight 
+lsg
+ls
+yazi
+z url
+ls
+clear
+ls
+clear
+ls
+deno task dev
+y
+clear
+y
+deno task dev
+ls
+cd obsidian-copy-url-in-preview/
+yazi
+ls
+clear
+deno task dev
+ls
+clea
+clear
+ls
+z nu
+ls
+yazi
+ls
+clear
+z nush
+ls
+z quick
+ls
+ls -a
+helix .
+ls
+open .qmlls.ini
+rm .qmlls.ini
+jo
+job spawn {foot}
+clear
+ls
+ls -a
+quickshell --help
+helix .
+quickshell 
+touch .qmlls.ini
+ls -a
+bat .qmlls.ini 
+helix .
+ls
+clear
+ls -a
+bat .qmlls.ini 
+clear
+paru -Ss qt
+paru -Ss qt6
+paru -Ss qt6-doc
+paru -Ss qt doc
+paru -Rns qt6-doc
+ñs
+bat .qmlls.ini 
+paru -Rns qt6-doc
+cd /usr/share/qt/doc/html
+cd /usr/share/qt/doc/
+cd /usr/share/qt6/
+ls
+pacman -Ql qt6-doc | grep html
+pacman -Ql qt6-doc | grep html | ba
+pacman -Ql qt6-doc | grep html | bat
+cd /usr/share/doc/qt6/qtwidgets/
+cd /usr/share/doc/qt6/
+ls
+pwd
+z quick
+ls
+helix .qmlls.ini 
+ls
+helix .
+ls
+helix .qmlls.ini 
+cd Descargas
+paru -S obsidian
+paru -Sy obsidian
+paru -Rns electron34
+ls
+paru -Sy
+paru -Su
+z obsi
+code .
+z ob
+code .
+cd Descargas
+ls
+rm obsidian-web-clipper-settings.json
+ls
+z obs
+ls
+z ob
+ls | where name =~ ".sync-conflict" | get name
+ls | where name =~ ".sync-conflict" | get name | each {|e| rm $e}
+ls | where name =~ ".sync-conflict" | get name 
+pgrep code
+z b
+z ob
+claer
+clear
+ls
+ls | where name =~ "Videojuegos.base"
+helix Videojuegos.base 
+helix "Multimedia Largo.base" 
+helix Multimedia.base 
+ignis init
+killall igins
+killall ignis
+ignis init
+job spawn { ignis init }
+z obs
+helix Multimedia.base 
+z ob
+paru -Ss zen browser
+paru -S zen browser-bin
+paru -S zen-browser-bin
+ps | where name =~ "Zen"
+ps | where name =~ "zen"
+fastfetch 
+ps | where name =~ "ignis"
+killall ignis
+fastfetch 
+job spawn { ignis init }
+ls
+fastfetch 
+ps | sort-by name
+ps | sort-by mem
+ps | sort-by name
+fastfetch 
+ps | sort-by name
+ps | sort-by nem
+ps | sort-by mem
+fastfetch 
+ps | sort-by mem
+fsatfetch
+fastfetch 
+z ob
+z ad
+ls
+clear
+ls
+clear
+loupe `Dark Blood 1.jpg`
+{loupe `Dark Blood 1.jpg`}
+job spawn {loupe `Dark Blood 1.jpg`}
+z obs
+z obsi
+helix "Creado hoy.base" 
+helix --health yam
+helix --health yaml
+helix "Creado hoy.base" 
+z quick
+ls
+tree /
+paru -S qt6-tools
+paru -Rns qt6-tools qmlls6
+paru -Rns qt6-tools qmlls
+paru -Rns qt6-tools qt-qmlls
+paru -Rns qt6-tools qt6-declarative
+paru -S qt6-doc
+z qucik
+z quick
+ls
+ls -a
+quickshell 
+ls
+bat .qmlls.ini 
+z qt6
+ls
+cd qtqml/
+ls
+cd ..
+z quick
+helix .qmlls.ini 
+quickshell 
+bat .qmlls.ini 
+helix .
+bat .qmlls.ini --raw
+bat .qmlls.ini --plain
+ls
+cd /usr/share/qt6/translations/
+ls
+cd ..
+ls
+pwd
+ls
+cd ..
+cd doc
+ls
+cd qt6/
+ls
+yazi
+ls
+z quick
+helix bar/Action.qml 
+z qt6
+ls
+pwd
+clear
+ls --help
+ls | get name
+ls | get name | to html 
+ls | get name | to md 
+ls | get name | to md
+pacman -Ql qt6-doc | grep -E '\.html$'
+pacman -Ql qt6-doc | rg '\.html$'
+pacman -Ql qt6-doc | fing '\.html$'
+pacman -Ql qt6-doc | find '\.html$'
+find --help
+help search
+help --help
+help --find search
+pacman -Ql qt6-doc
+pacman -Ql qt6-doc | detect columns 
+pacman -Ql qt6-doc | detect columns | get /usr/
+pacman -Ql qt6-doc | detect columns | get /usr/ | where "qt"
+pacman -Ql qt6-doc | find '\.html$'
+pacman -Ql qt6-doc | rg '\.html$'
+z qui
+ls
+helix bar/Action.qml 
+z quick
+ls
+helix .qmlls.ini 
+code .
+paru -Rns qt6-tools
+topgrade --yes --cleanup
+ls
+z quick
+helix .
+paccache -rk0
+arch-clean
+z obsi
+ls | where name =~ ".sync-conflict" | get name 
+ls --help
+ls * | where name =~ ".sync-conflict" | get name
+ls --help
+ls ...glob | where name =~ ".sync-conflict" | get name
+ls ...(glob *) | where name =~ ".sync-conflict" | get name
+z obs
+glob
+glob *
+ls ...(glob *) | where ".sync-conflict" | get name
+ls ...(glob *) | where ".sync-conflict"
+ls ...(glob *) | where $in =~ ".sync-conflict" | get name
+ls ...(glob *) | where $in =~ ".sync-conflict"
+glob * | where $in =~ ".sync-conflict"
+ls ...(glob *) | where name =~ ".sync-conflict" | get name
+ls ...(glob *) | where name =~ ".sync-conflict"
+ls ...(glob *) | where name =~ ".sync-conflict" | get name | each {|| rm}
+ls ...(glob *) | where name =~ ".sync-conflict" | get name | each {|e| rm $e}
+ls ...(glob *) | where name =~ ".sync-conflict" | get name
+clear
+ls
+z obs
+ls ...(glob *) | where name =~ ".sync-conflict" | get name
+ls ...(glob *) | where name =~ ".sync-conflict" | get name | each {|e| rm $e}
+cd Documentos
+ouch compress Obsidian/* Obsidian-(date now | format date "%Y-%m-%d").zip
+ls
+cd Documentos
+ls
+cd Obsidian/
+ls
+ls Diario/(glob *)
+ls Diario/*
+ls Diario/**
+ls ...(glob Diario/)
+ls ...(glob Diario/*)
+ls ...(glob Diario/*) 
+ls ...(glob Diario/*)
+cd ..
+ls
+cd Respaldos/
+ls
+cd Obsidian/
+ls
+ouch decompress Obsidian-2025-08-31.zip
+ls
+cd Obsidian-2025-08-31/
+ls
+ls ...(glob Diario/*)
+yazi
+z obs
+l
+ls
+clear
+ls
+z obso
+z obsi
+ls
+ls ...(glob *) | where name =~ ".sync-conflict" | get name
+ls ...(glob *) | where name =~ ".sync-conflict" | get name | each {|e| rm $e}
+ls ...(glob *) | where name =~ ".sync-conflict" | get name
+paru -Ss tagspace
+paru -S tagspaces-bin
+z yolk
+ls
+clear
+ls
+paru -S tagspaces
+paru -Rns gendesk electron36 nvm
+ls
+ls -a
+paru -S tagspaces-bin
+paru -Ss tagstudio
+paru -S tagstudio
+paru -Rns tagspace
+paru -Rns tagspaces
+paru -Rns tagspaces-bin
+paru -S tagstudio
+ls
+ls -a
+cd .config
+cd TagSpaces/
+ls
+cd ..
+rm -r TagSpaces/
+ls -a
+ls | sort-by type
+rm -r nvm
+ls -a
+ls -a | sort-by modified
+ls -a | sort-by type
+ls | sort-by type
+lsg
+clear
+ls
+lsg
+eza
+eos-rankmirrors 
+paru -S tagstudio
+paccache -rk0
+paru -Scc
+arch-clean
+paru -Rns cli11 qt6-shadertools wayland-protocols 
+cd Documentos/.ts/
+ls
+open tsm.json
+cd ..
+ls
+yazi
+ls
+cd Dev
+ls
+cd web
+ls
+deno run -A npm:sv create
+deno run -A npm:sv create --help
+deno run -A npm:sv create
+ls
+yazi
+cd test-deno/
+l
+ls
+clear
+ls
+code .
+yazi
+clear
+z web
+y
+ls
+deno install
+deno task preview
+y
+clear
+ls
+code .
+helix README.md
+clear
+deno add npm:@biomejs/biome --dev
+clear
+z obsi
+killall obsidian
+paru -S obsidian
+paru -Sy obsidian
+topgrade --yes --cleanup
+ignis init
+niri --help
+niri completions
+niri completions --help
+niri completions nushell
+niri completions nushell | save ~/.config/nushell/autoload/niri.nu
+niri help
+niri msg
+clear
+niri
+killall ignis
+z ignis
+ls
+ignis init
+quickshell 
+z quick
+helix .
+paru -Ss qt6-doc
+job spawn { ignis init }
+paru -S quickshell
+topgrade --yes --cleanup
+paru -S quickshell-git
+z ignis
+ls -a
+cd Imagenes
+ls -a
+helix options.json 
+z niri
+localectl
+localectl --help
+localectl set-keymap en
+localectl set-keymap es
+z quick
+code .
+clear
+ls
+ls -a
+lsg
+quickshell 
+z quick
+clear
+ls
+clear
+code .
+z quick
+ls
+helix .
+z niri
+paru -S quickshell-git
+cmake
+paru -Rns cli11 cmake cppdap jsoncpp qt6-shadertools wayland-protocols rhash
+paru -Scc
+paccache -rk0
+paru -Ss jj
+paru -Sy jj
+paru -S jj-bin
+jj
+ls -a
+paru -Ss jujutsu
+paru -Sy jujutsu
+z test
+ls
+cd .obsidian/plugins/obsidian-copy-url-in-preview/
+ls
+jj
+ls
+cd ..
+ls
+rm -r obsidian-copy-url-in-preview/
+jj config
+jj git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git
+ls
+cd obsidian-copy-url-in-preview/
+ls -a
+cd ..
+ls
+rm -r obsidian-copy-url-in-preview/
+jj git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git --help
+jj git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git --colocate
+cd obsidian-copy-url-in-preview/
+ls
+ls -a
+lsg
+lsg -a
+lsg --help
+z nushell
+ls
+lsg --help
+lsg -a
+ls -a
+lsg -a
+y --help
+lsg -a
+nushell --help
+lsg
+lsg -a
+ls -a
+ls
+lsg Documentos
+lsg
+lsg --help
+lsg -a
+ls
+lsg
+lsg -a
+lsg
+lsg 
+lsg
+ls -s
+ls
+ls --help
+clear
+lsg
+lsg -a
+lsg .
+lsg
+lsg -a
+ls- a
+ls -a
+ls -h
+ls .
+lsg --help
+eza command
+eza commands
+lsg
+lsg -a
+lsg -a --help
+lsg
+lsg --help
+lsg Descargas
+lsg Descargas Documentos
+lsg
+z nus
+ls
+lsg
+^ls
+lsg
+ls -s
+ls
+lsg
+lsg Documentos
+lsg Descargas
+lsg
+lsg Documentos
+lsg --help
+lsg
+lsg Documentos
+lsg Descargas
+lsg Imagenes
+lsg
+lsg .
+grid
+clear
+grid -h
+z url
+ls
+jj
+jj -h
+jj
+jj -h
+jj
+jj config
+jj config get
+jj config get --help
+jj config 
+jj config edit
+jj config edit --user
+clear
+ls
+clar
+clear
+jj config set --user ui.default-command log
+jj
+jj config edit
+jj config edit --user
+clear
+jj
+jj commit -h
+jj commit
+jj
+jj undo
+jj
+jj undo
+jj
+jj undo
+jj
+jj undo
+jj
+jj new --help
+jj new @-
+jj
+jj undo
+jj
+jj undo
+jj
+jj abandon 
+jj
+jj edit w
+jj edit l
+jj abandon 
+jj
+cd ..
+cd ....
+z test
+cd .obsidian/plugins/
+rm -r obsidian-copy-url-in-preview/
+jj git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git --colocate
+ls
+cd obsidian-copy-url-in-preview/
+ls
+git status
+jj diff
+git diff
+ks
+jj git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git --colocate
+l
+ls
+cd obsidian-copy-url-in-preview/
+ls
+jj
+cd describe
+jj describe 
+jj
+jj desc ohno
+jj describe oas
+jj describe "oas"
+jj describe 
+jj
+ls
+cd ..
+ls
+rm -r obsidian-copy-url-in-preview/
+jj log
+jj status
+jj diff
+yazi
+open /etc/stab
+open /etc/fstab
+bat /etc/fstab
+helix /etc/fstab 
+bat /etc/fstab
+ls
+cd test
+z test
+ls
+cd .obsidian/plugins/
+ls
+rm -r obsidian-copy-url-in-preview/
+jj git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git --colocate
+ls
+cd Descargas
+ls
+mkdir xd
+ls
+cd xd
+ls
+cd ..
+rm xd/
+ls
+eza
+cd ..
+eza
+cd Imagenes
+eza
+rm -r copy-url-in-preview/
+ls
+jj git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git --colocate
+ls
+jj git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git 
+ls
+rm -r obsidian-copy-url-in-preview/
+ls
+z Test
+ls
+cd .obsidian/plugins/
+jj git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git 
+git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git
+ls
+cd obsidian-copy-url-in-preview/
+ls
+cd ..
+ls
+rm -r obsidian-copy-url-in-preview/
+ls
+clear
+jj git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git 
+cd Descargas
+git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git
+ls
+jj git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git 
+jj import
+cd Descargas
+helix sex.sh
+l
+ls
+bash sex.sh 
+ls
+rm sex.sh
+z test
+ls
+cd .obsidian/plugins/
+jj git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git 
+cd Descargas
+jj git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git 
+id
+id u
+id -y
+id -u
+id -g
+cd Descargas
+jj git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git 
+cat /proc/filesystems 
+cat /proc/filesystems | rg ntfs
+uname
+mount | rg ntfs
+mount
+mount | rg ntfs
+find
+findmnt 
+findmnt -n
+findmnt -n -o FSTYPE,TARGET,SOURCE /mnt/windows
+cat /proc/mounts 
+cat /proc/mounts | rg
+cat /proc/mounts | rg nt
+cat /proc/mounts | rg ntfs
+lsblk
+lsblk -f
+cat /proc/filesystems 
+cat /proc/filesystems | rg ntfs
+cd Descargas
+ls
+jj gi
+jj git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git 
+ls
+cd obsidian-copy-url-in-preview/
+ls
+ls -
+ls -a
+cd Descargas
+ls
+rm -r obsidian-copy-url-in-preview/
+jj git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git 
+ls
+cd obsidian-copy-url-in-preview/
+cd ..
+ls
+rm -r obsidian-copy-url-in-preview/
+cd Descargas
+ls
+cd Descargas
+jj git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git 
+mkdir "hola: adios"
+touch "Hola"
+ls
+rm Hola
+touch "Hola: Adios"
+ls
+rm -r obsidian-copy-url-in-preview/
+jj git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git 
+cd obsidian-copy-url-in-preview/
+ls
+cd ..
+ls
+rm -r obsidian-copy-url-in-preview/
+cd Descargas
+ls
+jj git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git 
+ls
+jj git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git 
+touch "Hola: Adios"
+helix sex.sh
+bash sex.sh 
+ls
+rm sex.sh
+cd Descargas
+ls
+jj git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git 
+bat /etc/fstab
+cd Descargas
+z test
+ls
+cd .obsidian/plugins/
+ls
+jj git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git 
+ls
+cd obsidian-copy-url-in-preview/
+ls
+cd ..
+ls
+rm -r obsidian-copy-url-in-preview/
+jj git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git --colocate
+ls
+cd obsidian-copy-url-in-preview/
+ls
+bat /etc/fstab
+z obs
+ls
+zi ob
+ls
+clear
+ls
+lss
+ls
+clea
+jj
+clear
+jj diff
+jj log
+clear
+jj
+jj describe -m "Split helpers files"
+ls
+z py
+ls
+z media-dl
+z media
+ls
+lsg
+lsg .
+lsg .
+ls
+ls -h
+ls -l
+ls -l
+clear
+ls
+cd Descargas
+ls
+git clone git@github.com:Rikiub/media-dl.git
+cd media-dl/
+ls
+ls -l
+cd Descargas
+ls
+touch sex.sh
+ls -l
+rm sex.sh
+cd src
+ls -l
+cd media_dl/
+ls -l
+python main.py
+python extractor.py 
+cd ..
+clear
+ls
+jj
+ls
+cd Descargas
+jj init --help
+jj init sex
+jj git init xd
+cd xd
+ls
+jj
+ls -a
+jj
+ls
+jj commit "waos"
+jj
+cd ..
+ls
+rm -r xd
+ls
+rm -r media-dl/
+ls
+yazi
+git stauts
+git status
+jj
+jj st
+jj d
+jj diff
+ls
+yazi
+clear
+s
+yazi
+jj
+jj diff
+jj
+ls
+cd Descargas
+ls -l
+find
+find .
+find --help
+find .
+find xd
+ls | find
+ls | find dir
+ls | find file
+ls -l | find file
+z obs
+z test
+cd .obsidian/plugins/
+cd obsidian-copy-url-in-preview/
+ls -l
+umask
+z test
+cd .obsidian/plugins/obsidian-copy-url-in-preview/
+ls -l
+ls -l | find file
+ls -l | find file dir
+ls -l | find file | each {}
+ls -l | find file | each {|i| chmod 644 {} +}
+ls -l | find file | each {|i| chmod 644}
+chmod
+ls -l | find file | each {|i| chmod 644 $i +}
+ls -l | find file | each {|i| $i}
+ls -l | find file | each {|i| chmod 644 $i +}
+ls -l | find file | each {|i| chmod 644 $i.name +}
+tldr chmod
+ls -l | find file | each {|i| chmod 644 $i}
+ls -l | find file | each {|i| chmod 644 $i.name}
+ls -l | find file | each {|i| chmod 644 $i}
+ls -l | find file | each {|i| chmod 644 $i.name}
+ls
+cd Descargas
+ls
+ls -l
+$env.USER
+ls
+ls -l
+cd DataBackup/
+ls
+ls -l
+cd apps
+ls -l
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd Descargas
+ls -a
+ls l
+ls -l
+mkdir xd
+ls -l
+rm xd
+z mnt
+ls
+cd Datos/
+ls -a
+ls -l
+ls
+z mnt
+cd Datos/
+ls
+ls -l
+ls -l -a
+ls -l
+bash
+ls -l
+cd sus
+yazi
+ks
+ls
+ls -l
+yazi
+z mnt
+ls
+cd Datos/
+ls
+cd sus
+ls -l
+yazi
+ls -l
+cd Descargas/
+ls -l
+cd DataBackup/
+ls -l
+cd ..
+cd Documentos/
+ls -l
+yazi
+y
+ls -l
+y
+ls -l
+y
+ls -l
+y
+ls -l
+y
+ls -l
+y
+ls -l
+y
+ls -l
+y
+ls -l
+yls
+ls -l
+y
+ls -l
+y
+ls -l
+y
+ls -l
+y
+ls -l
+y
+ls -l
+y
+ls
+y
+ls -l
+y
+ls -l
+y
+ls -l
+y
+ls -l
+y
+ls -l
+y
+ls -l
+y
+ls -l
+y
+ls -l
+y
+ls -l
+y
+ls -l
+ls -l | select user
+ls
+z ob
+ls | where name =~ ".sync-conflict" | get name 
+ls
+ls ...(glob *) | where name =~ ".sync-conflict" | get name
+ls ...(glob *) | where name =~ ".sync-conflict" | get name | each {|e| rm $e}
+ls ...(glob *) | where name =~ ".sync-conflict" | get name
+ls ...(glob *) | where name =~ ".sync-conflict" | get name | each {|e| rm $e}
+ls ...(glob *) | where name =~ ".sync-conflict" | get name
+rm /mnt/Datos/sus/Documentos/Obsidian/.obsidian/appearance.sync-conflict-20250903-131036-F7E4ZZI.json 
+z ob
+ls ...(glob *) | where name =~ ".sync-conflict" | get name
+rm /mnt/Datos/sus/Documentos/Obsidian/.obsidian/appearance.sync-conflict-20250903-131036-F7E4ZZI.json  
+bash
+ls ...(glob *) | where name =~ ".sync-conflict" | get name
+z obs
+ls
+clear
+z ob
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+ls | where name =~ ".sync-conflict" | get name 
+ls
+ls | sort-by type
+touch xd.md
+find xd.md
+ls | find xd.md
+rm xd.md
+ls -a
+rm --help
+rm --permanent xd.md
+ls
+clear
+ls -a
+z tes
+ls
+cd .obsidian/plugins/
+rm -r obsidian-copy-url-in-preview/
+rm -r --permanent  obsidian-copy-url-in-preview/
+ls
+z mnt
+ls
+cd Datos/
+ls
+ls -a
+rm -r --permanent .Trash-1000/
+sudo rm -r --permanent .Trash-1000/
+sudo rm -r .Trash-1000/
+ls -a
+ls -l
+ls -l -a
+rm -r "$RECYCLE.BIN"
+rm -r "$RECYCLE.BIN" --permanent 
+bash
+ls -a
+ls
+ls -a
+yazi
+rm -rf .Trash-1000/
+ls
+ls -a
+mv .Trash-1000/ .Trash-Corrupted
+sudo mv .Trash-1000/ .Trash-Corrupted
+ls -a
+ls -l
+ls -la
+z des
+ls
+touch xd.md
+rm xd.md
+ls
+z mnt
+ls
+ls -l
+cd Datos
+ls
+ls -a
+sudo nautilus 
+nautilus admin:/
+ks
+ls -a
+mkdir .Trash-1000
+sudo mkdir .Trash-1000
+ls
+ls -a
+killall nautilus 
+ls -a
+rm -r .Trash-1000/
+sudo rm -r .Trash-1000/
+ls
+cd ..
+ls
+ls -l
+cd Datos/
+ls -l
+cd ..
+ls -l
+bash
+ls
+ls -l
+ls
+ls -a
+cd Datos/
+ls -l
+mkdir xd
+ls -l
+cd Windows/
+mkdir xd
+ls
+rm xd
+ls
+rm ./xd/
+sudo rm ./xd/
+bat .hidden
+cd ..
+bat .hidden
+ud
+id
+echo (echo "xd")
+sudo chown $env.USER:$env.USER .Trash-(id -u)
+sudo chown ($env.USER):($env.USER) .Trash-(id -u)
+id -u
+mkdir .Trash-(id -u)
+sudo mkdir .Trash-(id -u)
+ls
+ls -a
+sudo chown ($env.USER):($env.USER) .Trash-(id -u)
+ls -l
+ls -la
+z des
+l
+ls
+rm xd.md
+ls
+z mnt
+ls
+yazi
+ls
+ls -a
+cd Datos/
+ls -a
+rm -r `$RECYCLE.BIN/` --permanent 
+ls -l
+sudo rm -r `$RECYCLE.BIN/` --permanent 
+sudo rm -r `$RECYCLE.BIN/` 
+ls -a
+yazi
+sudo rm -r .Trash-Corrupted/
+yazi
+ls -a
+rm -r .uv-cache/
+sudo rm -r .uv-cache/
+ls -a
+ls -
+ls -la
+helix .hidden 
+rm .hidden
+sudo rm .hidden
+helix .hidden
+sudo helix .hidden
+ls -la
+z mnt
+ls
+ls -la
+z mnt
+ls
+ls -la
+cd Datos
+ls -la
+cd Windows/
+ls -l
+ls -la
+cd `Accesos Directos/`
+ls
+cd Aplicaciones/
+ls-la
+ls -la
+cd ..
+ls -la
+ls -a
+cd Datos/
+ls -a
+ls -l
+ls -la
+z mnt
+ls -la
+cd Datos/
+ls -a
+ls -la
+ls -a
+ls -la
+cd Descargas
+ls -a
+ls -la
+cd ..
+ls
+ls -la
+ls
+cd Descargas
+ls
+touch xd.md
+ls
+rm xd.md
+helix /etc/fstab 
+sud ohelix /etc/fstab 
+cd Descargas
+ls -a
+ls -l
+ls -la
+touch xd.md
+ls -la
+rm xd.md
+clear
+ls
+ls -la
+gnome-disks
+ls -la
+z Datos
+ls -la
+cd ..
+ls -la
+cd Datos/
+touch xd.md
+ls -la
+rm xd.md
+cd Descargas
+ls -la
+touch xd.md
+ls -la
+rm xd.md
+clear
+ls -la
+touch xd.md
+ls -la
+rm -r xd.md
+ls -la
+jj git clone git@github.com:NomarCub/obsidian-copy-url-in-preview.git --colocate
+ls
+rm -r obsidian-copy-url-in-preview/
+claer
+"xd" | clip 
+"xd" | clip copy
+clip pase
+clip paste
+clip copy
+topgrade --yes --cleanup
+paru -Ss cachyos
+paru -Ss linux-cachyos
+paru -S linux-cachyos
+paru -Rns clang compiler-rt lld llvm rust-bindgen
+sudo pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com<\n>sudo pacman-key --lsign-key 3056513887B78AEB
+sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst'<\n>sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
+sudo helix /etc/pacman.conf 
+sudo pacman -Sy
+clear
+paru -Ss cachyos
+paru -Ss linux-cachyos
+paru -S linux-cachyos
+paru -S linux-cachyos linux-cachyos-headers 
+paru -Rns quickshell-git
+paru -Rns quickshell
+paru -S quickshell
+quickshell 
+z quick
+ls
+clear
+job spawn { foot }
+clear
+ls
+ls
+clear
+ls -a
+bat .qmlls.ini 
+clear
+sudo grub-mkconfig -o /boot/grub/grub.cfg 
+uname
+fastfetch 
+neon-config 
+fastfetch 
+ps | where name =~ "ignis"
+fastfetch 
+ls
+paru -Ss zram
+bat /usr/lib/systemd/zram-generator.conf 
+paru -Rns zram-generator-defaults
+sudo helix /etc/systemd/zram-generator.conf
+ls
+paru -Rns zram-generator
+sudo helix /etc/systemd/zram-generator.conf
+paru -Rns zram-generator
+paru -S zramswap
+paru -Ss zramswap
+zramctl
+zramctl 
+swapon
+clear
+paru -Rns zramswap
+paru -S zramswap
+paru -Ss zramswap
+killall ignis
+job spawn { ignis init }
+killall ignis
+z ignis
+ls
+cd .cache
+ls
+bat options.json 
+rm options.json
+killall ignis
+job spawn { ignis init }
+killall ignis
+job spawn { ignis init }
+paru -Ss aur/zramswap
+paru -S aur/zramswap
+systemctl start zram
+systemctl start zramswap
+systemctl enable zramswap
+zram
+zramctl 
+swapon
+fastfetch 
+ps | where name =~ "ignis"
+killall ignis
+job spawn { ignis init }
+ps | where name =~ "ignis"
+ls
+fastfetch 
+ps | where name =~ "ignis"
+fastfetch 
+paru -Rns zen-browser-bin
+ls -a
+du .zen
+rm -r .zen
+ls -a
+z quickshell
+code .
+clear
+killall code
+ps | where name =~ "Code"
+ps | where name =~ "code"
+killall code-oss
+ps | where name =~ "ignis"
+killall ignis
+clear
+helix .
+code.
+code .
+fastfetch 
+qmlls6
+killall firefox
+clear
+fastfetch 
+quickshell 
+clear
+ls /usr/lib/qt6/qml/
+ls /usr/lib/qt6/qml/QtQuick/
+ls /usr/lib/qt6/qml/QtQuick/Layouts/
+clear
+ls
+bat .qmlls.ini 
+quickshell 
+clear
+code .
+systemctl poweroff 
+paru -Ss gemini-cli
+paru -S gemini-cli
+paru -S gemini-cli-bin
+paru -S gemini-cli
+paru -S aur/gemini-cli
+paru -S gemini-cli-bin
+gemini
+clear
+ls -a
+yazi
+cd Descargas
+clear
+gemini
+ls
+gemini
+clear
+gemini
+ls
+clear
+cd ..
+ls
+z media
+clear
+gemini
+clear
+z des
+clear
+mkdir test
+cd test
+gemini
+clear
+ls
+ls -a
+cd ..
+rm test
+ls
+ls -a
+cd ..
+ls -a
+ls .local
+ls -a
+ls .gemini/
+clear
+z ob
+ps | where name =~ "ignis"
+ps | where name =~ ".sync"
+ls | where name =~ ".sync-conflict" | get name 
+ls | where name =~ ".sync-conflict" | get name
+ls | where name =~ ".sync-conflict" | get name | each {|e| rm $e}
+ls | where name =~ ".sync-conflict" | get name
+paru -Syu
+z obs
+ls | where name =~ ".sync-conflict" | get name
+z pu
+ls
+cd `Capturas de pantalla/`
+ls | where name =~ ".sync-conflict" | get name
+cd ..
+ls ...(glob *) | where name =~ ".sync-conflict" | get name
+ls ...(glob *) | where name =~ ".sync-conflict" | get name | each {|e| rm $e}
+ls ...(glob *) | where name =~ ".sync-conflict" | get name
+z yaml
+z nu
+ls
+ls autoload/
+ls autoload/ -s
+lsg autoload/
+lsg
+lsg autoload/
+"def frontmatter [] {<\n>  lines |<\n>  split list '---' |<\n>  do { |lst|<\n>    let fm = $lst.0 |<\n>      to text | from yaml |<\n>      into value | into record<\n>    {<\n>      frontmatter: $fm<\n>      content: ($lst | skip 1 | to text | str trim)<\n>    }<\n>  } $in<\n>}" | save xd.nu
+ls
+open xd.nu
+cd Descargas
+y
+yazi
+"def frontmatter [] {<\n>  lines |<\n>  split list '---' |<\n>  do { |lst|<\n>    let fm = $lst.0 |<\n>      to text | from yaml |<\n>      into value | into record<\n>    {<\n>      frontmatter: $fm<\n>      content: ($lst | skip 1 | to text | str trim)<\n>    }<\n>  } $in<\n>}" | save xd.nu
+cd Descargas
+frontmatter 
+clear
+z mark
+z ob
+ls ...(glob *) | where name =~ ".sync-conflict" | get name
+frontmatter `2022-10-21 William moderno.md`
+open `.syncthing.2025-09-08 2110.md.tmp`
+bat ".syncthing.2025-09-08 2110.md.tmp" 
+rm `.syncthing.2025-09-08 2110.md.tmp`
+clear
+find William
+ls | find william
+ls | find William
+ls | find William | open $in.0
+ls | find William | open $it
+ls | find William | open $it.0
+ls | find William | open $in
+ls | find William | open $in.0
+ls | find William | get 1
+ls | find William | get 0
+clear
+ls | find William | get 0
+ls | find --help
+ls | find -i william
+ls | find -i william | get 1
+ls | find -i william | get 1 | open
+open --help
+ls | find -i william | get 1 | open
+ls | find -i william | get 1
+ls | find -i william | get name
+ls | find -i william
+ls | find -i william | get 0.name
+ls | find -i william | get 0.name | open
+ls | find -i william<\n>get 0.name | open
+ls | find -i william |get 0.name | open
+ls | find -i william |<\n>get 0.name | open
+ls | find -i william | <\n>get 0.name | open
+ls | find -i sex | <\n>get 0.name | open
+ls | find -i william | <\n>get 0.name | open
+ls | find -i william | <\n>get 0.name | open | frontmatter 
+ls | find -i william | <\n>get 0.name | open
+ls | find -i william
+open  2021-05-12 William y su novia la loca.md
+open "2021-05-12 William y su novia la loca.md"
+open "2021-05-12 William y su novia la loca.md" | frontmatter 
+z front
+ls
+z nu
+cd autoload/
+ls
+z ob
+ls
+open "2021-05-12 William y su novia la loca.md" | frontmatter 
+open "2021-05-12 William y su novia la loca.md" | open
+open "2021-05-12 William y su novia la loca.md"
+open "2021-05-12 William y su novia la loca.md" | split
+open "2021-05-12 William y su novia la loca.md" | split list "---"
+open "2021-05-12 William y su novia la loca.md" | split list '---'
+open "2021-05-12 William y su novia la loca.md" | split list "---"
+open "2021-05-12 William y su novia la loca.md" | lines | split list "---"
+open "2021-05-12 William y su novia la loca.md" | lines
+open "2021-05-12 William y su novia la loca.md" | lines | split list "---"
+open "2021-05-12 William y su novia la loca.md" | split row '---' | get 1
+open "2021-05-12 William y su novia la loca.md" | split row '---' | get 1 | to yaml
+open "2021-05-12 William y su novia la loca.md" | split row '---' | get 1 | from yaml
+open "2021-05-12 William y su novia la loca.md" | split row '---' | get 1 | from yaml | get en
+open "2021-05-12 William y su novia la loca.md" | split row '---' | get 1 | from yaml | get relacion
+skip --help
+open "2021-05-12 William y su novia la loca.md" | split row '---' | skip | from yaml | get relacion
+open "2021-05-12 William y su novia la loca.md" | split row '---' | skip
+open "2021-05-12 William y su novia la loca.md" | split row '---' | skip | first
+open "2021-05-12 William y su novia la loca.md" | split row '---' | get 1 | from yaml
+open "2021-05-12 William y su novia la loca.md" | lines | skip | take until {|i| $i == '---'}
+open "2021-05-12 William y su novia la loca.md" | split row '---' | get 1 | from yaml
+open "2021-05-12 William y su novia la loca.md" | lines | skip | take until {|i| $i == '---'}
+open "2021-05-12 William y su novia la loca.md" | lines | take until {|i| $i == '---'}
+open "2021-05-12 William y su novia la loca.md" | lines
+open "2021-05-12 William y su novia la loca.md" | lines | skip
+open "2021-05-12 William y su novia la loca.md" | lines | skip | take until {|i| $i == '---'}
+open "2021-05-12 William y su novia la loca.md" | frontmatter 
+z obs
+clear
+open "2021-05-12 William y su novia la loca.md" | frontmatter 
+frontmatter  "2021-05-12 William y su novia la loca.md"
+take while --help
+z obs
+frontmatter  "2021-05-12 William y su novia la loca.md"
+frontmatter "2021-05-12 William y su novia la loca.md"
+open --help
+frontmatter "2021-05-12 William y su novia la loca.md"
+or --help
+clear
+frontmatter "2021-05-12 William y su novia la loca.md"
+"2021-05-12 William y su novia la loca.md" | frontmatter 
+z obs
+"2021-05-12 William y su novia la loca.md" | frontmatter 
+"2021-05-12 William y su novia la loca.md" | frontmatter
+z ob
+"2021-05-12 William y su novia la loca.md" | frontmatter
+z obs
+frontmatter "2021-05-12 William y su novia la loca.md"
+z ob
+frontmatter "2021-05-12 William y su novia la loca.md"
+$in
+l
+ls
+$in
+$it
+ls | $it
+$in
+empty --help
+ps | where name like .sync
+ps | where name like ignis
+ls ...(glob *) | where name like .sync-conflict
+open -e `2022-03-31 Magito místico ancestral.md`
+open `2022-03-31 Magito místico ancestral.md`
+open `2022-03-31 Magito místico ancestral.md` | to md -e
+open `2022-03-31 Magito místico ancestral.md` | to yaml
+z obs
+frontmatter "2021-05-12 William y su novia la loca.md"
+z ob
+frontmatter "2021-05-12 William y su novia la loca.md"
+count
+bytes length 
+count --help
+bytes length 
+bytes length --help
+z nu
+cd autoload/
+z ob
+frontmatter "2021-05-12 William y su novia la loca.md"
+z ob
+frontmatter "2021-05-12 William y su novia la loca.md"
+helix +frontmatter.nu 
+ls
+rm +frontmatter.nu
+l
+ls
+cd Descargas
+ls
+ouch 
+update --help
+z ob
+open `2022-03-31 Magito místico ancestral.md` | to yaml
+open `2022-03-31 Magito místico ancestral.md` | to md
+open `2022-03-31 Magito místico ancestral.md` | to yaml
+ouch decompress `game-hollow.knight.silksong-(84692).rar`
+ls
+yazi
+rm --permanent `game-hollow.knight.silksong-(84692).rar`
+clear
+ls
+gio trash
+gio trash --list
+gio trash --empt
+gio trash --empty
+paru -Sy ignis-git
+z ignis
+cd .cache
+ls
+open options.json
+paru -Sy python-ignis-git
+killall ignis
+job spawn { ignis init }
+ps | where name like ignis
+n
+nc
+nc --help
+ncat
+swww 
+swww query
+paru -S swww
+socat
+cd $env.XDG_RUNTIME_DIR
+ls
+nc -U sww-wayland-1.sock
+nc --help
+tldr nc
+socat
+tldr socta
+tldr socat
+socat - UNIX-CONNECT:/sww-wayland-1.sock
+socat - UNIX-CONNECT:($env.XDG_RUNTIME_DIR/sww-wayland-1.sock)
+socat - UNIX-CONNECT:($env.XDG_RUNTIME_DIR)/sww-($env.WAYLAND_DISPLAY).sock
+socat - UNIX-CONNECT:($env.XDG_RUNTIME_DIR)/swww-($env.WAYLAND_DISPLAY).sock
+z wall
+cd Imagenes/Personal/Wallpapers/
+ls
+swww 
+swww img anime-girl-with-cap-smoking-4k-wallpaper-uhdpaper.com-7123456j.png
+query
+echo query | socat - UNIX-CONNECT:($env.XDG_RUNTIME_DIR)/swww-($env.WAYLAND_DISPLAY).sock
+socat - UNIX-CONNECT:($env.XDG_RUNTIME_DIR)/swww-($env.WAYLAND_DISPLAY).sock
+swww query
+z ~
+cd .cache
+open swww/VGA-1
+swww query
+gum
+topgrade --yes --cleanup
+z test
+ls
+cd .obsidian/
+cd plugins/
+ls
+cd frontmatter-markdown-links/
+ls
+cd ..
+clear
+paru -Sy swww
+ls
+git clone git@github.com:Rikiub/obsidian-copy-url-in-preview.git
+clear
+ls
+cd obsidian-copy-url-in-preview/
+ls
+clear
+ls
+lsg
+lsg .
+z nu
+ls
+lsg
+commands
+lsg
+lsg .
+lsg
+lsg --help
+lsg -a
+lsg
+lsg --all
+lsg
+lsg --all
+lsg
+lsg --all
+lsg
+lsg --all
+lsg --help
+lsg -a
+ls -a
+lsg
+lsg -a
+lsg
+lsg -a
+run --help
+start --help
+grid -h
+lsg
+lsg -a
+lsg
+lsg --hel
+lsg --help
+lsg -a
+lsg
+lsg -a
+lsg
+lsg -a
+sort --help
+sortman
+sortman --help
+ls
+ls -a
+sort --help
+sort-by --help
+lsg
+lsg Descargas
+z test
+cd .obsidian/plugins/obsidian-copy-url-in-preview/
+clear
+ls
+job spawn { foot }
+clear
+ls
+deno --version
+clear
+deno install
+clear
+ls
+git status
+rm deno.lock
+ls
+clear
+open package.json
+open package.json | get scripts
+code .
+cd ..
+rm -r obsidian-copy-url-in-preview/
+deno task dev
+cd ..
+z test
+jj git clone git@github.com:Rikiub/obsidian-copy-url-in-preview.git --colocate
+cd obsidian-copy-url-in-preview/
+ls -a
+jj diff
+ls -la
+cd ..
+ls -la
+cd obsidian-copy-url-in-preview/
+clear
+ls
+cd ..
+ls
+rm -r obsidian-copy-url-in-preview/
+z ob
+cd .obsidian/plugins/
+ls
+clear
+z test
+cd .obsidian/plugins/
+ls
+jj git clone git@github.com:Rikiub/obsidian-copy-url-in-preview.git --colocate
+cd obsidian-copy-url-in-preview/
+clear
+ls
+z obsi
+zi obs
+clear
+ls -la
+clear
+ls
+jj b
+job spawn { foot }
+clear
+deno intasll
+deno install
+clear
+rm deno.lock
+clear
+clear
+code .
+deno task dev
+clear
+deno task dev
+deno install
+sudo mount -a
+systemctl daemon-reload
+sudo mount -a
+ls
+z 
+cler
+clear
+z obsi
+clear
+zi obs
+ls
+cd ..
+ls
+rm -r obsidian-copy-url-in-preview/
+jj git clone git@github.com:Rikiub/obsidian-copy-url-in-preview.git --colocate
+ls
+cd obsidian-copy-url-in-preview/
+zi test
+cd .obsidian/plugins/
+cd obsidian-copy-url-in-preview/
+clear
+mv --help
+cd --help
+deno install
+clear
+ls
+clear
+deno task dev
+ls -la
+deno task dev
+yazi
+ls
+clear
+mv .deno.lock
+mv ..deno.lock
+mv --help
+mv ./deno.lock
+mv ../deno.lock
+mv --help
+mv ../deno.lock/
+mv deno.lock ..
+cd ..
+ls
+lsg
+ls
+clear
+deno task dev
+cd node_modules/.deno/esbuild@0.25.9/node_modules/esbuild/
+cd obsidian-copy-url-in-preview/
+cd node_modules/.deno/esbuild@0.25.9/node_modules/esbuild/
+ls
+lsg
+cd lib
+ls
+ls -la
+touch xd.sh
+ls -la
+rm xd.sg
+rm xd.sh
+ls
+cd Descargas
+ls
+ls -la
+mdir xd
+mkdir xd
+cd xd/
+touch xd.sh
+ls -la
+cd ..
+ls
+rm -r xd
+z ob
+z tes
+cd .obsidian/plugins/
+rm -r obsidian-copy-url-in-preview/
+jj git clone git@github.com:Rikiub/obsidian-copy-url-in-preview.git --colocate
+nmtui
+jj git clone git@github.com:Rikiub/obsidian-copy-url-in-preview.git --colocate
+ls
+mv deno.lock obsidian-copy-url-in-preview/
+cd obsidian-copy-url-in-preview/
+ls
+z test
+cd .obsidian/plugins/obsidian-copy-url-in-preview/
+ls
+clear
+ls
+ls -la
+open .editorconfig
+clear
+ls -a
+deno install
+deno task dev
+systemctl daemon-reload
+sudo mount -a
+cd ..
+sudo mount -a
+cd ..
+ls
+rm -r obsidian-copy-url-in-preview/
+touch xd.sh
+ls
+ls -la
+rm xd.sh
+z test
+cd .obsidian/plugins/obsidian-copy-url-in-preview/
+cd .obsidian/plugins/
+jj git clone git@github.com:Rikiub/obsidian-copy-url-in-preview.git --colocate
+ls
+cd obsidian-copy-url-in-preview/
+ls
+jj status
+jj diff
+cd ..
+ls
+rm -r obsidian-copy-url-in-preview/
+git clone git@github.com:Rikiub/obsidian-copy-url-in-preview.git
+ls -a
+cd obsidian-copy-url-in-preview/
+ls
+clear
+glam
+glum
+gum
+deno install
+paru -Rns gum
+open /proc/filesystems
+open /proc/filesystems | ntfs3
+open /proc/filesystems | rg ntfs3
+uname
+modprobe ntfs3
+sudomodprobe ntfs3
+sudo modprobe ntfs3
+open /proc/filesystems | rg ntfs3
+sudo helix /etc/modules-load.d/
+ls
+clear
+ls
+clear
+ls
+clear
+cd Descargas
+ls
+ls -la
+cd ..
+ls
+claer
+clear
+ls -la
+cd Imagenes
+ls -la
+open /proc/filesystems | rg ntfs3
+cd `Personal/🎨 Digitales/`
+ls -la
+cd ..
+ls
+ls -la
+ls
+ls -la
+ls
+ls -a
+ls
+cd *Comics
+cd --help
+cler
+clear
+ls
+cd ..
+ls
+cd ..
+l
+sls -la
+ls -la
+cd Descargas
+ls-la
+ls -la
+open /etc/fstab
+clear
+cd ..
+systemctl daemon-reload
+cd Descargas
+ls
+cd /mnt/626ECFC26ECF8CEB/
+ls
+cd sus
+ls
+cd Descargas/
+ls
+systemctl daemon-reload
+ls
+sudo mount -a
+ls
+cd Descargas
+ls
+ls -la
+touch xd.sh
+ls -la
+rm xd.sh
+ls -la
+cd Descargas
+ls -la
+clear
+ls -la
+df
+df -T
+df -T | rg ntfs
+findmdnt
+findmnt 
+findmnt | rg ntfs
+ls -a
+clear
+ls -la
+z test
+cd .obsidian/plugins/
+ls
+ls -la
+ls
+rm -r obsidian-copy-url-in-preview/
+jj git clone git@github.com:Rikiub/obsidian-copy-url-in-preview.git --colocate
+git clone git@github.com:Rikiub/obsidian-copy-url-in-preview.git
+ls
+cd obsidian-copy-url-in-preview/
+deno install
+rm deno.lock
+deno task dev
+clear
+job spawn { foot }
+clear
+code .
+git remote
+git switch -c feature/extra-buttons
+git config --global --add safe.directory /mnt/Datos/sus/Publico/Test/.obsidian/plugins/obsidian-copy-url-in-preview
+clear
+git switch -c feature/extra-buttons
+fastfetch 
+z test
+ls
+cd .obsidian/plugins/
+cd obsidian-copy-url-in-preview/
+code .
+job spawn {foot}
+clear
+uname 
+uname | get kernel*
+uname | get kernel-release
+clear
+z test
+cd .obsidian/plugins/obsidian-copy-url-in-preview/
+job spawn {foot}
+clear
+cod e.
+code .
+clear
+z test
+cd .obsidian/plugins/obsidian-copy-url-in-preview/
+code .
+clear
+ps | where name like ignis
+killall ignis
+job spawn { ignis init }
+ps | where name like ignis
+uname
+uname --help
+uname 
+ls
+tree /
+tree / --help
+fsatfetch
+fastfetch 
+match
+paru -Sy swww
+tree / | rg color
+tree --help | rg color
+tree -C
+tree -C /
+clear
+tree -C /
+clear
+fastfetch 
+zramctl 
+swapon
+paru -Sy swww
+paru -Ss caelestia
+paru -S caelestia-shell
+z quickshell
+ls
+yazi
+gh repo clone caelestia-dots/shell
+ls
+quickshell --help
+quickshell shell/shell.qml
+quickshell -p shell/shell.qml
+ls
+mv shell/ caelestia
+ls
+quickshell -c caelestia
+killall ignis
+quickshell -c caelestia
+yazi
+clear
+quickshell -c caelestia
+paru -S caelestia-cli
+ls
+rm -r caelestia/
+git clone https://github.com/jutraim/niri-caelestia-shell.git
+ls
+quickshell -c caelestia
+quickshell -c niri-caelestia-shell
+clear
+ls
+rm -r niri-caelestia-shell/
+clear
+paru -S caelestia-cli
+sudo helix /etc/pacman.d/mirrorlist 
+paru -S caelestia-shell
+clear
+paru -S paru -S dms-shell-git
+paru -S dms-shell-git
+z quickshell
+ls
+fastfetch 
+ps | where name like quickshell
+ps | where name like dms
+ps | where name like qs
+clear
+ps | where name like qs
+fastfetch 
+ps | where name like qs
+btop
+clear
+btop
+killall qs
+dms run
+clear
+paru -Rns dms-shell-git
+paru -S caelestia-shell
+qs -c caelestis-shell
+qs -c caelestia-shell
+ps | where name like qs
+brop
+caelestia
+qs -c caelestia
+caelestia emoji
+caelestia toggle
+caelestia shell --help
+caelestia shell message --help
+caelestia shell message launcher
+caelestia shell -s
+caelestia shell controlCenter
+caelestia shell controlCenter open
+caelestia shell launcher
+caelestia shell launcher open
+caelestia shell picke
+caelestia shell picker open
+caelestia shell drawer
+caelestia shell drawer open
+caelestia shell drawers open
+caelestia shell drawers 
+paru -Rn caelestia-shell
+caelestia shell
+clear
+paru -Rns caelestia-shell
+paru -S dms-shell-git
+paru -Ss dms-shell
+paru -S dms-shell
+dms
+dms --help
+dms run
+dms
+dms --help
+dms completion
+clear
+dms
+dms --help
+dms launcher
+dms launcher --help
+cd .config
+ls
+l
+ls
+clear
+fastfetch 
+dms shell
+dms topbar
+dms --help
+dms bar
+dms bar reveal
+dms ipc
+dms ipc --help
+dms ipc 
+cd .config
+ls
+rm -r DankMaterialShell/
+clear
+dms run
+killall swww
+killall swww-daemon
+cd .config/gtk-3.0/
+ls
+yazi
+paru -Ss qt6ct
+paru -Ss qt6ct-kde
+paru -S qt6ct-kde
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "brave"
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "brave-browser"
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Brave" --icon "firefox"
+z niri
+ls
+bat dankshell-colors.kdl 
+ls -a
+z niri
+ls
+ls
+dms shell
+bat dankshell-colors.kdl 
+z niri
+dms launcher
+dms ipc
+niri ipc
+dms ipc call
+qs -c dms ipc call
+dms ipc
+qs -c dms ipc call
+qs -c dms ipc call launcher
+qs -c dms ipc call spotlight toggle
+z niri
+btop
+ps | where name like qs
+ps | where name like dms
+ps | where name like qs
+ls
+clear
+ls
+ps | where name like qs
+clear
+ps | where name like qs
+ps | where name like ignis
+ps | where name like qs
+clear
+ps | where name like qs
+btop
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Brave" --icon "firefox"
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "Firefox" --icon "firefox"
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios" --app-name "XA" --icon "firefox"
+notify-send "Actualización Completada" "Por favor, reinicie el sistema para aplicar los cambios sa saf sa sa fas gsa gas gs ag sa as gsa gsa gas gsa g sa" --app-name "XA" --icon "firefox"
+clear
+paru -Ss dgop
+dgop
+dgop --help
+ps | where name like dgop
+btop
+niri --help
+niri | less
+niri --help | less
+niri --help | bat --pager
+bat --paging 
+niri --help | bat --paging
+niri --help | bat -P
+lutgen -h
+lutgen -h | bat
+niri --help | bat
+niri help
+niri panic
+niri --help
+niri help
+niri msg
+niri msg layers
+ps | where name like dgop
+z niri
+paru -Rns darkman
+qs -c dms ipc call processlist open
+fastfetch 
+qs -c dms ipc call powermenu toggle
+qs -c dms ipc call file browser
+qs -c dms ipc call file browse
+qs -c dms ipc call file browse wallpaper
+z wall
+ls
+z wall
+clear
+ls
+clear
+yazi
+gemini
+clear
+ls
+helix config.kdl 
+clear
+qs -c dms ipc call notepad open
+z niri
+ps | where name like dgop
+ps | where name like qs
+fastfetch 
+ls
+cat
+ls
+clar
+clear
+z .config/gtk-3.0/
+ls
+paru -Ss colloid
+paru -S colloid
+paru -S colloid-gtk-theme
+killall qs
+qs -c dms shell
+dms hell
+gsettings set org.gnome.desktop.interface gtk-theme colloid
+gsettings get org.gnome.desktop.interface gtk-theme
+ls /usr/share/themes
+gsettings set org.gnome.desktop.interface gtk-theme Colloid
+gsettings set org.gnome.desktop.interface gtk-theme Adwaita
+ls
+cd .config/gtk-3.0/
+ls
+gsettings set org.gnome.desktop.interface gtk-theme Colloid
+gsettings set org.gnome.desktop.interface gtk-theme adw-gtk3
+gsettings set org.gnome.desktop.interface gtk-theme "Colloid"
+gsettings set org.gnome.desktop.interface gtk-theme "Colloid-Pink"
+gsettings set org.gnome.desktop.interface gtk-theme "adw-gtk3"
+clear
+dms shell
+job spawn { dms shell }
+cd .config/gtk-3.0/
+paru -Rns colloid-gtk-theme
+paru -Rns colloid-gtk-theme-git
+gsettings reset org.gnome.desktop.interface accent-color
+ps | where name like qs
+btop
+clear
+term 
+term query
+term size
+term query --help
+term query (ansi cursor_position) --prefix (ansi csi) --terminator 'R'
+ps | where name like qs
+time
+sleep
+sleep --help
+paru -S qt6ct-kde
+gsettings get org.gnome.desktop.interface gtk-theme
+z niri
+paru -S colloid-gtk-theme
+gsettings set org.gnome.desktop.interface gtk-theme "Colloid"
+ls
+gsettings get org.gnome.desktop.interface gtk-theme "Colloid"
+fastfetch 
+paru -Rns colloid-gtk-theme
+gsettings set org.gnome.desktop.interface gtk-theme "adw-gtk3"
+paru -Rns colloid-gtk-theme-git
+paru -S kmix
+ls /usr/share/themes
+paru -Ss arch
+paru -Ss arc
+paru -Rns arc-gtk-theme-eos
+ls /usr/share/themes
+paru -Ss emacs
+clear
+paru -pwvucontrol
+paru -Sspwvucontrol
+paru -Ss pwvucontrol
+paru -S pwvucontrol
+paru -Rns kmix
+pwvucontrol
+cd .config/gtk-3.0/
+paru -Ss over
+paru -Rns pwvucontrol pavucontrol
+clear
+paru -Ss overskride
+clera
+clear
+paru -Ss syncthingtray
+flatpak search syncthing
+flatpak list
+flatpak uninstall io.github.martchus.syncthingtray 
+flatpak uninstall --unused
+flatpak list
+paru -Ss syncthingtray-qt6
+paru -Ss gapless
+paru -Ss g4music
+paru -S syncthingtray-qt6
+ls
+clear
+ls
+cd .config/autostart/
+ls
+yazi
+ls
+cp /usr/share/applications/syncthingtray-qt6.desktop 
+cp /usr/share/applications/syncthingtray-qt6.desktop .
+ls
+bat syncthingtray-qt6.desktop 
+clear
+syncthingtray-qt6 
+ls
+yazi
+clear
+ps | where name like syncthing
+clear
+fastfetch 
+ps | where name like syncthing
+ps | where name like qs
+paru -Ss linux-cachyos
+ps | where name like qs
+ps | where name like syncthing
+ls /etc/xdg/autostart/
+paru -Qs linux-cachyos
+paru -Rns linux-cachyos linux-cachyos-headers
+ps | where name like syncthing
+sudo grub-mkconfig -o /boot/grub/grub.cfg 
+clear
+fastfetch 
+z ignis
+ls
+ls -a
+ls
+z yolk
+yolk sync
+z yolk
+yolk sync
+yazi
+yolk sync
+ls
+cd .config
+ls
+yazi
+clear
+yazi
+bash
+ls
+lsg
+yolk syn
+yolk sync
+cd ..
+cd .local
+ls ...(glob *) | where type == symlink
+ls ...(glob *) | where type == symlink | where {not ($in.name | path exists)}
+ls ...(glob *) | where type == symlink | where {not ($in.name | path exists)} | each {rm $in.name}
+yolk sync
+ls
+clear
+ls
+clear
+ls -a
+ls
+clear
+ls
+clear
+yazi
+clear
+ls

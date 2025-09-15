@@ -13,7 +13,7 @@ input {
             // For more information, see xkeyboard-config(7).
 
             // For example:
-            layout "es"
+            // layout "es"
             // options "grp:win_space_toggle,compose:ralt,ctrl:nocaps"
         }
     }
@@ -283,18 +283,23 @@ animations {
 // Essensial
 spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1" // Polkit
 spawn-at-startup "wl-paste" "--watch" "cliphist" "store" // Clipboard
-spawn-at-startup "swww-daemon" // Wallpaper
 spawn-at-startup "swayidle" "-w" \ // Idle daemon
     "timeout" "600" \
         "niri msg action power-off-monitors"
 
 // Shell
+
 // Repository: https://github.com/Rikiub/nomix-shell
-spawn-at-startup "ignis" "init" // Bar, Control Center, Launcher, Notifications and more
+// spawn-at-startup "ignis" "init" // Bar, Control Center, Launcher, Notifications and more
+// spawn-at-startup "swww-daemon" // Wallpaper
+
+// Dank Material Shell (Quickshell)
+spawn-at-startup "dms" "shell"
 
 environment {
     // Keep consistency with GTK apps on QT
-    // QT_QPA_PLATFORMTHEME "gtk3"
+    QT_QPA_PLATFORMTHEME "qt6ct"
+    QT_QPA_PLATFORMTHEME_QT6 "qt6ct"
     
     GTK_USE_PORTAL "1"
     ELECTRON_OZONE_PLATFORM_HINT "wayland"
@@ -323,28 +328,36 @@ binds {
 
     // Suggested binds for running programs:
     Mod+T \
+        cooldown-ms=500 \
         hotkey-overlay-title="Launch Terminal" \
             { spawn "foot"; }
         
-    Mod+E \
+    Mod+Space \
         repeat=false \
         hotkey-overlay-title="Toggle App Launcher" \
-            { spawn "ignis" "toggle-window" "launcher"; }
-        
-    Mod+Shift+E \
+            { spawn "qs" "-c" "dms" "ipc" "call" "spotlight" "toggle"; }
+            // { spawn "ignis" "toggle-window" "launcher"; }
+
+    Mod+N \
         repeat=false \
-        hotkey-overlay-title="Toggle Control Center" \
-            { spawn "ignis" "toggle-window" "control-center"; }
+        hotkey-overlay-title="Toggle Notifications Center" \
+            { spawn "qs" "-c" "dms" "ipc" "call" "notifications" "toggle"; }
+                                
+    // Mod+Shift+E \
+        // repeat=false \
+        // hotkey-overlay-title="Toggle Control Center" \
+            // { spawn "ignis" "toggle-window" "control-center"; }
         
     Mod+Shift+M \
         repeat=false \
         hotkey-overlay-title="Toggle Light/Dark Style" \
-            { spawn "darkman" "toggle"; }
+            { spawn "qs" "-c" "dms" "ipc" "call" "theme" "toggle"; }
         
-    Super+Alt+L \
+    Super+L \
         repeat=false \
         hotkey-overlay-title="Show Screenlocker" \
-            { spawn "swaylock"; }
+            { spawn "qs" "-c" "dms" "ipc" "call" "lock" "lock"; }
+            // { spawn "swaylock"; }
     
     // Example volume keys mappings for PipeWire & WirePlumber.
     // The allow-when-locked=true property makes them work even when the session is locked.

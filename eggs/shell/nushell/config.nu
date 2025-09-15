@@ -10,8 +10,10 @@ load-env {
 }
 
 # List the filenames as grid
-def lsg [...commands: string] {
-    ls -s
+def  lsg [path?: string, ...rest] {
+    let target = if $path != null { $path } else { "." }
+    
+    ls $target -s ...$rest
     | sort-by type
     | grid --icons --color
 }

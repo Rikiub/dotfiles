@@ -13,3 +13,5 @@
 	conflictstyle = zdiff3
 [push]
 	autoSetupRemote = true
+[safe]
+	directory = /mnt/Datos/sus/Publico/Test/.obsidian/plugins/obsidian-copy-url-in-preview
