@@ -1,1 +1,0 @@
-exec_always sworkstyle &> ${XDG_STATE_HOME:-$HOME/.local/state}/sworkstyle.log

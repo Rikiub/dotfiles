@@ -1,1 +1,0 @@
-complete --command media-dl --no-files --arguments "(env _MEDIA_DL_COMPLETE=complete_fish _TYPER_COMPLETE_FISH_ACTION=get-args _TYPER_COMPLETE_ARGS=(commandline -cp) media-dl)" --condition "env _MEDIA_DL_COMPLETE=complete_fish _TYPER_COMPLETE_FISH_ACTION=is-args _TYPER_COMPLETE_ARGS=(commandline -cp) media-dl"

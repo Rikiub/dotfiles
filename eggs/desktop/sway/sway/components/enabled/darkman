@@ -1,8 +1,0 @@
-# run daemon
-exec darkman run
-
-# darkman toggle
-bindsym --no-repeat {
-    $mod+Shift+m \
-    exec darkman toggle
-}
