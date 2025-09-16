@@ -217,6 +217,11 @@ layer-rule {
     // place-within-backdrop true
 }
 
+layer-rule {
+    match namespace="quickshell"
+    place-within-backdrop false
+}
+
 overview {
     workspace-shadow {
         // off

@@ -3,7 +3,7 @@ load-env {
   UV_CACHE_DIR: "/mnt/Datos/.uv-cache"
 }
 
-### XDG Base Directory
+# XDG Base Directory
 # Setup
 load-env {
   XDG_CONFIG_HOME: ($env.HOME | path join .config)
@@ -24,7 +24,7 @@ load-env {
   npm_config_cache: ($env.XDG_CACHE_HOME | path join npm)
 }
 
-### Paths
+# Paths
 use std/util "path add"
 
 path add ~/.local/bin
