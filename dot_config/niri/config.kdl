@@ -299,7 +299,7 @@ spawn-at-startup "swayidle" "-w" \ // Idle daemon
 // spawn-at-startup "swww-daemon" // Wallpaper
 
 // Dank Material Shell (Quickshell)
-spawn-at-startup "dms" "shell"
+spawn-at-startup "dms" "run"
 
 environment {
     // Keep consistency with GTK apps on QT
@@ -340,13 +340,13 @@ binds {
     Mod+Space \
         repeat=false \
         hotkey-overlay-title="Toggle App Launcher" \
-            { spawn "qs" "-c" "dms" "ipc" "call" "spotlight" "toggle"; }
+            { spawn "dms" "ipc" "call" "spotlight" "toggle"; }
             // { spawn "ignis" "toggle-window" "launcher"; }
 
     Mod+N \
         repeat=false \
         hotkey-overlay-title="Toggle Notifications Center" \
-            { spawn "qs" "-c" "dms" "ipc" "call" "notifications" "toggle"; }
+            { spawn "dms" "ipc" "call" "notifications" "toggle"; }
                                 
     // Mod+Shift+E \
         // repeat=false \
@@ -356,12 +356,12 @@ binds {
     Mod+Shift+M \
         repeat=false \
         hotkey-overlay-title="Toggle Light/Dark Style" \
-            { spawn "qs" "-c" "dms" "ipc" "call" "theme" "toggle"; }
+            { spawn "dms" "ipc" "call" "theme" "toggle"; }
         
     Super+L \
         repeat=false \
         hotkey-overlay-title="Show Screenlocker" \
-            { spawn "qs" "-c" "dms" "ipc" "call" "lock" "lock"; }
+            { spawn "dms" "ipc" "call" "lock" "lock"; }
             // { spawn "swaylock"; }
     
     // Example volume keys mappings for PipeWire & WirePlumber.
