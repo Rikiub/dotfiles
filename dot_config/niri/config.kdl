@@ -214,7 +214,7 @@ layout {
 
 layer-rule {
     match namespace="swww-daemon"
-    // place-within-backdrop true
+    place-within-backdrop false
 }
 
 layer-rule {
