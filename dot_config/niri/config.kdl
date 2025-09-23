@@ -213,11 +213,6 @@ layout {
 }
 
 layer-rule {
-    match namespace="swww-daemon"
-    place-within-backdrop false
-}
-
-layer-rule {
     match namespace="quickshell"
     place-within-backdrop false
 }
@@ -241,8 +236,7 @@ window-rule {
     open-floating true
 }
 
-// Example: block out two password managers from screen capture.
-// (This example rule is commented out with a "/-" in front.)
+// block out password managers from screen capture.
 window-rule {
     match app-id=r#"^org\.keepassxc\.KeePassXC$"#
     match app-id=r#"^org\.gnome\.World\.Secrets$"#
@@ -285,24 +279,15 @@ animations {
 
 // Desktop Environment
 
-// Essensial
+// Basic
 spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1" // Polkit
 spawn-at-startup "wl-paste" "--watch" "cliphist" "store" // Clipboard
-spawn-at-startup "swayidle" "-w" \ // Idle daemon
-    "timeout" "600" \
-        "niri msg action power-off-monitors"
 
-// Shell
-
-// Repository: https://github.com/Rikiub/nomix-shell
-// spawn-at-startup "ignis" "init" // Bar, Control Center, Launcher, Notifications and more
-// spawn-at-startup "swww-daemon" // Wallpaper
-
-// Dank Material Shell (Quickshell)
+// Dank Material Shell (dms)
+// Bar, Wallpaper, Idle, Screenlock, Control Center, Notifications
 spawn-at-startup "dms" "run"
 
 environment {
-    // Keep consistency with GTK apps on QT
     QT_QPA_PLATFORMTHEME "qt6ct"
     QT_QPA_PLATFORMTHEME_QT6 "qt6ct"
     
@@ -341,18 +326,12 @@ binds {
         repeat=false \
         hotkey-overlay-title="Toggle App Launcher" \
             { spawn "dms" "ipc" "call" "spotlight" "toggle"; }
-            // { spawn "ignis" "toggle-window" "launcher"; }
 
     Mod+N \
         repeat=false \
         hotkey-overlay-title="Toggle Notifications Center" \
             { spawn "dms" "ipc" "call" "notifications" "toggle"; }
-                                
-    // Mod+Shift+E \
-        // repeat=false \
-        // hotkey-overlay-title="Toggle Control Center" \
-            // { spawn "ignis" "toggle-window" "control-center"; }
-        
+
     Mod+Shift+M \
         repeat=false \
         hotkey-overlay-title="Toggle Light/Dark Style" \
@@ -362,7 +341,6 @@ binds {
         repeat=false \
         hotkey-overlay-title="Show Screenlocker" \
             { spawn "dms" "ipc" "call" "lock" "lock"; }
-            // { spawn "swaylock"; }
     
     // Example volume keys mappings for PipeWire & WirePlumber.
     // The allow-when-locked=true property makes them work even when the session is locked.
@@ -480,7 +458,7 @@ binds {
     Mod+WheelScrollLeft       { focus-column-left; }
     Mod+Ctrl+WheelScrollRight { move-column-right; }
     Mod+Ctrl+WheelScrollLeft  { move-column-left; }
-
+  
     // Usually scrolling up and down with Shift in applications results in
     // horizontal scrolling; these binds replicate that.
     Mod+Shift+WheelScrollDown      { focus-column-right; }
