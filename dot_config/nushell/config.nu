@@ -6,11 +6,11 @@ $env.config = {
 }
 
 load-env {
-    EDITOR: "helix"
+    EDITOR: "micro"
 }
 
 # List the filenames as grid
-def  lsg [path?: string, ...rest] {
+def lsg [path?: string, ...rest] {
     let target = if $path != null { $path } else { "." }
     
     ls $target -s ...$rest
