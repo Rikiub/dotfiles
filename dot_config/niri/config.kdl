@@ -280,7 +280,7 @@ animations {
 // Desktop Environment
 
 // Basic
-spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1" // Polkit
+spawn-at-startup "/usr/lib/polkit-kde-authentication-agent-1" // Polkit
 spawn-at-startup "wl-paste" "--watch" "cliphist" "store" // Clipboard
 
 // Dank Material Shell (dms)
@@ -297,8 +297,8 @@ environment {
 
 // Cursor style
 cursor {
-    xcursor-theme "Bibata-Modern-Classic"
-    xcursor-size 15
+    xcursor-theme "capitaine-cursors"
+    xcursor-size 30
 }
 
 binds {

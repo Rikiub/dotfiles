@@ -13,5 +13,3 @@
 	conflictstyle = zdiff3
 [push]
 	autoSetupRemote = true
-[safe]
-	directory = /mnt/Datos/sus/Descargas/zoxide
