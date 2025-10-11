@@ -1,8 +1,3 @@
-# Custom
-load-env {
-  UV_CACHE_DIR: "/media/Datos/.uv-cache"
-}
-
 # XDG Base Directory
 # Setup
 load-env {
