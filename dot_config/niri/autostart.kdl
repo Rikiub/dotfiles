@@ -1,0 +1,20 @@
+//# Desktop Environment
+
+// Security
+spawn-at-startup "/usr/lib/polkit-kde-authentication-agent-1" // Polkit
+
+// Clipboard History
+spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
+
+// Dank Material Shell (dms)
+// Bar, Wallpaper, Idle, Screenlock, Control Center, Notifications
+spawn-at-startup "dms" "run"
+
+environment {
+    QT_QPA_PLATFORMTHEME "qt6ct"
+}
+
+cursor {
+    xcursor-theme "capitaine-cursors"
+    xcursor-size 30
+}
