@@ -9,7 +9,7 @@ load-env {
     EDITOR: "micro"
 }
 
-# List the filenames as grid
+# List files as grid
 def lsg [path?: string, ...rest] {
     let target = if $path != null { $path } else { "." }
     
