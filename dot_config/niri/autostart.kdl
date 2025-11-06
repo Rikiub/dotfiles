@@ -1,13 +1,13 @@
 //# Desktop Environment
 
-// Security
-spawn-at-startup "/usr/lib/polkit-kde-authentication-agent-1" // Polkit
+// Polkit
+spawn-at-startup "/usr/lib/polkit-kde-authentication-agent-1"
 
 // Clipboard History
 spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
 
 // Dank Material Shell (dms)
-// Bar, Wallpaper, Idle, Screenlock, Control Center, Notifications
+// Bar, Wallpaper, Idle, Screenlock, Control Center, Notifications, Polkit
 spawn-at-startup "dms" "run"
 
 environment {

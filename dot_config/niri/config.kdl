@@ -11,6 +11,7 @@ include "layout.kdl"
 include "rules.kdl"
 
 include "dms/colors.kdl"
+include "dms/wpblur.kdl"
 
 // Misc
 hotkey-overlay {

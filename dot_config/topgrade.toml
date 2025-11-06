@@ -15,7 +15,7 @@ pre_sudo = true
 # sudo_command = "sudo"
 
 # Disable specific steps - same options as the command line flag
-disable = ["self_update", "git_repos", "cargo", "helix", "uv"]
+disable = ["git_repos", "helix", "chezmoi"]
 
 # Ignore failures for these steps
 # ignore_failures = ["powershell"]

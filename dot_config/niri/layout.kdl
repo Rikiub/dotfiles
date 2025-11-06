@@ -126,11 +126,6 @@ animations {
     // slowdown 2.0
 }
 
-layer-rule {
-    match namespace="quickshell"
-    place-within-backdrop false
-}
-
 // Enable rounded corners for all windows.
 /-window-rule {
     geometry-corner-radius 12

@@ -23,4 +23,3 @@ load-env {
 use std/util "path add"
 
 path add ~/.local/bin
-path add ($env.XDG_DATA_HOME | path join cargo/bin)
