@@ -1,14 +1,7 @@
-//# Desktop Environment
-
 // Clipboard History
 spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
 
-// Dank Material Shell (dms)
-// Bar, Wallpaper, Idle, Screenlock, Control Center, Notifications, Polkit
-spawn-at-startup "dms" "run"
-
 environment {
-	DMS_DISABLE_LAYER "true"
 	QT_QPA_PLATFORMTHEME "qt6ct"
 }
 
