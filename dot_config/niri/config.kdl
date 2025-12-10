@@ -3,15 +3,16 @@
 // Check the wiki for a full description of the configuration:
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Overview
 
-// Include
+// Includes
 include "autostart.kdl"
-include "binds.kdl"
 include "devices-input.kdl"
 include "devices-output.kdl"
 include "layout.kdl"
 include "rules.kdl"
 
 include "dms/startup.kdl"
+
+include "binds.kdl"
 
 // Misc
 hotkey-overlay {
