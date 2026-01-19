@@ -3,18 +3,30 @@
 // Check the wiki for a full description of the configuration:
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Overview
 
-// Includes
+// INCLUDES
 include "autostart.kdl"
-include "devices-input.kdl"
-include "devices-output.kdl"
 include "layout.kdl"
 include "rules.kdl"
 
-include "dms/startup.kdl"
+// DMS SHELL
+include "dms/alttab.kdl"
+include "dms/binds.kdl"
+include "dms/colors.kdl"
+include "dms/cursor.kdl"
+include "dms/layout.kdl"
+include "dms/outputs.kdl"
+include "dms/wpblur.kdl"
 
 include "binds.kdl"
 
-// Misc
+spawn-at-startup "dms" "run"
+
+window-rule {
+	geometry-corner-radius 0
+	clip-to-geometry false
+}
+
+// MISC
 hotkey-overlay {
     skip-at-startup
 }

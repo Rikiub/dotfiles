@@ -9,15 +9,6 @@ load-env {
 	EDITOR: "micro"
 }
 
-# List files as grid
-def lsg [...rest] {
-	let rest = if $rest == [] { ["."] } else { $rest }
-	
-	ls -s ...$rest
-	| sort-by type
-	| grid --icons --color
-}
-
 # Run yazi and change pwd on exit
 def --env yazicd [...commands: string] {
 	let tempfile = mktemp -t yazi-cwd.XXXXXX
