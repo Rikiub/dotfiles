@@ -7,6 +7,6 @@ layout {
 
 // Disable rounded corners
 window-rule {
-    geometry-corner-radius 0
-    clip-to-geometry false
+	geometry-corner-radius 0
+	clip-to-geometry false
 }

@@ -106,8 +106,9 @@ telemetry_enabled = true
 
 [theme]
 community_palette = "Oxocarbon"
-mode = "dark"
+mode = "light"
 source = "wallpaper"
+wallpaper_scheme = "m3-content"
 
     [theme.templates]
     builtin_ids = [ "gtk3", "kcolorscheme", "niri" ]
@@ -124,6 +125,10 @@ transition_on_startup = true
 
     [wallpaper.monitors.VGA-1]
     path = "/home/rikiub/Imagenes/Nube/Wallpapers/WhuKF9I.png"
+
+    [[wallpaper.favorite]]
+    path = "/home/rikiub/Imagenes/Nube/Wallpapers/up_in_the_heaven_by_marsallan_ddsimgp.png"
+    theme_mode = "auto"
 
 [widget.bluetooth]
 hide_when_no_connected_device = true

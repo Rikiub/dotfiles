@@ -1,6 +1,6 @@
 // Don't show hotkeys overlay on startup
 hotkey-overlay {
-    skip-at-startup
+	skip-at-startup
 }
 
 // Uncomment this line to ask the clients to omit their client-side decorations if possible.

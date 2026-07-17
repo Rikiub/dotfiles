@@ -6,7 +6,7 @@ $env.config = {
 }
 
 load-env {
-	EDITOR: "micro"
+	EDITOR: "fresh"
 	PAGER: "bat --paging=always"
 	MANPAGER: "bat -l man -p"
 }
