@@ -1,0 +1,62 @@
+{
+	"workbench.startupEditor": "none",
+	"window.autoDetectColorScheme": true,
+	"workbench.preferredDarkColorTheme": "Catppuccin Mocha",
+	"workbench.preferredLightColorTheme": "Catppuccin Latte",
+	"editor.minimap.enabled": false,
+	"telemetry.telemetryLevel": "off",
+	"explorer.confirmDelete": false,
+	"files.exclude": {
+		"**/__pycache__": true
+	},
+	"git.confirmSync": false,
+	"git.autofetch": true,
+	"explorer.confirmDragAndDrop": false,
+	"[python]": {
+		"editor.defaultFormatter": "charliermarsh.ruff"
+	},
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"chat.commandCenter.enabled": false,
+	"window.menuBarVisibility": "toggle",
+	"workbench.layoutControl.enabled": false,
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"svelte.enable-ts-plugin": true,
+	"[html]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"workbench.activityBar.location": "hidden",
+	"window.titleBarStyle": "native",
+	"typescript.experimental.useTsgo": true,
+	"basedpyright.analysis.typeCheckingMode": "standard",
+	"chat.agentsControl.enabled": false,
+	"json.schemaDownload.trustedDomains": {
+		"https://schemastore.azurewebsites.net/": true,
+		"https://raw.githubusercontent.com/": true,
+		"https://www.schemastore.org/": true,
+		"https://json.schemastore.org/": true,
+		"https://json-schema.org/": true,
+		"https://biomejs.dev": true
+	},
+	"chat.disableAIFeatures": true,
+	"js/ts.experimental.useTsgo": true,
+	"[c]": {
+		"editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+	}
+}
