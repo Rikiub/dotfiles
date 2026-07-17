@@ -14,11 +14,11 @@ binds {
 	// shows a list of important hotkeys.
 	Mod+F1 { show-hotkey-overlay; }
 
-	// Suggested binds for running programs:
+	// Open default terminal
 	Mod+T \
-	 cooldown-ms=500 \
-	 hotkey-overlay-title="Launch Terminal" \
-	     { spawn "foot"; }
+		cooldown-ms=500 \
+		hotkey-overlay-title="Launch Terminal" \
+		{ spawn-sh "if command -v xdg-terminal-exec >/dev/null 2>&1; then xdg-terminal-exec; else foot; fi"; }
 
 	// Example volume keys mappings for PipeWire & WirePlumber.
 	// The allow-when-locked=true property makes them work even when the session is locked.
