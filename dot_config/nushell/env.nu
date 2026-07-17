@@ -23,3 +23,5 @@ load-env {
 use std/util "path add"
 
 path add ~/.local/bin
+
+$env.UV_CACHE_DIR = "/media/Datos/.uv-cache"

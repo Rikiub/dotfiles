@@ -2,6 +2,12 @@
 // Find more information on the wiki:
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Window-Rules
 
+// Enable rounded corners for all windows.
+window-rule {
+    geometry-corner-radius 12
+    clip-to-geometry true
+}
+
 // Open as floating by default.
 window-rule {
     match app-id=r#"firefox$"# title="^Picture-in-Picture$"

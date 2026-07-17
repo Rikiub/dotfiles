@@ -7,6 +7,8 @@ $env.config = {
 
 load-env {
 	EDITOR: "micro"
+	PAGER: "bat --paging=always"
+	MANPAGER: "bat -l man -p"
 }
 
 # Run yazi and change pwd on exit

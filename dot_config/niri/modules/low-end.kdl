@@ -1,0 +1,12 @@
+// Disable shadows
+layout {
+	shadow {
+		off
+	}
+}
+
+// Disable rounded corners
+window-rule {
+    geometry-corner-radius 0
+    clip-to-geometry false
+}
