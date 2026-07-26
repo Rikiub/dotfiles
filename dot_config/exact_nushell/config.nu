@@ -11,7 +11,13 @@ load-env {
 	MANPAGER: "bat -l man -p"
 }
 
-# Run yazi and change pwd on exit
+# List the filenames as grid layout.
+def lsg [...args] {
+	let args = if $args == [] {["."]} else {$args}
+	ls ...$args | sort-by type name | grid --icons --color
+}
+
+# Run yazi and change pwd on exit.
 def --env yazicd [...commands: string] {
 	let tempfile = mktemp -t yazi-cwd.XXXXXX
 	yazi ...$commands --cwd-file=($tempfile)
