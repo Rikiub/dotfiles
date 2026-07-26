@@ -1,11 +1,14 @@
 # XDG Base Directory
+
+# Setup
 load-env {
-	# Setup
 	XDG_CONFIG_HOME: ($env.HOME | path join .config)
 	XDG_CACHE_HOME:  ($env.HOME | path join .cache)
 	XDG_DATA_HOME:   ($env.HOME | path join .local/share)
-	
-	# Overrides
+}
+
+# Overrides
+load-env {
 	_JAVA_OPTIONS:    $"-Djava.util.prefs.userRoot=($env.XDG_CONFIG_HOME)/java"
 	
 	GOPATH:           ($env.XDG_DATA_HOME | path join go)
@@ -13,6 +16,7 @@ load-env {
 	RUSTUP_HOME:      ($env.XDG_DATA_HOME | path join rustup)
 	GNUPGHOME:        ($env.XDG_DATA_HOME | path join gnupg)
 	
-	HISTFILE:         ($env.XDG_CACHE_HOME | path join bash/history)
-	npm_config_cache: ($env.XDG_CACHE_HOME | path join npm)
+	npm_config_cache:    ($env.XDG_CACHE_HOME | path join npm)
+	HISTFILE:            ($env.XDG_CACHE_HOME | path join bash/history)
+	PYTHONPYCACHEPREFIX: ($env.XDG_CACHE_HOME)/cpython
 }
