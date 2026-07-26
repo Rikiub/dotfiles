@@ -19,6 +19,11 @@ load-env {
   npm_config_cache: ($env.XDG_CACHE_HOME | path join npm)
 }
 
+# Python
+load-env {
+	PYTHONPYCACHEPREFIX: $"($nu.temp-dir)/python" # Avoid create __pycache__ folders
+}
+
 # Paths
 use std/util "path add"
 

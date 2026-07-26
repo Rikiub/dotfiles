@@ -36,14 +36,11 @@
 	"[typescriptreact]": {
 		"editor.defaultFormatter": "biomejs.biome"
 	},
-	"typescript.updateImportsOnFileMove.enabled": "always",
-	"javascript.updateImportsOnFileMove.enabled": "always",
 	"[jsonc]": {
 		"editor.defaultFormatter": "vscode.json-language-features"
 	},
 	"workbench.activityBar.location": "hidden",
 	"window.titleBarStyle": "native",
-	"typescript.experimental.useTsgo": true,
 	"basedpyright.analysis.typeCheckingMode": "standard",
 	"chat.agentsControl.enabled": false,
 	"json.schemaDownload.trustedDomains": {
@@ -56,7 +53,8 @@
 	},
 	"chat.disableAIFeatures": true,
 	"js/ts.experimental.useTsgo": true,
-	"[c]": {
-		"editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+	"python.languageServer": "None",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.ruff": "explicit"
 	}
 }

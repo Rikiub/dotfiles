@@ -108,7 +108,6 @@ telemetry_enabled = true
 community_palette = "Oxocarbon"
 mode = "light"
 source = "wallpaper"
-wallpaper_scheme = "m3-content"
 
     [theme.templates]
     builtin_ids = [ "gtk3", "kcolorscheme", "niri" ]
@@ -118,13 +117,13 @@ directory = "/home/rikiub/Imagenes/Nube/Wallpapers"
 transition_on_startup = true
 
     [wallpaper.default]
-    path = "/home/rikiub/Imagenes/Nube/Wallpapers/WhuKF9I.png"
+    path = "/home/rikiub/Imagenes/Nube/Wallpapers/jei-lee-YTV-GHH9VpQ-unsplash.png"
 
     [wallpaper.last]
-    path = "/home/rikiub/Imagenes/Nube/Wallpapers/WhuKF9I.png"
+    path = "/home/rikiub/Imagenes/Nube/Wallpapers/jei-lee-YTV-GHH9VpQ-unsplash.png"
 
     [wallpaper.monitors.VGA-1]
-    path = "/home/rikiub/Imagenes/Nube/Wallpapers/WhuKF9I.png"
+    path = "/home/rikiub/Imagenes/Nube/Wallpapers/jei-lee-YTV-GHH9VpQ-unsplash.png"
 
     [[wallpaper.favorite]]
     path = "/home/rikiub/Imagenes/Nube/Wallpapers/up_in_the_heaven_by_marsallan_ddsimgp.png"
